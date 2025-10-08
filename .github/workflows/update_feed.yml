@@ -2,7 +2,7 @@ name: Update Lunch Feed
 
 on:
   schedule:
-    - cron: '0 8 * * 1-5'  # Every weekday at 08:00 UTC
+    - cron: '0 8 * * 1-5'
   workflow_dispatch:
 
 jobs:
@@ -12,10 +12,11 @@ jobs:
       - uses: actions/checkout@v3
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4 feedgen lxml
+          pip install playwright feedgen
+          playwright install
       - name: Generate RSS feed
         run: python generate_feed.py
-      - name: Commit and push updated feed
+      - name: Commit and push
         run: |
           git config --global user.name "LunchFeedBot"
           git config --global user.email "bot@example.com"
