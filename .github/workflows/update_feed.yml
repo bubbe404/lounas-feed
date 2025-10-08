@@ -1,0 +1,24 @@
+name: Update Lunch Feed
+
+on:
+  schedule:
+    - cron: '0 8 * * 1-5'  # Every weekday at 08:00 UTC
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 feedgen lxml
+      - name: Generate RSS feed
+        run: python generate_feed.py
+      - name: Commit and push updated feed
+        run: |
+          git config --global user.name "LunchFeedBot"
+          git config --global user.email "bot@example.com"
+          git add lounas_feed.xml
+          git commit -m "Update feed $(date)" || echo "No changes"
+          git push
