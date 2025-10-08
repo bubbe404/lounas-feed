@@ -1,80 +1,67 @@
-import requests
-from bs4 import BeautifulSoup
+from playwright.sync_api import sync_playwright
 from feedgen.feed import FeedGenerator
 from datetime import datetime
-import re
-
-WEEKDAYS = [
-    "maanantai", "tiistai", "keskiviikko",
-    "torstai", "perjantai", "lauantai", "sunnuntai"
-]
 
 today = datetime.now()
-weekday_fi = WEEKDAYS[today.weekday()]
-
-def extract_today_from_text(text):
-    if not text:
-        return "Ei lounasta löytynyt."
-    text_lower = text.lower()
-    try:
-        pattern = rf"{weekday_fi}.*?(?={"|".join(WEEKDAYS[today.weekday()+1:])}|$)"
-        match = re.search(pattern, text_lower, re.DOTALL)
-        if match:
-            return match.group(0).strip()
-        return text.strip()
-    except Exception:
-        return text.strip()
-
-def safe_scrape(url, selector=None, laut_div_check=False):
-    """Fetch page, return today's menu or placeholder"""
-    try:
-        res = requests.get(url, timeout=10)
-        res.raise_for_status()
-        soup = BeautifulSoup(res.text, "html.parser")
-        if laut_div_check:
-            laut_div = soup.find(lambda tag: tag.name == "h2" and "Lauttasaari" in tag.text)
-            if not laut_div:
-                return "Ei lounasta löytynyt."
-            parts = []
-            for sib in laut_div.find_all_next(["p", "ul"], limit=20):
-                if sib.name == "h2":
-                    break
-                parts.append(sib.get_text(" ", strip=True))
-            text = "\n".join(parts)
-            return extract_today_from_text(text)
-        if selector:
-            content = soup.select_one(selector)
-            if content:
-                return extract_today_from_text(content.get_text("\n", strip=True))
-        return "Ei lounasta löytynyt."
-    except Exception as e:
-        return f"Virhe haettaessa: {e}"
+today_str = today.strftime("%A %d.%m.%Y")
 
 restaurants = {
-    "Casa Mare": ("https://www.ravintolacasamare.com/lounas/", ".elementor-widget-theme-post-content", False),
-    "Makiata (Lauttasaari)": ("https://www.makiata.fi/lounas/", None, True),
-    "Pisara": ("https://ravintolapisara.fi/lounaslistat/lauttasaari/", ".entry-content", False),
-    "Persilja": ("https://www.ravintolapersilja.fi/lounas", ".elementor-widget-theme-post-content", False),
-    "Bistro Telakka": ("https://www.bistrotelakka.fi", None, False)
+    "Casa Mare": "https://www.ravintolacasamare.com/lounas/",
+    "Makiata (Lauttasaari)": "https://www.makiata.fi/lounas/",
+    "Pisara": "https://ravintolapisara.fi/lounaslistat/lauttasaari/",
+    "Persilja": "https://www.ravintolapersilja.fi/lounas",
+    "Bistro Telakka": "https://www.bistrotelakka.fi"
 }
 
 fg = FeedGenerator()
-fg.id('https://bubbe404.github.io/lounas-feed')
-fg.title(f'Lauttasaari Lunch Feed – {today.strftime("%A %d.%m.%Y")}')
-fg.link(href='https://bubbe404.github.io', rel='alternate')
-fg.description('Päivän lounaslistat Lauttasaaresta')
-fg.language('fi')
+fg.id("https://bubbe404.github.io/lounas-feed")
+fg.title(f"Lauttasaari Lunch Feed – {today_str}")
+fg.link(href="https://bubbe404.github.io", rel="alternate")
+fg.description("Päivän lounaslistat Lauttasaaresta")
+fg.language("fi")
 
-for name, (url, selector, laut_check) in restaurants.items():
-    menu_text = safe_scrape(url, selector, laut_check)
-    html_desc = f"<b>{name}</b><br>{menu_text.replace(chr(10), '<br>')}"
-    entry = fg.add_entry()
-    entry.id(url)
-    entry.title(f"{name} – {today.strftime('%A')}")
-    entry.link(href=url)
-    entry.content(content=html_desc, type='html')
-    entry.pubDate(datetime.now())
+with sync_playwright() as p:
+    browser = p.chromium.launch(headless=True)
+    page = browser.new_page()
+    for name, url in restaurants.items():
+        menu_text = "Ei saatavilla"
+        try:
+            page.goto(url, timeout=15000)
+            page.wait_for_timeout(2000)  # wait for JS to render
 
-# Always write feed file, even if errors occurred
+            # Extract menu text based on site
+            if "casamare" in url:
+                el = page.query_selector(".elementor-widget-theme-post-content")
+                menu_text = el.inner_text() if el else "Ei saatavilla"
+            elif "makiata" in url:
+                headers = page.query_selector_all("h2")
+                for h in headers:
+                    if "Lauttasaari" in h.inner_text():
+                        sibs = h.evaluate_handle("el => el.nextElementSibling")
+                        menu_text = sibs.inner_text() if sibs else "Ei saatavilla"
+                        break
+            elif "pisara" in url:
+                el = page.query_selector(".entry-content")
+                menu_text = el.inner_text() if el else "Ei saatavilla"
+            elif "persilja" in url:
+                el = page.query_selector(".elementor-widget-theme-post-content")
+                menu_text = el.inner_text() if el else "Ei saatavilla"
+            elif "telakka" in url:
+                el = page.query_selector("body")  # simplest fallback
+                menu_text = el.inner_text() if el else "Ei saatavilla"
+
+        except Exception as e:
+            menu_text = f"Virhe haettaessa: {e}"
+
+        html_desc = f"<b>{name}</b><br>{menu_text.replace(chr(10), '<br>')}"
+        entry = fg.add_entry()
+        entry.id(url)
+        entry.title(f"{name} – {today_str}")
+        entry.link(href=url)
+        entry.content(content=html_desc, type="html")
+        entry.pubDate(datetime.now())
+
+    browser.close()
+
 fg.rss_file("lounas_feed.xml")
-print("✅ RSS feed generated (safe version).")
+print("✅ RSS feed generated with dynamic content")
