@@ -1,8 +1,11 @@
 from playwright.sync_api import sync_playwright
 from feedgen.feed import FeedGenerator
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 
-today = datetime.now()
+# Use UTC timezone for feedgen
+UTC = timezone.utc
+
+today = datetime.now(UTC)
 today_str = today.strftime("%A %d.%m.%Y")
 
 restaurants = {
@@ -47,7 +50,7 @@ with sync_playwright() as p:
                 el = page.query_selector(".elementor-widget-theme-post-content")
                 menu_text = el.inner_text() if el else "Ei saatavilla"
             elif "telakka" in url:
-                el = page.query_selector("body")  # simplest fallback
+                el = page.query_selector("body")  # fallback
                 menu_text = el.inner_text() if el else "Ei saatavilla"
 
         except Exception as e:
@@ -59,9 +62,10 @@ with sync_playwright() as p:
         entry.title(f"{name} – {today_str}")
         entry.link(href=url)
         entry.content(content=html_desc, type="html")
-        entry.pubDate(datetime.now())
+        entry.pubDate(datetime.now(UTC))  # ✅ timezone-aware
 
     browser.close()
 
+# Always write feed file, even if scraping fails
 fg.rss_file("lounas_feed.xml")
-print("✅ RSS feed generated with dynamic content")
+print("✅ RSS feed generated successfully with timezone")
