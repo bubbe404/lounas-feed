@@ -2,33 +2,40 @@ name: Update Lunch Feed
 
 on:
   schedule:
-    - cron: '0 8 * * 1-5'   # Every weekday at 08:00 UTC
-  workflow_dispatch:         # Allows manual triggering
+    - cron: '0 8 * * 1-5'   # Every weekday at 08:00 UTC (≈ 11 AM Helsinki)
+  workflow_dispatch:         # Allow manual trigger from GitHub web UI
+
+# 👇 Needed so github-actions[bot] can push commits
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      # 1️⃣ Checkout repo
+      # 1️⃣ Checkout repository
       - uses: actions/checkout@v3
 
-      # 2️⃣ Install dependencies
+      # 2️⃣ Install Python dependencies and Playwright browser
       - name: Install dependencies
         run: |
+          pip install --upgrade pip
           pip install playwright feedgen
-          playwright install
+          playwright install --with-deps  # ensures Chromium dependencies are present
 
-      # 3️⃣ Run Python script to generate feed
+      # 3️⃣ Generate the RSS feed
       - name: Generate RSS feed
         run: python generate_feed.py
 
-      # 4️⃣ Commit and push updated feed using GITHUB_TOKEN
-      - name: Commit and push
+      # 4️⃣ Commit and push the updated XML file
+      - name: Commit and push updated feed
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "LunchFeedBot"
           git config --global user.email "bot@example.com"
           git add lounas_feed.xml
-          git commit -m "Update feed $(date)" || echo "No changes"
+          git diff --quiet && echo "No changes to commit" && exit 0
+          git commit -m "Update feed $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
           git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
