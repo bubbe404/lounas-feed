@@ -72,5 +72,5 @@ with sync_playwright() as p:
 
     browser.close()
 
-fg.rss_file("lounas_feed.xml")
+fg.rss_file("./lounas_feed.xml")
 print("✅ RSS feed generated successfully (Helsinki time with DST, safe for GitHub Actions)")
