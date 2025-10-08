@@ -1,11 +1,12 @@
 from playwright.sync_api import sync_playwright
 from feedgen.feed import FeedGenerator
-from datetime import datetime, timezone, timedelta
+from datetime import datetime
+from zoneinfo import ZoneInfo  # Python 3.9+
 
-# Use UTC timezone for feedgen
-UTC = timezone.utc
+# Helsinki timezone (automatic DST)
+HELSINKI = ZoneInfo("Europe/Helsinki")
 
-today = datetime.now(UTC)
+today = datetime.now(HELSINKI)
 today_str = today.strftime("%A %d.%m.%Y")
 
 restaurants = {
@@ -30,27 +31,32 @@ with sync_playwright() as p:
         menu_text = "Ei saatavilla"
         try:
             page.goto(url, timeout=15000)
-            page.wait_for_timeout(2000)  # wait for JS to render
+            page.wait_for_timeout(4000)  # wait 4s for JS to render
 
             # Extract menu text based on site
             if "casamare" in url:
                 el = page.query_selector(".elementor-widget-theme-post-content")
                 menu_text = el.inner_text() if el else "Ei saatavilla"
+
             elif "makiata" in url:
                 headers = page.query_selector_all("h2")
                 for h in headers:
                     if "Lauttasaari" in h.inner_text():
-                        sibs = h.evaluate_handle("el => el.nextElementSibling")
-                        menu_text = sibs.inner_text() if sibs else "Ei saatavilla"
+                        sib = h.evaluate_handle("el => el.nextElementSibling")
+                        if sib:
+                            menu_text = sib.inner_text() or "Ei saatavilla"
                         break
+
             elif "pisara" in url:
                 el = page.query_selector(".entry-content")
                 menu_text = el.inner_text() if el else "Ei saatavilla"
+
             elif "persilja" in url:
                 el = page.query_selector(".elementor-widget-theme-post-content")
                 menu_text = el.inner_text() if el else "Ei saatavilla"
+
             elif "telakka" in url:
-                el = page.query_selector("body")  # fallback
+                el = page.query_selector("body")
                 menu_text = el.inner_text() if el else "Ei saatavilla"
 
         except Exception as e:
@@ -62,10 +68,9 @@ with sync_playwright() as p:
         entry.title(f"{name} – {today_str}")
         entry.link(href=url)
         entry.content(content=html_desc, type="html")
-        entry.pubDate(datetime.now(UTC))  # ✅ timezone-aware
+        entry.pubDate(datetime.now(HELSINKI))  # timezone-aware
 
     browser.close()
 
-# Always write feed file, even if scraping fails
 fg.rss_file("lounas_feed.xml")
-print("✅ RSS feed generated successfully with timezone")
+print("✅ RSS feed generated successfully (Helsinki time with DST, safe for GitHub Actions)")
