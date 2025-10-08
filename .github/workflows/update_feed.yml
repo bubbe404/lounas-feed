@@ -5,7 +5,7 @@ on:
     - cron: '0 8 * * 1-5'   # Every weekday at 08:00 UTC (≈ 11 AM Helsinki)
   workflow_dispatch:         # Allow manual trigger from GitHub web UI
 
-# 👇 Needed so github-actions[bot] can push commits
+# 👇 Allow github-actions[bot] to push changes
 permissions:
   contents: write
 
@@ -14,28 +14,34 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout repository
+      # 1️⃣ Checkout repo
       - uses: actions/checkout@v3
 
-      # 2️⃣ Install Python dependencies and Playwright browser
+      # 2️⃣ Install dependencies
       - name: Install dependencies
         run: |
           pip install --upgrade pip
           pip install playwright feedgen
-          playwright install --with-deps  # ensures Chromium dependencies are present
+          playwright install --with-deps
 
-      # 3️⃣ Generate the RSS feed
+      # 3️⃣ Generate RSS feed
       - name: Generate RSS feed
-        run: python generate_feed.py
+        run: python ./generate_feed.py
 
-      # 4️⃣ Commit and push the updated XML file
+      # 4️⃣ Commit and push the feed
       - name: Commit and push updated feed
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "LunchFeedBot"
           git config --global user.email "bot@example.com"
-          git add lounas_feed.xml
-          git diff --quiet && echo "No changes to commit" && exit 0
-          git commit -m "Update feed $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
+
+          if [ -f ./lounas_feed.xml ]; then
+            echo "✅ Found lounas_feed.xml, committing..."
+            git add ./lounas_feed.xml
+            git commit -m "Update feed $(date -u +"%Y-%m-%d %H:%M:%S UTC")" || echo "No textual changes to commit"
+            git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
+          else
+            echo "❌ No lounas_feed.xml file found!"
+            exit 1
+          fi
