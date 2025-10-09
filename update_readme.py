@@ -1,0 +1,41 @@
+# update_readme.py
+import xml.etree.ElementTree as ET
+from datetime import datetime, timezone
+
+def main():
+    rss_path = "./lounas_feed.xml"
+    readme_path = "./README.md"
+
+    header = "# Lauttasaari Lunch Feed\n\n"
+    header += "Today's lunch menus (generated automatically):\n\n"
+    header += "[![RSS Feed](https://img.shields.io/badge/RSS-Lounas%20Feed-orange)](https://bubbe404.github.io/lounas-feed/lounas_feed.xml)\n\n"
+
+    try:
+        tree = ET.parse(rss_path)
+        root = tree.getroot()
+        channel = root.find("channel")
+        items = channel.findall("item") if channel is not None else []
+    except Exception as e:
+        with open(readme_path, "w", encoding="utf-8") as f:
+            f.write(header)
+            f.write(f"\n*(Error reading feed: {e})*\n")
+        return
+
+    with open(readme_path, "w", encoding="utf-8") as f:
+        f.write(header)
+        f.write(f"*(Last updated: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')})*\n\n")
+        for item in items:
+            title_el = item.find("title")
+            desc_el = item.find("description")
+            title = title_el.text if title_el is not None else "No title"
+            desc = desc_el.text if desc_el is not None else ""
+            # Convert basic HTML to Markdown-ish form, keep prices intact
+            desc_md = desc.replace("<br>", "\n").replace("<b>", "**").replace("</b>", "**")
+            lines = [ln.strip() for ln in desc_md.splitlines() if ln.strip()]
+            f.write(f"## {title}\n\n")
+            for line in lines:
+                f.write(f"- {line}\n")
+            f.write("\n")
+
+if __name__ == "__main__":
+    main()
