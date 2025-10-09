@@ -24,16 +24,31 @@ def main():
     with open(readme_path, "w", encoding="utf-8") as f:
         f.write(header)
         f.write(f"*(Last updated: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')})*\n\n")
+
         for item in items:
             title_el = item.find("title")
             desc_el = item.find("description")
             title = title_el.text if title_el is not None else "No title"
             desc = desc_el.text if desc_el is not None else ""
-            # Convert basic HTML to Markdown-ish form, keep prices intact
-            desc_md = desc.replace("<br>", "\n").replace("<b>", "**").replace("</b>", "**")
-            lines = [ln.strip() for ln in desc_md.splitlines() if ln.strip()]
+
+            # Extract opening hours
+            if "<b>Opening hours:</b>" in desc:
+                parts = desc.split("<br>", 1)
+                hours_line = parts[0].replace("<b>Opening hours:</b>", "").strip()
+                menu_lines = parts[1] if len(parts) > 1 else ""
+            else:
+                hours_line = ""
+                menu_lines = desc
+
+            # Markdown formatting
+            menu_lines = menu_lines.replace("<br>", "\n")
+            menu_lines = menu_lines.strip().splitlines()
+            menu_lines = [line.strip() for line in menu_lines if line.strip()]
+
             f.write(f"## {title}\n\n")
-            for line in lines:
+            if hours_line:
+                f.write(f"**Opening hours:** {hours_line}\n\n")
+            for line in menu_lines:
                 f.write(f"- {line}\n")
             f.write("\n")
 
