@@ -32,26 +32,32 @@ jobs:
           echo "" >> README.md
           echo "[![RSS Feed](https://img.shields.io/badge/RSS-Lounas%20Feed-orange)](https://bubbe404.github.io/lounas-feed/lounas_feed.xml)" >> README.md
           echo "" >> README.md
-          python3 -c "
+          python3 - <<EOF
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
-rss_file = './lounas_feed.xml'
-tree = ET.parse(rss_file)
-root = tree.getroot()
-channel = root.find('channel')
-items = channel.findall('item')
-with open('README.md', 'a', encoding='utf-8') as f:
-    f.write(f'*(Last updated: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')})*\\n\\n')
-    for item in items:
-        title = item.find('title').text
-        desc = (item.find('description').text or '').replace('<br>', '\\n').replace('<b>', '**').replace('</b>', '**')
-        lines = desc.splitlines()
-        f.write(f'## {title}\\n\\n')
-        for line in lines:
-            if line.strip():
-                f.write(f'- {line.strip()}\\n')
-        f.write('\\n')
-"
+
+rss_file = "./lounas_feed.xml"
+try:
+    tree = ET.parse(rss_file)
+    root = tree.getroot()
+    channel = root.find("channel")
+    items = channel.findall("item")
+
+    with open("README.md", "a", encoding="utf-8") as f:
+        f.write(f"*(Last updated: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')})*\n\n")
+        for item in items:
+            title = item.find("title").text
+            desc = (item.find("description").text or "")
+            desc_md = desc.replace("<br>", "\n").replace("<b>", "**").replace("</b>", "**")
+            lines = desc_md.splitlines()
+            f.write(f"## {title}\n\n")
+            for line in lines:
+                if line.strip():
+                    f.write(f"- {line.strip()}\n")
+            f.write("\n")
+except Exception as e:
+    print(f"⚠️ Error updating README: {e}")
+EOF
 
       - name: Commit and push
         env:
