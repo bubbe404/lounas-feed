@@ -1,155 +1,106 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+# generate_feed.py
 
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
-import xml.etree.ElementTree as ET
-from feedgen.feed import FeedGenerator
+from restaurants import restaurants
 
-# ---------- CONFIG ----------
-RESTAURANTS = [
-    {
-        "name": "Makiata Lauttasaari",
-        "url": "https://makiata.example.com/menu",  # replace with real URL
-    },
-    {
-        "name": "Persilja",
-        "url": "https://persilja.example.com/menu",
-    },
-    {
-        "name": "Pisara",
-        "url": "https://pisara.example.com/menu",
-    },
-    {
-        "name": "Bistro Telakka",
-        "url": "https://telakka.example.com/menu",
-    },
-    {
-        "name": "Casa Mare",
-        "url": "https://casamare.example.com/menu",
-    }
-]
+WEEKDAYS = {
+    0: "Maanantai",
+    1: "Tiistai",
+    2: "Keskiviikko",
+    3: "Torstai",
+    4: "Perjantai"
+}
 
-TEST_MODE = False  # True = print today’s menu instead of writing RSS
-
-# ---------- HELPERS ----------
+today_index = datetime.today().weekday()
+today_name = WEEKDAYS.get(today_index, "")
 
 def fetch_html(url):
-    """Fetch HTML content of the page."""
-    headers = {"User-Agent": "Mozilla/5.0"}
-    resp = requests.get(url, headers=headers)
+    resp = requests.get(url, timeout=10)
     resp.raise_for_status()
     return resp.text
 
-def parse_menu(restaurant_name, html):
-    """Parse today’s menu from restaurant HTML."""
+def parse_table_menu(soup, today_name):
+    table = soup.find("table", class_="lunch-list-table")
+    if not table: return "Menu not found"
+    for row in table.find_all("tr"):
+        if today_name in row.text:
+            return row.find_all("td")[1].text.strip()
+    return "Menu not found"
+
+def parse_list_menu(soup, today_name):
+    for li in soup.find_all("li", class_="menu-group-item"):
+        if today_name.lower() in li.text.lower():
+            items = [p.text.strip() for p in li.find_all("p") if p.text.strip()]
+            return "\n".join(items)
+    return "Menu not found"
+
+def parse_div_snippet(soup, today_name):
+    for p in soup.find_all("p"):
+        if today_name in p.text:
+            items = []
+            next_sib = p.find_next_sibling("p")
+            while next_sib and not any(day in next_sib.text for day in WEEKDAYS.values()):
+                if next_sib.text.strip():
+                    items.append(next_sib.text.strip())
+                next_sib = next_sib.find_next_sibling("p")
+            return "\n".join(items)
+    return "Menu not found"
+
+def parse_simple_p(soup, today_name):
+    sections = soup.find_all("p")
+    capture = False
+    items = []
+    for p in sections:
+        if today_name in p.text:
+            capture = True
+            continue
+        if capture:
+            if any(day in p.text for day in WEEKDAYS.values()):
+                break
+            if p.text.strip():
+                items.append(p.text.strip())
+    return "\n".join(items) if items else "Menu not found"
+
+def fetch_today_menu(restaurant, today_name):
+    html = fetch_html(restaurant["url"])
     soup = BeautifulSoup(html, "html.parser")
-    today_str = datetime.today().strftime("%A")
-    menu_lines = []
+    type_ = restaurant["type"]
 
-    # Attempt to find opening hours and prices
-    opening_hours = ""
-    prices = ""
-    oh_tag = soup.find(text=lambda t: t and "klo" in t)
-    if oh_tag:
-        opening_hours = oh_tag.strip()
-    price_tag = soup.find(text=lambda t: t and "€" in t)
-    if price_tag:
-        prices = price_tag.strip()
-
-    # Find menu by today
-    # For Makiata, example: <tr><td><strong>Maanantai</strong></td><td>...</td></tr>
-    day_map = {
-        "Monday": ["maanantai", "ma"],
-        "Tuesday": ["tiistai", "ti"],
-        "Wednesday": ["keskiviikko", "ke"],
-        "Thursday": ["torstai", "to"],
-        "Friday": ["perjantai", "pe"],
-    }
-    today_keywords = day_map.get(today_str, [])
-
-    # Search table rows
-    rows = soup.find_all("tr")
-    for row in rows:
-        day_cell = row.find("td")
-        menu_cell = row.find_all("td")[1] if len(row.find_all("td")) > 1 else None
-        if day_cell and menu_cell:
-            day_text = day_cell.get_text(strip=True).lower()
-            if any(k in day_text for k in today_keywords):
-                dishes = menu_cell.get_text("\n", strip=True).split("\n")
-                menu_lines.extend(dishes)
-
-    # Fallback if no table found: search headings with today keywords
-    if not menu_lines:
-        for kw in today_keywords:
-            sections = soup.find_all(text=lambda t: t and kw in t.lower())
-            for sec in sections:
-                parent = sec.parent
-                if parent:
-                    next_sibs = parent.find_next_siblings()
-                    for sib in next_sibs:
-                        texts = sib.get_text("\n", strip=True).split("\n")
-                        menu_lines.extend(texts)
-                        if len(menu_lines) > 0:
-                            break
-                if len(menu_lines) > 0:
-                    break
-
-    # Filter empty lines
-    menu_lines = [line for line in menu_lines if line.strip()]
-    return {
-        "name": restaurant_name,
-        "opening_hours": opening_hours,
-        "prices": prices,
-        "menu_lines": menu_lines or ["Menu not available today."]
-    }
+    if type_ == "table":
+        return parse_table_menu(soup, today_name)
+    elif type_ == "list":
+        return parse_list_menu(soup, today_name)
+    elif type_ == "div_snippet":
+        return parse_div_snippet(soup, today_name)
+    elif type_ == "simple_p":
+        return parse_simple_p(soup, today_name)
+    else:
+        return "Menu type unknown"
 
 def build_feed():
-    fg = FeedGenerator()
-    fg.title("Lauttasaari Lunch Feed")
-    fg.link(href="https://github.com/bubbe404/lounas-feed", rel="self")
-    fg.description("Today’s lunch menus (generated automatically)")
+    feed = []
+    for r in restaurants:
+        menu = fetch_today_menu(r, today_name)
+        feed.append({
+            "name": r["name"],
+            "hours": r["hours"],
+            "prices": r["prices"],
+            "menu": menu
+        })
+    return feed
 
-    all_menus = []
-    for r in RESTAURANTS:
-        html = fetch_html(r["url"])
-        parsed = parse_menu(r["name"], html)
-        all_menus.append(parsed)
-
-        # Add to RSS
-        fe = fg.add_entry()
-        fe.title(parsed["name"])
-        content = f"Opening hours: {parsed['opening_hours']}\nPrices: {parsed['prices']}\n\n"
-        for line in parsed["menu_lines"]:
-            content += f"• {line}\n"
-        fe.content(content)
-        fe.pubDate(datetime.utcnow())
-
-    # Write RSS feed
-    fg.rss_file("lounas_feed.xml")
-
-    # Update README
-    with open("README.md", "w", encoding="utf-8") as f:
-        f.write("# Lauttasaari Lunch Feed\n\n")
-        f.write("Today’s lunch menus (generated automatically):\n\n")
-        f.write(f"(Last updated: {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')})\n\n")
-        for parsed in all_menus:
-            f.write(f"### {parsed['name']}\n")
-            f.write(f"Opening hours: {parsed['opening_hours']}\n")
-            f.write(f"Prices: {parsed['prices']}\n")
-            for line in parsed["menu_lines"]:
-                f.write(f"• {line}\n")
-            f.write("\n")
-
-    if TEST_MODE:
-        print("Test mode enabled. Today’s menus:")
-        for parsed in all_menus:
-            print(f"\n{parsed['name']}")
-            print(f"Opening hours: {parsed['opening_hours']}")
-            print(f"Prices: {parsed['prices']}")
-            for line in parsed["menu_lines"]:
-                print(f"• {line}")
+def update_feed():
+    feed = build_feed()
+    # Replace this with your feed saving mechanism (JSON, RSS, etc.)
+    for item in feed:
+        print(f"--- {item['name']} ---")
+        print(f"Opening hours: {item['hours']}")
+        print("Prices:")
+        for k, v in item["prices"].items():
+            print(f"  {k}: {v}")
+        print(f"{today_name} menu:\n{item['menu']}\n")
 
 if __name__ == "__main__":
-    build_feed()
+    update_feed()
