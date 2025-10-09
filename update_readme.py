@@ -48,8 +48,11 @@ def main():
             f.write(f"## {title}\n\n")
             if hours_line:
                 f.write(f"**Opening hours:** {hours_line}\n\n")
-            for line in menu_lines:
-                f.write(f"- {line}\n")
+            if menu_lines:
+                for line in menu_lines:
+                    f.write(f"- {line}\n")
+            else:
+                f.write("- Menu not available today.\n")
             f.write("\n")
 
 if __name__ == "__main__":
