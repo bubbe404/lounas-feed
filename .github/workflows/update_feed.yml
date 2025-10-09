@@ -2,11 +2,12 @@ name: Update Lunch Feed
 
 on:
   schedule:
-    - cron: '0 8 * * 1-5'   # Weekdays 08:00 UTC
-  workflow_dispatch:         # Manual trigger
+    - cron: '0 8 * * 1-5'   # Every weekday at 08:00 UTC (≈ 11 AM Helsinki)
+  workflow_dispatch:         # Allow manual trigger from GitHub web UI
 
+# 👇 Allow github-actions[bot] to push changes
 permissions:
-  contents: write  # Needed so github-actions[bot] can push
+  contents: write
 
 jobs:
   build:
@@ -27,41 +28,20 @@ jobs:
       - name: Generate RSS feed
         run: python ./generate_feed.py
 
-      # 4️⃣ Update README with today's menus
-      - name: Update README with today's menus
-        run: |
-          echo "# Lauttasaari Lunch Feed" > ./README.md
-          echo "" >> ./README.md
-          echo "Today's lunch menus (generated automatically):" >> ./README.md
-          echo "" >> ./README.md
-          echo "[![RSS Feed](https://img.shields.io/badge/RSS-Lounas%20Feed-orange)](https://bubbe404.github.io/lounas-feed/lounas_feed.xml)" >> ./README.md
-          echo "" >> ./README.md
-          python3 - <<'EOF'
-import xml.etree.ElementTree as ET
-
-rss_file = "./lounas_feed.xml"
-tree = ET.parse(rss_file)
-root = tree.getroot()
-channel = root.find("channel")
-items = channel.findall("item")
-
-with open("README.md", "a", encoding="utf-8") as f:
-    for item in items:
-        title = item.find("title").text
-        desc = item.find("description").text
-        # Convert <br> to newlines and <b> tags to Markdown
-        desc_md = desc.replace("<br>", "\n").replace("<b>", "**").replace("</b>", "**")
-        f.write(f"## {title}\n\n{desc_md}\n\n")
-EOF
-
-      # 5️⃣ Commit and push updated files
-      - name: Commit and push updated feed & README
+      # 4️⃣ Commit and push the feed
+      - name: Commit and push updated feed
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "LunchFeedBot"
           git config --global user.email "bot@example.com"
 
-          git add ./lounas_feed.xml ./README.md
-          git commit -m "Update feed and README $(date -u +"%Y-%m-%d %H:%M:%S UTC")" || echo "No changes to commit"
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
+          if [ -f ./lounas_feed.xml ]; then
+            echo "✅ Found lounas_feed.xml, committing..."
+            git add ./lounas_feed.xml
+            git commit -m "Update feed $(date -u +"%Y-%m-%d %H:%M:%S UTC")" || echo "No textual changes to commit"
+            git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
+          else
+            echo "❌ No lounas_feed.xml file found!"
+            exit 1
+          fi
