@@ -2,8 +2,8 @@ name: Update Lunch Feed
 
 on:
   schedule:
-    - cron: '0 8 * * 1-5'   # Weekdays 08:00 UTC
-  workflow_dispatch:         # Manual trigger
+    - cron: '0 8 * * 1-5'   # Every weekday at 08:00 UTC
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -11,34 +11,18 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
 
       - name: Install dependencies
         run: |
           pip install --upgrade pip
-          pip install playwright feedgen
-          playwright install --with-deps
+          pip install requests beautifulsoup4 feedgen
 
       - name: Generate RSS feed
         run: python ./generate_feed.py
 
-      - name: Update README from RSS
-        run: python ./update_readme.py
-
-      - name: Debug output
-        run: |
-          echo "Repo root files:"
-          ls -la
-          echo ""
-          echo "Preview of lounas_feed.xml (if exists):"
-          head -n 40 ./lounas_feed.xml || echo "No feed file found"
-          echo ""
-          echo "Preview of README.md (if exists):"
-          head -n 40 ./README.md || echo "No README found"
-
-      - name: Commit and push updated feed & README
+      - name: Commit and push updated feed
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -46,10 +30,9 @@ jobs:
           git config --global user.email "bot@example.com"
 
           if [ -f ./lounas_feed.xml ]; then
-            git add ./lounas_feed.xml ./README.md
-            git commit -m "Auto-update feed and README $(date -u +"%Y-%m-%d %H:%M:%S UTC")" || echo "No changes to commit"
+            git add ./lounas_feed.xml README.md
+            git commit -m "Update feed $(date -u +"%Y-%m-%d %H:%M:%S UTC")" || echo "No textual changes to commit"
             git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
           else
-            echo "❌ No lounas_feed.xml found; aborting push."
+            echo "❌ No lounas_feed.xml file found!"
             exit 1
-          fi
