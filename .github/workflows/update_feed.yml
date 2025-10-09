@@ -2,8 +2,8 @@ name: Update Lunch Feed
 
 on:
   schedule:
-    - cron: '0 8 * * 1-5'   # Weekdays at 08:00 UTC (~11:00 Helsinki)
-  workflow_dispatch:
+    - cron: '0 8 * * 1-5'   # Weekdays 08:00 UTC
+  workflow_dispatch:         # Manual trigger
 
 permissions:
   contents: write
@@ -24,47 +24,32 @@ jobs:
       - name: Generate RSS feed
         run: python ./generate_feed.py
 
-      - name: Update README
+      - name: Update README from RSS
+        run: python ./update_readme.py
+
+      - name: Debug output
         run: |
-          echo "# Lauttasaari Lunch Feed" > README.md
-          echo "" >> README.md
-          echo "Today's lunch menus (generated automatically):" >> README.md
-          echo "" >> README.md
-          echo "[![RSS Feed](https://img.shields.io/badge/RSS-Lounas%20Feed-orange)](https://bubbe404.github.io/lounas-feed/lounas_feed.xml)" >> README.md
-          echo "" >> README.md
-          python3 - <<EOF
-import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+          echo "Repo root files:"
+          ls -la
+          echo ""
+          echo "Preview of lounas_feed.xml (if exists):"
+          head -n 40 ./lounas_feed.xml || echo "No feed file found"
+          echo ""
+          echo "Preview of README.md (if exists):"
+          head -n 40 ./README.md || echo "No README found"
 
-rss_file = "./lounas_feed.xml"
-try:
-    tree = ET.parse(rss_file)
-    root = tree.getroot()
-    channel = root.find("channel")
-    items = channel.findall("item")
-
-    with open("README.md", "a", encoding="utf-8") as f:
-        f.write(f"*(Last updated: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')})*\n\n")
-        for item in items:
-            title = item.find("title").text
-            desc = (item.find("description").text or "")
-            desc_md = desc.replace("<br>", "\n").replace("<b>", "**").replace("</b>", "**")
-            lines = desc_md.splitlines()
-            f.write(f"## {title}\n\n")
-            for line in lines:
-                if line.strip():
-                    f.write(f"- {line.strip()}\n")
-            f.write("\n")
-except Exception as e:
-    print(f"⚠️ Error updating README: {e}")
-EOF
-
-      - name: Commit and push
+      - name: Commit and push updated feed & README
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "LunchFeedBot"
           git config --global user.email "bot@example.com"
-          git add README.md lounas_feed.xml
-          git commit -m "Auto-update feed and README" || echo "No changes to commit"
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
+
+          if [ -f ./lounas_feed.xml ]; then
+            git add ./lounas_feed.xml ./README.md
+            git commit -m "Auto-update feed and README $(date -u +"%Y-%m-%d %H:%M:%S UTC")" || echo "No changes to commit"
+            git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
+          else
+            echo "❌ No lounas_feed.xml found; aborting push."
+            exit 1
+          fi
