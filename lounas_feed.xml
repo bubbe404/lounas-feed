@@ -1,29 +1,4 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Lauttasaari Lunch Feed</title><link>https://bubbe404.github.io/lounas-feed/lounas_feed.xml</link><description>Daily lunch menus for Lauttasaari restaurants</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 09 Oct 2025 12:42:48 +0000</lastBuildDate><item><title>Bistro Telakka</title><description>&lt;b&gt;Opening hours:&lt;/b&gt; Mon–Fri 11:00–14:00&lt;br&gt;Menu not available today.</description><pubDate>Thu, 09 Oct 2025 12:43:01 +0000</pubDate></item><item><title>Persilja</title><description>&lt;b&gt;Opening hours:&lt;/b&gt; Mon–Fri 11:00–14:00&lt;br&gt;Menu not available today.</description><pubDate>Thu, 09 Oct 2025 12:42:59 +0000</pubDate></item><item><title>Pisara</title><description>&lt;b&gt;Opening hours:&lt;/b&gt; Mon–Fri 11:00–14:00&lt;br&gt;Menu not available today.</description><pubDate>Thu, 09 Oct 2025 12:42:58 +0000</pubDate></item><item><title>Makiata Lauttasaari</title><description>&lt;b&gt;Opening hours:&lt;/b&gt; Mon–Fri 11:00–14:00&lt;br&gt;
-                  
-                        
-              &lt;div class="sub-header"&gt;
-                &lt;h2&gt;Kahvila &lt;br&gt;Pohjois-Haaga&lt;br&gt; &lt;small&gt;6.10-10.10..2025&lt;/small&gt;&lt;/h2&gt;
-                &lt;p&gt;Lounas arkisin klo 11.00 – 13.30&lt;/p&gt;
-              &lt;/div&gt;            
-                  
-              
-                  &lt;table class="lunch-list-table"&gt;
-            &lt;tbody&gt;
-                          &lt;tr&gt;&lt;td&gt;&lt;strong&gt;Maanantai&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Paholaisen kanaa, riisiä l,g, Paholaisen tofua ja riisiä l,g, Kukkakaalisosekeitto l,g&lt;/td&gt;&lt;/tr&gt;
-                          &lt;tr&gt;&lt;td&gt;&lt;strong&gt;Tiistai&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Tomaattinen  makkaravuoka, muusia  l,g, Tomaattinen kasvismakkaravuoka l,g, Katkarapukeitto l,g&lt;/td&gt;&lt;/tr&gt;
-                          &lt;tr&gt;&lt;td&gt;&lt;strong&gt;Keskiviikko&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Juurespihvit, juustokastike, peruna l,g, Kermainen riistalihakeitto l,g&lt;/td&gt;&lt;/tr&gt;
-                          &lt;tr&gt;&lt;td&gt;&lt;strong&gt;Torstai&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Mantelikalaa, muusia , tillikermaviilikastiketta l, Suppilovahverorisotto l,g, Kasvisminestronekeitto l&lt;/td&gt;&lt;/tr&gt;
-                          &lt;tr&gt;&lt;td&gt;&lt;strong&gt;Perjantai&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;Kebab ja riisiä l,g, Vebab ja riisiä l,&lt;/td&gt;&lt;/tr&gt;
-                        &lt;/tbody&gt;
-          &lt;/table&gt;
-         
-                  &lt;h5&gt;Hinnasto&lt;/h5&gt;
-                      &lt;p class="lunch-prices"&gt;Keittolounas + leipä &lt;span class="price"&gt;12,50 €&lt;/span&gt;&lt;/p&gt;
-                      &lt;p class="lunch-prices"&gt;Lounas + salaatti + leipä &lt;span class="price"&gt;13,50€&lt;/span&gt;&lt;/p&gt;
-                   
-                  &lt;h5&gt;Osoite&lt;/h5&gt;
-                      &lt;p class="mini-address"&gt;Aino Acktén tie 8, Helsinki — &lt;a href="https://goo.gl/maps/z64d4LTATBRGnHNt7 "&gt;Kartta&lt;/a&gt;&lt;/p&gt;
-                    
-        &lt;hr&gt;  
-      </description><pubDate>Thu, 09 Oct 2025 12:42:56 +0000</pubDate></item><item><title>Casa Mare</title><description>&lt;b&gt;Opening hours:&lt;/b&gt; Mon–Fri 11:00–14:00&lt;br&gt;Menu not available today.</description><pubDate>Thu, 09 Oct 2025 12:42:52 +0000</pubDate></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Lauttasaari Lunch Feed</title><link>https://bubbe404.github.io/lounas-feed/lounas_feed.xml</link><description>Daily lunch menus for Lauttasaari restaurants</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 09 Oct 2025 17:13:29 +0000</lastBuildDate><item><title>Bistro Telakka</title><description>&lt;b&gt;Opening hours:&lt;/b&gt; Mon–Fri 11:00–14:00&lt;br&gt;Menu not available today.</description><pubDate>Thu, 09 Oct 2025 17:13:39 +0000</pubDate></item><item><title>Persilja</title><description>&lt;b&gt;Opening hours:&lt;/b&gt; Mon–Fri 11:00–14:00&lt;br&gt;Menu not available today.</description><pubDate>Thu, 09 Oct 2025 17:13:37 +0000</pubDate></item><item><title>Pisara</title><description>&lt;b&gt;Opening hours:&lt;/b&gt; Mon–Fri 11:00–14:00&lt;br&gt;Menu not available today.</description><pubDate>Thu, 09 Oct 2025 17:13:37 +0000</pubDate></item><item><title>Makiata Lauttasaari</title><description>&lt;b&gt;Opening hours:&lt;/b&gt; Mon–Fri 11:00–14:00&lt;br&gt;Lounas arkisin klo 11.00 – 13.30&lt;br&gt;Keittolounas + leipä
+12,50 €&lt;br&gt;Lounas + salaatti + leipä
+13,50€&lt;br&gt;Aino Acktén tie 8, Helsinki — Kartta</description><pubDate>Thu, 09 Oct 2025 17:13:35 +0000</pubDate></item><item><title>Casa Mare</title><description>&lt;b&gt;Opening hours:&lt;/b&gt; Mon–Fri 11:00–14:00&lt;br&gt;Menu not available today.</description><pubDate>Thu, 09 Oct 2025 17:13:33 +0000</pubDate></item></channel></rss>
