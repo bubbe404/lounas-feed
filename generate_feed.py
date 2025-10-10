@@ -32,11 +32,12 @@ def fetch_html(url):
 
 
 def clean_menu_items(items):
-    """Format items into a bullet list with line breaks."""
+    """Format items into Markdown bullets with proper line breaks."""
     cleaned = [line.strip() for line in items if line.strip()]
     if not cleaned:
         return "Menu not found"
-    return "\n".join(f"• {line}" for line in cleaned)
+    # Each bullet ends with two spaces so Markdown breaks lines
+    return "".join(f"• {line}  \n" for line in cleaned)
 
 
 def contains_stop(text, stop_after):
@@ -106,8 +107,8 @@ def parse_simple_p(soup, today_name, stop_after=None):
     return clean_menu_items(items)
 
 
-def parse_makiata_lauttasaari(soup, today_name):
-    """Extract only the Lauttasaari section."""
+def parse_makiata_lauttasaari(soup):
+    """Extract only the Lauttasaari section regardless of weekday."""
     start = soup.find(lambda tag: tag.name == "p" and "Lauttasaari" in tag.text)
     if not start:
         return "Menu not found"
@@ -115,6 +116,7 @@ def parse_makiata_lauttasaari(soup, today_name):
     next_sib = start.find_next_sibling("p")
     while next_sib:
         text = next_sib.text.strip()
+        # Stop when we reach the next branch
         if any(x in text for x in ["Haaga", "Espoo", "Otaniemi"]):
             break
         if any(day in text for day in WEEKDAYS.values()):
@@ -136,9 +138,9 @@ def fetch_today_menu(restaurant, today_name):
     url = restaurant["url"].lower()
 
     if "makiata" in url:
-        return parse_makiata_lauttasaari(soup, today_name)
+        return parse_makiata_lauttasaari(soup)
     if "persilja" in url:
-        return parse_div_snippet(soup, today_name, stop_after=["ERIKOIS", "ERIKOIS LOUNAS"])
+        return parse_div_snippet(soup, today_name, stop_after=["ERIKOIS", "ERIKOIS LOUNAS", "ERIKOISLOUNAS", "ERIKOISANNOS"])
     if "pisara" in url:
         return parse_simple_p(soup, today_name, stop_after=["LISÄTIETOJA", "ALLERGEENEISTA"])
 
