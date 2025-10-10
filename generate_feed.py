@@ -4,7 +4,11 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 from restaurants import restaurants
+import html
 
+# -----------------------------------
+# CONFIG
+# -----------------------------------
 WEEKDAYS = {
     0: "Maanantai",
     1: "Tiistai",
@@ -17,9 +21,9 @@ today_index = datetime.today().weekday()
 today_name = WEEKDAYS.get(today_index, "")
 
 
-# ----------------------------------------------------------
-# Helpers
-# ----------------------------------------------------------
+# -----------------------------------
+# HELPERS
+# -----------------------------------
 
 def fetch_html(url):
     resp = requests.get(url, timeout=10)
@@ -28,24 +32,24 @@ def fetch_html(url):
 
 
 def clean_menu_items(items):
-    """Turn a list of text lines into a bullet list with line breaks."""
+    """Format items into a bullet list with line breaks."""
     cleaned = [line.strip() for line in items if line.strip()]
     if not cleaned:
         return "Menu not found"
-    return "• " + "\n• ".join(cleaned)
+    return "\n".join(f"• {line}" for line in cleaned)
 
 
 def contains_stop(text, stop_after):
-    """Case-insensitive check for stop keywords."""
+    """Case-insensitive stop word check."""
     if not text:
         return False
     lower_text = text.lower()
-    return any(stop.lower() in lower_text for stop in stop_after or [])
+    return any(stop.lower() in lower_text for stop in (stop_after or []))
 
 
-# ----------------------------------------------------------
-# Parsers
-# ----------------------------------------------------------
+# -----------------------------------
+# PARSERS
+# -----------------------------------
 
 def parse_table_menu(soup, today_name):
     table = soup.find("table", class_="lunch-list-table")
@@ -66,7 +70,6 @@ def parse_list_menu(soup, today_name):
 
 
 def parse_div_snippet(soup, today_name, stop_after=None):
-    """Generic parser for div/p-based structures."""
     for p in soup.find_all("p"):
         if today_name in p.text:
             items = []
@@ -85,7 +88,6 @@ def parse_div_snippet(soup, today_name, stop_after=None):
 
 
 def parse_simple_p(soup, today_name, stop_after=None):
-    """Simple p-based section parser (like Pisara)."""
     sections = soup.find_all("p")
     capture = False
     items = []
@@ -104,20 +106,15 @@ def parse_simple_p(soup, today_name, stop_after=None):
     return clean_menu_items(items)
 
 
-# ----------------------------------------------------------
-# Special Case Parsers
-# ----------------------------------------------------------
-
 def parse_makiata_lauttasaari(soup, today_name):
-    """Extract only Lauttasaari menu section."""
-    items = []
+    """Extract only the Lauttasaari section."""
     start = soup.find(lambda tag: tag.name == "p" and "Lauttasaari" in tag.text)
     if not start:
         return "Menu not found"
+    items = []
     next_sib = start.find_next_sibling("p")
     while next_sib:
         text = next_sib.text.strip()
-        # Stop when Haaga or another section begins
         if any(x in text for x in ["Haaga", "Espoo", "Otaniemi"]):
             break
         if any(day in text for day in WEEKDAYS.values()):
@@ -128,9 +125,9 @@ def parse_makiata_lauttasaari(soup, today_name):
     return clean_menu_items(items)
 
 
-# ----------------------------------------------------------
-# Dispatcher
-# ----------------------------------------------------------
+# -----------------------------------
+# FETCH MENU LOGIC
+# -----------------------------------
 
 def fetch_today_menu(restaurant, today_name):
     html = fetch_html(restaurant["url"])
@@ -138,19 +135,13 @@ def fetch_today_menu(restaurant, today_name):
     type_ = restaurant["type"]
     url = restaurant["url"].lower()
 
-    # --- Restaurant-specific rules ---
     if "makiata" in url:
         return parse_makiata_lauttasaari(soup, today_name)
-
     if "persilja" in url:
-        # Stop before uppercase "ERIKOIS LOUNAS" section
         return parse_div_snippet(soup, today_name, stop_after=["ERIKOIS", "ERIKOIS LOUNAS"])
-
     if "pisara" in url:
-        # Stop before uppercase "LISÄTIETOJA ALLERGEENEISTA"
         return parse_simple_p(soup, today_name, stop_after=["LISÄTIETOJA", "ALLERGEENEISTA"])
 
-    # --- Default type-based parsing ---
     if type_ == "table":
         return parse_table_menu(soup, today_name)
     elif type_ == "list":
@@ -163,9 +154,9 @@ def fetch_today_menu(restaurant, today_name):
         return "Menu type unknown"
 
 
-# ----------------------------------------------------------
-# Feed Builder
-# ----------------------------------------------------------
+# -----------------------------------
+# FEED GENERATION
+# -----------------------------------
 
 def build_feed():
     feed = []
@@ -180,8 +171,42 @@ def build_feed():
     return feed
 
 
+def save_feed(feed):
+    """Write both README.md and feed.xml files."""
+    date_str = datetime.today().strftime("%d.%m.%Y")
+
+    # --- README.md ---
+    with open("README.md", "w", encoding="utf-8") as f:
+        f.write(f"# 🍽️ Lauttasaari Lunch Menus — {date_str}\n\n")
+        f.write(f"### {today_name}\n\n")
+        for item in feed:
+            f.write(f"## {item['name']}\n")
+            f.write(f"**Opening hours:** {item['hours']}\n\n")
+            f.write("**Prices:**\n")
+            for k, v in item["prices"].items():
+                f.write(f"- {k}: {v}\n")
+            f.write(f"\n**{today_name} menu:**\n{item['menu']}\n\n---\n\n")
+
+    # --- feed.xml ---
+    with open("feed.xml", "w", encoding="utf-8") as f:
+        f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
+        f.write("<lunchFeed>\n")
+        f.write(f"  <date>{html.escape(date_str)}</date>\n")
+        f.write(f"  <day>{html.escape(today_name)}</day>\n")
+        for item in feed:
+            f.write("  <restaurant>\n")
+            f.write(f"    <name>{html.escape(item['name'])}</name>\n")
+            f.write(f"    <hours>{html.escape(item['hours'])}</hours>\n")
+            for k, v in item["prices"].items():
+                f.write(f"    <price name='{html.escape(k)}'>{html.escape(v)}</price>\n")
+            f.write(f"    <menu><![CDATA[{item['menu']}]]></menu>\n")
+            f.write("  </restaurant>\n")
+        f.write("</lunchFeed>\n")
+
+
 def update_feed():
     feed = build_feed()
+    save_feed(feed)
     for item in feed:
         print(f"--- {item['name']} ---")
         print(f"Opening hours: {item['hours']}")
