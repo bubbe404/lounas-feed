@@ -10,7 +10,7 @@ restaurants = [
     },
     {
         "name": "Telakka",
-        "url": "https://bistrotelakka.fi/lounas",
+        "url": "https://bistrotelakka.fi",
         "hours": "11:00–14:00",
         "prices": {"Buffet": "13,70€", "A la carte available": "–"},
         "type": "list"
@@ -24,14 +24,14 @@ restaurants = [
     },
     {
         "name": "Pisara",
-        "url": "https://pisara.fi/lounas",
+        "url": "https://ravintolapisara.fi/lounaslistat/lauttasaari",
         "hours": "11:00–14:00",
         "prices": {"Full lunch": "13,00€", "Soup": "11,50€"},
         "type": "simple_p"
     },
     {
         "name": "Casa Mare",
-        "url": "https://casamare.fi/lounas",
+        "url": "https://ravintolacasamare.fi/lounas",
         "hours": "11:00–14:00",
         "prices": {"Full lunch": "14,00€"},
         "type": "table"
