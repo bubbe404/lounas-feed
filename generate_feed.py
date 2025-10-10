@@ -1,9 +1,8 @@
-# generate_feed.py
-
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
 from restaurants import restaurants
+import xml.etree.ElementTree as ET
 
 WEEKDAYS = {
     0: "Maanantai",
@@ -17,16 +16,20 @@ today_index = datetime.today().weekday()
 today_name = WEEKDAYS.get(today_index, "")
 
 def fetch_html(url):
+    """Download HTML from the given restaurant URL."""
     resp = requests.get(url, timeout=10)
     resp.raise_for_status()
     return resp.text
 
 def parse_table_menu(soup, today_name):
     table = soup.find("table", class_="lunch-list-table")
-    if not table: return "Menu not found"
+    if not table:
+        return "Menu not found"
     for row in table.find_all("tr"):
         if today_name in row.text:
-            return row.find_all("td")[1].text.strip()
+            tds = row.find_all("td")
+            if len(tds) > 1:
+                return tds[1].text.strip()
     return "Menu not found"
 
 def parse_list_menu(soup, today_name):
@@ -64,43 +67,87 @@ def parse_simple_p(soup, today_name):
     return "\n".join(items) if items else "Menu not found"
 
 def fetch_today_menu(restaurant, today_name):
-    html = fetch_html(restaurant["url"])
-    soup = BeautifulSoup(html, "html.parser")
-    type_ = restaurant["type"]
+    """Fetch and parse the restaurant's menu for today."""
+    try:
+        html = fetch_html(restaurant["url"])
+        soup = BeautifulSoup(html, "html.parser")
+        type_ = restaurant["type"]
 
-    if type_ == "table":
-        return parse_table_menu(soup, today_name)
-    elif type_ == "list":
-        return parse_list_menu(soup, today_name)
-    elif type_ == "div_snippet":
-        return parse_div_snippet(soup, today_name)
-    elif type_ == "simple_p":
-        return parse_simple_p(soup, today_name)
-    else:
-        return "Menu type unknown"
+        if type_ == "table":
+            return parse_table_menu(soup, today_name)
+        elif type_ == "list":
+            return parse_list_menu(soup, today_name)
+        elif type_ == "div_snippet":
+            return parse_div_snippet(soup, today_name)
+        elif type_ == "simple_p":
+            return parse_simple_p(soup, today_name)
+        else:
+            return "Menu type unknown"
+    except Exception as e:
+        print(f"⚠️ Error fetching {restaurant['name']}: {e}")
+        return "Menu not found"
 
 def build_feed():
+    """Build a list of restaurants and their menus."""
     feed = []
     for r in restaurants:
         menu = fetch_today_menu(r, today_name)
-        feed.append({
-            "name": r["name"],
-            "hours": r["hours"],
-            "prices": r["prices"],
-            "menu": menu
-        })
+        if menu != "Menu not found":
+            feed.append({
+                "name": r["name"],
+                "hours": r["hours"],
+                "prices": r["prices"],
+                "menu": menu
+            })
+        else:
+            print(f"ℹ️ Skipping {r['name']} (no menu found for {today_name})")
     return feed
 
-def update_feed():
-    feed = build_feed()
-    # Replace this with your feed saving mechanism (JSON, RSS, etc.)
+def save_feed_xml(feed):
+    """Save feed to feed.xml."""
+    root = ET.Element("restaurants")
     for item in feed:
-        print(f"--- {item['name']} ---")
-        print(f"Opening hours: {item['hours']}")
-        print("Prices:")
+        rest_el = ET.SubElement(root, "restaurant", name=item["name"])
+        ET.SubElement(rest_el, "hours").text = item["hours"]
+        prices_el = ET.SubElement(rest_el, "prices")
         for k, v in item["prices"].items():
-            print(f"  {k}: {v}")
-        print(f"{today_name} menu:\n{item['menu']}\n")
+            ET.SubElement(prices_el, "price", type=k).text = v
+        ET.SubElement(rest_el, "menu", day=today_name).text = item["menu"]
+
+    tree = ET.ElementTree(root)
+    tree.write("feed.xml", encoding="utf-8", xml_declaration=True)
+    print("✅ feed.xml saved successfully")
+
+def save_readme(feed):
+    """Generate a readable Markdown summary of today’s menus."""
+    lines = [
+        "# 🍽️ Lunch Menus for Today\n",
+        f"**Date:** {datetime.today().strftime('%A, %d %B %Y')} ({today_name})\n"
+    ]
+    for item in feed:
+        lines.append(f"## {item['name']}\n")
+        lines.append(f"**Opening hours:** {item['hours']}\n")
+        lines.append("**Prices:**")
+        for k, v in item["prices"].items():
+            lines.append(f"- {k}: {v}")
+        lines.append("\n**Today's Menu:**\n")
+        lines.append(f"{item['menu']}\n")
+        lines.append("---\n")
+
+    with open("README.md", "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+
+    print("✅ README.md updated successfully")
+
+def update_feed():
+    print("⏳ Building today's feed...")
+    feed = build_feed()
+    if not feed:
+        print("❌ No menus found for any restaurant today. Skipping file generation.")
+        return
+    save_feed_xml(feed)
+    save_readme(feed)
+    print("🎉 Feed generation completed successfully!")
 
 if __name__ == "__main__":
     update_feed()
