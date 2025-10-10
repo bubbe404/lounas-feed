@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<restaurants><restaurant name="Makiata"><hours>11:00–13:00</hours><prices><price type="Buffet">13,70€</price><price type="Soup">12,70€</price></prices><menu day="Perjantai">Kebab ja riisiä l,g, Vebab ja riisiä l,</menu></restaurant><restaurant name="Bistro Telakka"><hours>11:00–14:00</hours><prices><price type="Buffet">13,70€</price></prices><menu day="Perjantai">Burger Buffet – kokoa oma hampurilaisesi L
+<restaurants><restaurant name="Makiata"><hours>11:00–13:00</hours><prices><price type="Buffet">13,70€</price><price type="Soup">12,70€</price></prices><menu day="Perjantai">Crispy chicken &amp; makaronijuustopaistos, porkkanaa l, Paistettua tofua l, Punajuurisosekeittoa &amp; fetamurua</menu></restaurant><restaurant name="Bistro Telakka"><hours>11:00–14:00</hours><prices><price type="Buffet">13,70€</price></prices><menu day="Perjantai">Burger Buffet – kokoa oma hampurilaisesi L
 Naudan täyslihapihvejä (Suomi) ja pekonia, kasvis pihvejä VEG, sämpylöitä &amp; lisukkeet</menu></restaurant><restaurant name="Persilja"><hours>10:30–15:00</hours><prices><price type="Buffet">13,70€</price></prices><menu day="Perjantai">klo 10.30-15.00
 BUFFET  13,70
 SENIORIT  12,50
@@ -40,12 +40,12 @@ PÄIVÄN PIZZA  L  12,90
 ​
 KÄYTÄMME  KOTIMAAN JA EU ALUEN LIHAA.
 Kysy ruoka-aineallergioista henkilökunnalta
-​</menu></restaurant><restaurant name="Pisara"><hours>10:30-14:00</hours><prices><price type="Buffet">13,00€</price><price type="House lunch">12,00€</price><price type="Soup">11,50€</price></prices><menu day="Perjantai">Koskenlaskija-kasvissosekeittoa L,G
-Porsaan leikettä L &amp; kantarellikastiketta L,G ja lohkoperunoita Ve,G
-Kotimaista vuohenjuustokanaa L,G (FI)
-Munakoiso-neulapapumuhennos Ve,G
+​</menu></restaurant><restaurant name="Pisara"><hours>10:30-14:00</hours><prices><price type="Buffet">13,00€</price><price type="House lunch">12,00€</price><price type="Soup">11,50€</price></prices><menu day="Perjantai">Tomaatti-basilikakeitto Ve,G
+Sweet &amp; sour-kanaa M,G
+Jauhelihalasagne L (FI)
+Hernis-kasvismuhennos Ve,G &amp; riisipilahvia Ve,G
 Runsas salaattipöytä
-Lisätietoja allergeeneista henkilökunnalta
+LISÄTIETOJA ALLERGEENEISTA HENKILÖKUNNALTA
 Käpylä
 Mäkelänkatu 87
 00610 Helsinki
@@ -74,4 +74,9 @@ Sopimusruokailu, rekrytointi ja laskutus:
 Sami Vähäsoini
 040 775 8475
 sami@ravintolapisara.fi
-Oiva-raportit:</menu></restaurant></restaurants>
+Oiva-raportit:</menu></restaurant><restaurant name="Casa Mare"><hours>11:00–14:00</hours><prices><price type="Buffet">13,70€</price></prices><menu day="Perjantai">Mausteista naudanjauhelihaa (L, G)
+Tex-mex soijarouhekastiketta (V, M, G)
+Valikoima erilaisia tortilla täytteitä
+Tortilloja (L) saatavana myös gluteenittomana
+Mustajuurikeitto kylmäsavulohella (L, G)
+Kysy lounaan vegaanista vaihtoehtoa tarjoilijalta</menu></restaurant></restaurants>

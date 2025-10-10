@@ -12,7 +12,7 @@
 
 **Today's Menu:**
 
-Kebab ja riisiä l,g, Vebab ja riisiä l,
+Crispy chicken & makaronijuustopaistos, porkkanaa l, Paistettua tofua l, Punajuurisosekeittoa & fetamurua
 
 ---
 
@@ -94,12 +94,12 @@ Kysy ruoka-aineallergioista henkilökunnalta
 
 **Today's Menu:**
 
-Koskenlaskija-kasvissosekeittoa L,G
-Porsaan leikettä L & kantarellikastiketta L,G ja lohkoperunoita Ve,G
-Kotimaista vuohenjuustokanaa L,G (FI)
-Munakoiso-neulapapumuhennos Ve,G
+Tomaatti-basilikakeitto Ve,G
+Sweet & sour-kanaa M,G
+Jauhelihalasagne L (FI)
+Hernis-kasvismuhennos Ve,G & riisipilahvia Ve,G
 Runsas salaattipöytä
-Lisätietoja allergeeneista henkilökunnalta
+LISÄTIETOJA ALLERGEENEISTA HENKILÖKUNNALTA
 Käpylä
 Mäkelänkatu 87
 00610 Helsinki
@@ -129,5 +129,23 @@ Sami Vähäsoini
 040 775 8475
 sami@ravintolapisara.fi
 Oiva-raportit:
+
+---
+
+## Casa Mare
+
+**Opening hours:** 11:00–14:00
+
+**Prices:**
+- Buffet: 13,70€
+
+**Today's Menu:**
+
+Mausteista naudanjauhelihaa (L, G)
+Tex-mex soijarouhekastiketta (V, M, G)
+Valikoima erilaisia tortilla täytteitä
+Tortilloja (L) saatavana myös gluteenittomana
+Mustajuurikeitto kylmäsavulohella (L, G)
+Kysy lounaan vegaanista vaihtoehtoa tarjoilijalta
 
 ---
