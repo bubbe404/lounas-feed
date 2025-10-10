@@ -21,8 +21,9 @@ Menu not found
 - Buffet: 13,70€
 
 **Perjantai menu:**
-• Burger Buffet – kokoa oma hampurilaisesi L
-• Naudan täyslihapihvejä (Suomi) ja pekonia, kasvis pihvejä VEG, sämpylöitä & lisukkeet
+• Burger Buffet – kokoa oma hampurilaisesi L  
+• Naudan täyslihapihvejä (Suomi) ja pekonia, kasvis pihvejä VEG, sämpylöitä & lisukkeet  
+
 
 ---
 
@@ -33,47 +34,48 @@ Menu not found
 - Buffet: 13,70€
 
 **Perjantai menu:**
-• klo 10.30-15.00
+• klo 10.30-15.00  
 • BUFFET  13,70
-SENIORIT  12,50
-• ​
+SENIORIT  12,50  
+• ​  
 • FETA-PINAATTIKEITTO G,M
 talon uunituore leipä    
-TALON BURGERIT L,G
-• naudan jauhelihapihvit, cheddarjuusto, salaati, tomaatti, burgerkastike
-• CASHEWKANAA L,G
-• broilerin rintafile, cashewpähkinät, kerma, paprika, soijakastike, mausteet
-• KUKKAKAALIGRATIINI L,G
-• kasvisruoka
-• ​
-• TALON OMA KEBABLIHA L,G​​
-• PIZZA PÖYTÄ.
-• ​
+TALON BURGERIT L,G  
+• naudan jauhelihapihvit, cheddarjuusto, salaati, tomaatti, burgerkastike  
+• CASHEWKANAA L,G  
+• broilerin rintafile, cashewpähkinät, kerma, paprika, soijakastike, mausteet  
+• KUKKAKAALIGRATIINI L,G  
+• kasvisruoka  
+• ​  
+• TALON OMA KEBABLIHA L,G​​  
+• PIZZA PÖYTÄ.  
+• ​  
 • LISUKKEET
-riisi, perunaa, kasvikset,
+riisi, perunaa, kasvikset,  
 • meze tyylinen salaatti-buffet, 
-pasta
-• JÄLKIRUOKA
-• talon täytekakku, kahvi, tee
-• MUUT LOUNAS ANNOKSET
-• SALAATTI- / KEITTOLOUNAS  11,50
-• ​
-• LEHTIPIHVI  L, G    17,90
-• PASTA  CARBONARA ( L)  13,90
-• pekoni, kerma, kananmuna keltuainen, mustapippuri
+pasta  
+• JÄLKIRUOKA  
+• talon täytekakku, kahvi, tee  
+• MUUT LOUNAS ANNOKSET  
+• SALAATTI- / KEITTOLOUNAS  11,50  
+• ​  
+• LEHTIPIHVI  L, G    17,90  
+• PASTA  CARBONARA ( L)  13,90  
+• pekoni, kerma, kananmuna keltuainen, mustapippuri  
 • PASTA  CON RAGU( L)  13,90
-jauheliha, aurajuusto, chili, kermakastke
-• PÄIVÄN KALA L, G  16,90
-• päivän kala, riisi tai peruunat, kasvikset, vinegrettakastike
-• FALAFEL RIISILLÄ L, G  11,90
-• PÄIVÄN  SALAATTI  L, G  12,90
-• 3 täytettä valintasi mukaan
-• PÄIVÄN PIZZA  L  12,90
-• 3 täytettä valintasi mukaan
-• ​
-• KÄYTÄMME  KOTIMAAN JA EU ALUEN LIHAA.
-• Kysy ruoka-aineallergioista henkilökunnalta
-• ​
+jauheliha, aurajuusto, chili, kermakastke  
+• PÄIVÄN KALA L, G  16,90  
+• päivän kala, riisi tai peruunat, kasvikset, vinegrettakastike  
+• FALAFEL RIISILLÄ L, G  11,90  
+• PÄIVÄN  SALAATTI  L, G  12,90  
+• 3 täytettä valintasi mukaan  
+• PÄIVÄN PIZZA  L  12,90  
+• 3 täytettä valintasi mukaan  
+• ​  
+• KÄYTÄMME  KOTIMAAN JA EU ALUEN LIHAA.  
+• Kysy ruoka-aineallergioista henkilökunnalta  
+• ​  
+
 
 ---
 
@@ -86,11 +88,12 @@ jauheliha, aurajuusto, chili, kermakastke
 - Soup: 11,50€
 
 **Perjantai menu:**
-• Tomaatti-basilikakeitto Ve,G
-• Sweet & sour-kanaa M,G
-• Jauhelihalasagne L (FI)
-• Hernis-kasvismuhennos Ve,G & riisipilahvia Ve,G
-• Runsas salaattipöytä
+• Tomaatti-basilikakeitto Ve,G  
+• Sweet & sour-kanaa M,G  
+• Jauhelihalasagne L (FI)  
+• Hernis-kasvismuhennos Ve,G & riisipilahvia Ve,G  
+• Runsas salaattipöytä  
+
 
 ---
 
@@ -101,12 +104,13 @@ jauheliha, aurajuusto, chili, kermakastke
 - Buffet: 13,70€
 
 **Perjantai menu:**
-• Mausteista naudanjauhelihaa (L, G)
-• Tex-mex soijarouhekastiketta (V, M, G)
-• Valikoima erilaisia tortilla täytteitä
-• Tortilloja (L) saatavana myös gluteenittomana
-• Mustajuurikeitto kylmäsavulohella (L, G)
-• Kysy lounaan vegaanista vaihtoehtoa tarjoilijalta
+• Mausteista naudanjauhelihaa (L, G)  
+• Tex-mex soijarouhekastiketta (V, M, G)  
+• Valikoima erilaisia tortilla täytteitä  
+• Tortilloja (L) saatavana myös gluteenittomana  
+• Mustajuurikeitto kylmäsavulohella (L, G)  
+• Kysy lounaan vegaanista vaihtoehtoa tarjoilijalta  
+
 
 ---
 
