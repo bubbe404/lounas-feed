@@ -17,17 +17,35 @@ today_index = datetime.today().weekday()
 today_name = WEEKDAYS.get(today_index, "")
 
 
+# ----------------------------------------------------------
+# Helpers
+# ----------------------------------------------------------
+
 def fetch_html(url):
     resp = requests.get(url, timeout=10)
     resp.raise_for_status()
     return resp.text
 
 
-def clean_menu_text(text):
-    """Cleans up text and formats as bullet list."""
-    lines = [line.strip() for line in text.splitlines() if line.strip()]
-    return "• " + "\n• ".join(lines)
+def clean_menu_items(items):
+    """Turn a list of text lines into a bullet list with line breaks."""
+    cleaned = [line.strip() for line in items if line.strip()]
+    if not cleaned:
+        return "Menu not found"
+    return "• " + "\n• ".join(cleaned)
 
+
+def contains_stop(text, stop_after):
+    """Case-insensitive check for stop keywords."""
+    if not text:
+        return False
+    lower_text = text.lower()
+    return any(stop.lower() in lower_text for stop in stop_after or [])
+
+
+# ----------------------------------------------------------
+# Parsers
+# ----------------------------------------------------------
 
 def parse_table_menu(soup, today_name):
     table = soup.find("table", class_="lunch-list-table")
@@ -35,20 +53,20 @@ def parse_table_menu(soup, today_name):
         return "Menu not found"
     for row in table.find_all("tr"):
         if today_name in row.text:
-            return clean_menu_text(row.find_all("td")[1].text)
+            return clean_menu_items([row.find_all("td")[1].text])
     return "Menu not found"
 
 
 def parse_list_menu(soup, today_name):
     for li in soup.find_all("li", class_="menu-group-item"):
         if today_name.lower() in li.text.lower():
-            items = [p.text.strip() for p in li.find_all("p") if p.text.strip()]
-            return clean_menu_text("\n".join(items))
+            items = [p.text for p in li.find_all("p")]
+            return clean_menu_items(items)
     return "Menu not found"
 
 
 def parse_div_snippet(soup, today_name, stop_after=None):
-    """Used for restaurants like Persilja, Casa Mare."""
+    """Generic parser for div/p-based structures."""
     for p in soup.find_all("p"):
         if today_name in p.text:
             items = []
@@ -58,17 +76,16 @@ def parse_div_snippet(soup, today_name, stop_after=None):
                 if not text:
                     next_sib = next_sib.find_next_sibling("p")
                     continue
-                # Stop before irrelevant sections
-                if stop_after and any(stop.lower() in text.lower() for stop in stop_after):
+                if contains_stop(text, stop_after):
                     break
                 items.append(text)
                 next_sib = next_sib.find_next_sibling("p")
-            return clean_menu_text("\n".join(items))
+            return clean_menu_items(items)
     return "Menu not found"
 
 
 def parse_simple_p(soup, today_name, stop_after=None):
-    """Used for restaurants like Pisara."""
+    """Simple p-based section parser (like Pisara)."""
     sections = soup.find_all("p")
     capture = False
     items = []
@@ -80,23 +97,60 @@ def parse_simple_p(soup, today_name, stop_after=None):
         if capture:
             if any(day in text for day in WEEKDAYS.values()):
                 break
-            if stop_after and any(stop.lower() in text.lower() for stop in stop_after):
+            if contains_stop(text, stop_after):
                 break
             if text:
                 items.append(text)
-    return clean_menu_text("\n".join(items)) if items else "Menu not found"
+    return clean_menu_items(items)
 
+
+# ----------------------------------------------------------
+# Special Case Parsers
+# ----------------------------------------------------------
+
+def parse_makiata_lauttasaari(soup, today_name):
+    """Extract only Lauttasaari menu section."""
+    items = []
+    start = soup.find(lambda tag: tag.name == "p" and "Lauttasaari" in tag.text)
+    if not start:
+        return "Menu not found"
+    next_sib = start.find_next_sibling("p")
+    while next_sib:
+        text = next_sib.text.strip()
+        # Stop when Haaga or another section begins
+        if any(x in text for x in ["Haaga", "Espoo", "Otaniemi"]):
+            break
+        if any(day in text for day in WEEKDAYS.values()):
+            break
+        if text:
+            items.append(text)
+        next_sib = next_sib.find_next_sibling("p")
+    return clean_menu_items(items)
+
+
+# ----------------------------------------------------------
+# Dispatcher
+# ----------------------------------------------------------
 
 def fetch_today_menu(restaurant, today_name):
     html = fetch_html(restaurant["url"])
     soup = BeautifulSoup(html, "html.parser")
     type_ = restaurant["type"]
+    url = restaurant["url"].lower()
 
-    # Handle special cases
-    if "persilja" in restaurant["url"]:
-        return parse_div_snippet(soup, today_name, stop_after=["à la carte", "A la carte"])
-    if "pisara" in restaurant["url"]:
-        return parse_simple_p(soup, today_name, stop_after=["Lisätietoja allergeeneista"])
+    # --- Restaurant-specific rules ---
+    if "makiata" in url:
+        return parse_makiata_lauttasaari(soup, today_name)
+
+    if "persilja" in url:
+        # Stop before uppercase "ERIKOIS LOUNAS" section
+        return parse_div_snippet(soup, today_name, stop_after=["ERIKOIS", "ERIKOIS LOUNAS"])
+
+    if "pisara" in url:
+        # Stop before uppercase "LISÄTIETOJA ALLERGEENEISTA"
+        return parse_simple_p(soup, today_name, stop_after=["LISÄTIETOJA", "ALLERGEENEISTA"])
+
+    # --- Default type-based parsing ---
     if type_ == "table":
         return parse_table_menu(soup, today_name)
     elif type_ == "list":
@@ -108,6 +162,10 @@ def fetch_today_menu(restaurant, today_name):
     else:
         return "Menu type unknown"
 
+
+# ----------------------------------------------------------
+# Feed Builder
+# ----------------------------------------------------------
 
 def build_feed():
     feed = []
