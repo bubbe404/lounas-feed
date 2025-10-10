@@ -1,4 +1,77 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Lauttasaari Lunch Feed</title><link>https://bubbe404.github.io/lounas-feed/lounas_feed.xml</link><description>Daily lunch menus for Lauttasaari restaurants</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><lastBuildDate>Thu, 09 Oct 2025 17:13:29 +0000</lastBuildDate><item><title>Bistro Telakka</title><description>&lt;b&gt;Opening hours:&lt;/b&gt; Mon–Fri 11:00–14:00&lt;br&gt;Menu not available today.</description><pubDate>Thu, 09 Oct 2025 17:13:39 +0000</pubDate></item><item><title>Persilja</title><description>&lt;b&gt;Opening hours:&lt;/b&gt; Mon–Fri 11:00–14:00&lt;br&gt;Menu not available today.</description><pubDate>Thu, 09 Oct 2025 17:13:37 +0000</pubDate></item><item><title>Pisara</title><description>&lt;b&gt;Opening hours:&lt;/b&gt; Mon–Fri 11:00–14:00&lt;br&gt;Menu not available today.</description><pubDate>Thu, 09 Oct 2025 17:13:37 +0000</pubDate></item><item><title>Makiata Lauttasaari</title><description>&lt;b&gt;Opening hours:&lt;/b&gt; Mon–Fri 11:00–14:00&lt;br&gt;Lounas arkisin klo 11.00 – 13.30&lt;br&gt;Keittolounas + leipä
-12,50 €&lt;br&gt;Lounas + salaatti + leipä
-13,50€&lt;br&gt;Aino Acktén tie 8, Helsinki — Kartta</description><pubDate>Thu, 09 Oct 2025 17:13:35 +0000</pubDate></item><item><title>Casa Mare</title><description>&lt;b&gt;Opening hours:&lt;/b&gt; Mon–Fri 11:00–14:00&lt;br&gt;Menu not available today.</description><pubDate>Thu, 09 Oct 2025 17:13:33 +0000</pubDate></item></channel></rss>
+<?xml version='1.0' encoding='utf-8'?>
+<restaurants><restaurant name="Makiata"><hours>11:00–13:00</hours><prices><price type="Buffet">13,70€</price><price type="Soup">12,70€</price></prices><menu day="Perjantai">Kebab ja riisiä l,g, Vebab ja riisiä l,</menu></restaurant><restaurant name="Bistro Telakka"><hours>11:00–14:00</hours><prices><price type="Buffet">13,70€</price></prices><menu day="Perjantai">Burger Buffet – kokoa oma hampurilaisesi L
+Naudan täyslihapihvejä (Suomi) ja pekonia, kasvis pihvejä VEG, sämpylöitä &amp; lisukkeet</menu></restaurant><restaurant name="Persilja"><hours>10:30–15:00</hours><prices><price type="Buffet">13,70€</price></prices><menu day="Perjantai">klo 10.30-15.00
+BUFFET  13,70
+SENIORIT  12,50
+​
+FETA-PINAATTIKEITTO G,M
+talon uunituore leipä    
+TALON BURGERIT L,G
+naudan jauhelihapihvit, cheddarjuusto, salaati, tomaatti, burgerkastike
+CASHEWKANAA L,G
+broilerin rintafile, cashewpähkinät, kerma, paprika, soijakastike, mausteet
+KUKKAKAALIGRATIINI L,G
+kasvisruoka
+​
+TALON OMA KEBABLIHA L,G​​
+PIZZA PÖYTÄ.
+​
+LISUKKEET
+riisi, perunaa, kasvikset,
+meze tyylinen salaatti-buffet, 
+pasta
+JÄLKIRUOKA
+talon täytekakku, kahvi, tee
+MUUT LOUNAS ANNOKSET
+SALAATTI- / KEITTOLOUNAS  11,50
+​
+LEHTIPIHVI  L, G    17,90
+PASTA  CARBONARA ( L)  13,90
+pekoni, kerma, kananmuna keltuainen, mustapippuri
+PASTA  CON RAGU( L)  13,90
+jauheliha, aurajuusto, chili, kermakastke
+PÄIVÄN KALA L, G  16,90
+päivän kala, riisi tai peruunat, kasvikset, vinegrettakastike
+FALAFEL RIISILLÄ L, G  11,90
+PÄIVÄN  SALAATTI  L, G  12,90
+3 täytettä valintasi mukaan
+PÄIVÄN PIZZA  L  12,90
+3 täytettä valintasi mukaan
+​
+KÄYTÄMME  KOTIMAAN JA EU ALUEN LIHAA.
+Kysy ruoka-aineallergioista henkilökunnalta
+​</menu></restaurant><restaurant name="Pisara"><hours>10:30-14:00</hours><prices><price type="Buffet">13,00€</price><price type="House lunch">12,00€</price><price type="Soup">11,50€</price></prices><menu day="Perjantai">Koskenlaskija-kasvissosekeittoa L,G
+Porsaan leikettä L &amp; kantarellikastiketta L,G ja lohkoperunoita Ve,G
+Kotimaista vuohenjuustokanaa L,G (FI)
+Munakoiso-neulapapumuhennos Ve,G
+Runsas salaattipöytä
+Lisätietoja allergeeneista henkilökunnalta
+Käpylä
+Mäkelänkatu 87
+00610 Helsinki
+Puh: 050 501 7486
+kapyla@ravintolapisara.fi
+Lauttasaari
+Itälahdenkatu 22 A
+00210 Helsinki
+Puh: 050 551 4333
+lauttasaari@ravintolapisara.fi
+Masala
+Eteläinen Salmitie 1
+02430 Masala
+Puh: 050 531 0030
+masala@ravintolapisara.fi
+Stansvik
+Stansvikintie 1
+00590 Helsinki
+Puh: 050 563 4828
+stansvik@ravintolapisara.fi
+Käpylä klo: 11.00 – 14.00
+Lauttasaari klo: 10.30 – 14.00
+Masala klo: 10.30 – 13.30
+Stansvik klo: 10.30 – 14.00
+Sopimusruokailu, rekrytointi ja laskutus:
+Sami Vähäsoini
+040 775 8475
+sami@ravintolapisara.fi
+Oiva-raportit:</menu></restaurant></restaurants>

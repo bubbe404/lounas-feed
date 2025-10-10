@@ -1,43 +1,133 @@
-# Lauttasaari Lunch Feed
+# 🍽️ Lunch Menus for Today
 
-Today's lunch menus (generated automatically):
+**Date:** Friday, 10 October 2025 (Perjantai)
 
-[![RSS Feed](https://img.shields.io/badge/RSS-Lounas%20Feed-orange)](https://bubbe404.github.io/lounas-feed/lounas_feed.xml)
+## Makiata
 
-*(Last updated: 2025-10-09 17:13 UTC)*
+**Opening hours:** 11:00–13:00
+
+**Prices:**
+- Buffet: 13,70€
+- Soup: 12,70€
+
+**Today's Menu:**
+
+Kebab ja riisiä l,g, Vebab ja riisiä l,
+
+---
 
 ## Bistro Telakka
 
-**Opening hours:** Mon–Fri 11:00–14:00
+**Opening hours:** 11:00–14:00
 
-- Menu not available today.
+**Prices:**
+- Buffet: 13,70€
+
+**Today's Menu:**
+
+Burger Buffet – kokoa oma hampurilaisesi L
+Naudan täyslihapihvejä (Suomi) ja pekonia, kasvis pihvejä VEG, sämpylöitä & lisukkeet
+
+---
 
 ## Persilja
 
-**Opening hours:** Mon–Fri 11:00–14:00
+**Opening hours:** 10:30–15:00
 
-- Menu not available today.
+**Prices:**
+- Buffet: 13,70€
+
+**Today's Menu:**
+
+klo 10.30-15.00
+BUFFET  13,70
+SENIORIT  12,50
+​
+FETA-PINAATTIKEITTO G,M
+talon uunituore leipä    
+TALON BURGERIT L,G
+naudan jauhelihapihvit, cheddarjuusto, salaati, tomaatti, burgerkastike
+CASHEWKANAA L,G
+broilerin rintafile, cashewpähkinät, kerma, paprika, soijakastike, mausteet
+KUKKAKAALIGRATIINI L,G
+kasvisruoka
+​
+TALON OMA KEBABLIHA L,G​​
+PIZZA PÖYTÄ.
+​
+LISUKKEET
+riisi, perunaa, kasvikset,
+meze tyylinen salaatti-buffet, 
+pasta
+JÄLKIRUOKA
+talon täytekakku, kahvi, tee
+MUUT LOUNAS ANNOKSET
+SALAATTI- / KEITTOLOUNAS  11,50
+​
+LEHTIPIHVI  L, G    17,90
+PASTA  CARBONARA ( L)  13,90
+pekoni, kerma, kananmuna keltuainen, mustapippuri
+PASTA  CON RAGU( L)  13,90
+jauheliha, aurajuusto, chili, kermakastke
+PÄIVÄN KALA L, G  16,90
+päivän kala, riisi tai peruunat, kasvikset, vinegrettakastike
+FALAFEL RIISILLÄ L, G  11,90
+PÄIVÄN  SALAATTI  L, G  12,90
+3 täytettä valintasi mukaan
+PÄIVÄN PIZZA  L  12,90
+3 täytettä valintasi mukaan
+​
+KÄYTÄMME  KOTIMAAN JA EU ALUEN LIHAA.
+Kysy ruoka-aineallergioista henkilökunnalta
+​
+
+---
 
 ## Pisara
 
-**Opening hours:** Mon–Fri 11:00–14:00
+**Opening hours:** 10:30-14:00
 
-- Menu not available today.
+**Prices:**
+- Buffet: 13,00€
+- House lunch: 12,00€
+- Soup: 11,50€
 
-## Makiata Lauttasaari
+**Today's Menu:**
 
-**Opening hours:** Mon–Fri 11:00–14:00
+Koskenlaskija-kasvissosekeittoa L,G
+Porsaan leikettä L & kantarellikastiketta L,G ja lohkoperunoita Ve,G
+Kotimaista vuohenjuustokanaa L,G (FI)
+Munakoiso-neulapapumuhennos Ve,G
+Runsas salaattipöytä
+Lisätietoja allergeeneista henkilökunnalta
+Käpylä
+Mäkelänkatu 87
+00610 Helsinki
+Puh: 050 501 7486
+kapyla@ravintolapisara.fi
+Lauttasaari
+Itälahdenkatu 22 A
+00210 Helsinki
+Puh: 050 551 4333
+lauttasaari@ravintolapisara.fi
+Masala
+Eteläinen Salmitie 1
+02430 Masala
+Puh: 050 531 0030
+masala@ravintolapisara.fi
+Stansvik
+Stansvikintie 1
+00590 Helsinki
+Puh: 050 563 4828
+stansvik@ravintolapisara.fi
+Käpylä klo: 11.00 – 14.00
+Lauttasaari klo: 10.30 – 14.00
+Masala klo: 10.30 – 13.30
+Stansvik klo: 10.30 – 14.00
+Sopimusruokailu, rekrytointi ja laskutus:
+Sami Vähäsoini
+040 775 8475
+sami@ravintolapisara.fi
+Oiva-raportit:
 
-- Lounas arkisin klo 11.00 – 13.30
-- Keittolounas + leipä
-- 12,50 €
-- Lounas + salaatti + leipä
-- 13,50€
-- Aino Acktén tie 8, Helsinki — Kartta
-
-## Casa Mare
-
-**Opening hours:** Mon–Fri 11:00–14:00
-
-- Menu not available today.
-
+---
