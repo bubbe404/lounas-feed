@@ -21,48 +21,7 @@
     <name>Persilja</name>
     <hours>10:30–15:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• klo 10.30-15.00  
-• BUFFET  13,70
-SENIORIT  12,50  
-• ​  
-• FETA-PINAATTIKEITTO G,M
-talon uunituore leipä    
-TALON BURGERIT L,G  
-• naudan jauhelihapihvit, cheddarjuusto, salaati, tomaatti, burgerkastike  
-• CASHEWKANAA L,G  
-• broilerin rintafile, cashewpähkinät, kerma, paprika, soijakastike, mausteet  
-• KUKKAKAALIGRATIINI L,G  
-• kasvisruoka  
-• ​  
-• TALON OMA KEBABLIHA L,G​​  
-• PIZZA PÖYTÄ.  
-• ​  
-• LISUKKEET
-riisi, perunaa, kasvikset,  
-• meze tyylinen salaatti-buffet, 
-pasta  
-• JÄLKIRUOKA  
-• talon täytekakku, kahvi, tee  
-• MUUT LOUNAS ANNOKSET  
-• SALAATTI- / KEITTOLOUNAS  11,50  
-• ​  
-• LEHTIPIHVI  L, G    17,90  
-• PASTA  CARBONARA ( L)  13,90  
-• pekoni, kerma, kananmuna keltuainen, mustapippuri  
-• PASTA  CON RAGU( L)  13,90
-jauheliha, aurajuusto, chili, kermakastke  
-• PÄIVÄN KALA L, G  16,90  
-• päivän kala, riisi tai peruunat, kasvikset, vinegrettakastike  
-• FALAFEL RIISILLÄ L, G  11,90  
-• PÄIVÄN  SALAATTI  L, G  12,90  
-• 3 täytettä valintasi mukaan  
-• PÄIVÄN PIZZA  L  12,90  
-• 3 täytettä valintasi mukaan  
-• ​  
-• KÄYTÄMME  KOTIMAAN JA EU ALUEN LIHAA.  
-• Kysy ruoka-aineallergioista henkilökunnalta  
-• ​  
-]]></menu>
+    <menu><![CDATA[Menu not found]]></menu>
   </restaurant>
   <restaurant>
     <name>Pisara</name>
@@ -81,12 +40,6 @@ jauheliha, aurajuusto, chili, kermakastke
     <name>Casa Mare</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Mausteista naudanjauhelihaa (L, G)  
-• Tex-mex soijarouhekastiketta (V, M, G)  
-• Valikoima erilaisia tortilla täytteitä  
-• Tortilloja (L) saatavana myös gluteenittomana  
-• Mustajuurikeitto kylmäsavulohella (L, G)  
-• Kysy lounaan vegaanista vaihtoehtoa tarjoilijalta  
-]]></menu>
+    <menu><![CDATA[Menu not found]]></menu>
   </restaurant>
 </lunchFeed>
