@@ -34,6 +34,6 @@ restaurants = [
         "url": "https://www.ravintolacasamare.com/lounas/",
         "hours": "11:00–14:00",
         "prices": {"Buffet": "13,70€"},
-        "type": "table"
+        "type": "div_snippet"
     }
 ]
