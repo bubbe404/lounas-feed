@@ -1,7 +1,7 @@
 # generate_feed.py
 import requests
 from bs4 import BeautifulSoup
-from datetime import datetime, date
+from datetime import datetime
 from restaurants import restaurants
 import html
 import re
@@ -32,9 +32,7 @@ def fetch_html(url):
 
 
 def clean_menu_items(items):
-    """Format items into Markdown bullets with proper line breaks.
-    Each bullet ends with two spaces + newline so Markdown renders a line break.
-    """
+    """Format items into Markdown bullets with proper line breaks."""
     cleaned = [line.strip() for line in items if line and line.strip()]
     if not cleaned:
         return "Menu not found"
@@ -42,7 +40,6 @@ def clean_menu_items(items):
 
 
 def contains_stop(text, stop_after):
-    """Case-insensitive stop word check."""
     if not text or not stop_after:
         return False
     lower_text = text.lower()
@@ -50,25 +47,9 @@ def contains_stop(text, stop_after):
 
 
 def first_stop_index(text, stop_after):
-    """Return earliest index where any stop word appears (case-insensitive), or -1."""
     lower_text = text.lower()
     idxs = [lower_text.find(stop.lower()) for stop in (stop_after or []) if lower_text.find(stop.lower()) != -1]
     return min(idxs) if idxs else -1
-
-
-def parse_date_range_from_text(text):
-    """Try to extract a start/end date from texts like '6.10.-10.10.2025' or '6.10. - 10.10.2025'."""
-    # Extract all numbers
-    nums = re.findall(r"\d+", text)
-    try:
-        if len(nums) >= 5:
-            sd, sm, ed, em, ey = map(int, nums[:5])
-            start = date(ey, sm, sd)
-            end = date(ey, em, ed)
-            return start, end
-    except Exception:
-        pass
-    return None, None
 
 
 # -----------------------------------
@@ -86,7 +67,6 @@ def parse_table_menu(soup, today_name):
         day_text = cols[0].get_text(" ", strip=True)
         if today_name.lower() in day_text.lower():
             menu_text = cols[1].get_text(separator="\n", strip=True)
-            # split on commas and newlines to get items
             items = [it.strip() for part in re.split(r"\n|,", menu_text) for it in [part] if it.strip()]
             return clean_menu_items(items)
     return "Menu not found"
@@ -103,9 +83,8 @@ def parse_list_menu(soup, today_name):
 
 
 def parse_div_snippet(soup, today_name, stop_after=None):
-    """Scan siblings of the <p> that contains the weekday; stop on any element containing stop keywords."""
+    """For Persilja: stops before 'ERIKOIS...' section."""
     for p in soup.find_all():
-        # consider any tag as candidate; but usually it's <p> with weekday
         if p.name and today_name in p.get_text(" ", strip=True):
             items = []
             sib = p.find_next_sibling()
@@ -114,13 +93,11 @@ def parse_div_snippet(soup, today_name, stop_after=None):
                 if not text:
                     sib = sib.find_next_sibling()
                     continue
-                # stop if next weekday header encountered
                 if any(day in text for day in WEEKDAYS.values()):
                     break
-                # stop if stop word appears in this sibling; if so, append the portion before stop
                 if stop_after and contains_stop(text, stop_after):
                     idx = first_stop_index(text, stop_after)
-                    if idx and idx > 0:
+                    if idx > 0:
                         prefix = text[:idx].strip()
                         if prefix:
                             items.append(prefix)
@@ -132,7 +109,7 @@ def parse_div_snippet(soup, today_name, stop_after=None):
 
 
 def parse_simple_p(soup, today_name, stop_after=None):
-    """Iterate through <p> tags; handle stop words in same <p> by trimming text before the stop word."""
+    """For Pisara: stops before 'Lisätietoja allergeeneista...'."""
     sections = soup.find_all("p")
     capture = False
     items = []
@@ -148,7 +125,7 @@ def parse_simple_p(soup, today_name, stop_after=None):
                 break
             if stop_after and contains_stop(text, stop_after):
                 idx = first_stop_index(text, stop_after)
-                if idx and idx > 0:
+                if idx > 0:
                     prefix = text[:idx].strip()
                     if prefix:
                         items.append(prefix)
@@ -158,48 +135,27 @@ def parse_simple_p(soup, today_name, stop_after=None):
 
 
 # -----------------------------------
-# Makiata special
+# MAKIATA SPECIAL (no date check)
 # -----------------------------------
 
 def parse_makiata_lauttasaari(soup):
-    """Prefer table parsing, but only if the table's date-range includes today.
-       If no date range is present, attempt to find the table row for today's weekday.
-    """
-    # 1) Try to find header that mentions Lauttasaari and nearest small with date range
-    header = soup.find(lambda tag: tag.name in ["h1", "h2", "h3", "h4", "h5", "h6"]
+    """Always pull Lauttasaari section (no week restriction)."""
+    header = soup.find(lambda tag: tag.name in ["h1", "h2", "h3", "h4", "h5"]
                        and "lauttasaari" in tag.get_text(" ", strip=True).lower())
-    small_text = None
     if header:
-        small = header.find("small")
-        if not small:
-            small = header.find_next("small")
-        if small:
-            small_text = small.get_text(" ", strip=True)
-
-    # 2) Try to find the table
-    table = soup.find("table", class_="lunch-list-table")
-    if table:
-        # If we found a date range, check it
-        if small_text:
-            start, end = parse_date_range_from_text(small_text)
-            if start and end:
-                today_dt = date.today()
-                if not (start <= today_dt <= end):
-                    # We won't use the table because it is for another week
-                    return "Menu not found"
-                # otherwise proceed to parse the table for today's weekday
-        # parse table rows for today's weekday regardless
-        for row in table.find_all("tr"):
-            cols = row.find_all("td")
-            if not cols:
-                continue
-            day_text = cols[0].get_text(" ", strip=True)
-            if today_name.lower() in day_text.lower():
-                menu_text = cols[1].get_text(separator="\n", strip=True)
-                items = [it.strip() for part in re.split(r"\n|,", menu_text) for it in [part] if it.strip()]
-                return clean_menu_items(items)
-    # fallback: try to find a Lauttasaari paragraph block (older structure)
-    if header:
+        # Try the table under Lauttasaari
+        table = header.find_next("table", class_="lunch-list-table")
+        if table:
+            for row in table.find_all("tr"):
+                cols = row.find_all("td")
+                if not cols:
+                    continue
+                day_text = cols[0].get_text(" ", strip=True)
+                if today_name.lower() in day_text.lower():
+                    menu_text = cols[1].get_text(separator="\n", strip=True)
+                    items = [it.strip() for part in re.split(r"\n|,", menu_text) for it in [part] if it.strip()]
+                    return clean_menu_items(items)
+        # fallback: paragraphs
         items = []
         sib = header.find_next_sibling()
         while sib:
@@ -228,18 +184,13 @@ def fetch_today_menu(restaurant, today_name):
     type_ = restaurant.get("type", "")
     url = restaurant["url"].lower()
 
-    # restaurant-specific rules
     if "makiata" in url:
         return parse_makiata_lauttasaari(soup)
-
     if "persilja" in url:
-        # stop on any ERIKOIS* section (case-insensitive)
         return parse_div_snippet(soup, today_name, stop_after=["ERIKOIS", "ERIKOIS LOUNAS", "ERIKOISLOUNAS", "ERIKOIS ANNOS"])
-
     if "pisara" in url:
         return parse_simple_p(soup, today_name, stop_after=["LISÄTIETOJA", "ALLERGEENEISTA"])
 
-    # fallback by declared type
     if type_ == "table":
         return parse_table_menu(soup, today_name)
     if type_ == "list":
@@ -248,6 +199,7 @@ def fetch_today_menu(restaurant, today_name):
         return parse_div_snippet(soup, today_name)
     if type_ == "simple_p":
         return parse_simple_p(soup, today_name)
+
     return "Menu type unknown"
 
 
@@ -287,8 +239,7 @@ def save_feed(feed):
                 for k, v in item["prices"].items():
                     f.write(f"- {k}: {v}\n")
                 f.write("\n")
-            # row break before bullets
-            f.write(f"**{today_name} menu:**\n\n")
+            f.write(f"**{today_name} menu:**\n\n")  # newline before bullets
             f.write(f"{item['menu']}\n\n")
             f.write("---\n\n")
 
