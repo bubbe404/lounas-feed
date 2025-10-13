@@ -1,6 +1,6 @@
-# 🍽️ Lauttasaari Lunch Menus — 10.10.2025
+# 🍽️ Lauttasaari Lunch Menus — 13.10.2025
 
-### Perjantai
+### Maanantai
 
 ## Makiata
 **Opening hours:** 11:00–13:00
@@ -9,9 +9,18 @@
 - Buffet: 13,70€
 - Soup: 12,70€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
-Menu not found
+• Broilerpyöryköitä currykermakastikkeessa  
+• muusia l  
+• g  
+• Punajuuripyöryköitä  
+• muusia  
+• yrttikermaviilikastiketta l  
+• g  
+• Appelsiini-fenkolikeittoa l  
+• g  
+
 
 ---
 
@@ -21,10 +30,10 @@ Menu not found
 **Prices:**
 - Buffet: 13,70€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
-• Burger Buffet – kokoa oma hampurilaisesi L  
-• Naudan täyslihapihvejä (Suomi) ja pekonia, kasvis pihvejä VEG, sämpylöitä & lisukkeet  
+• Teriyakikanaa ja nuudeli-kasvis wokki L  
+• Mustapapufalafel ja boomboomkastike VEG  
 
 
 ---
@@ -35,7 +44,7 @@ Menu not found
 **Prices:**
 - Buffet: 13,70€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
 Menu not found
 
@@ -49,12 +58,12 @@ Menu not found
 - House lunch: 12,00€
 - Soup: 11,50€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
-• Tomaatti-basilikakeitto Ve,G  
-• Sweet & sour-kanaa M,G  
-• Jauhelihalasagne L (FI)  
-• Hernis-kasvismuhennos Ve,G & riisipilahvia Ve,G  
+• Punajuuri-vuohenjuustokeitto L,G  
+• Tempurapaneroitua turskaa L & tartarkastiketta M,G  
+• Paistettua kotimaista kananpoikaa M,G (FI) & paahdettua perunaa Ve,G  
+• Kvinoa-porkkanapyörykkä Ve,G & paprika-mantelikastiketta Ve,G  
 • Runsas salaattipöytä  
 
 
@@ -66,7 +75,7 @@ Menu not found
 **Prices:**
 - Buffet: 13,70€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
 Menu not found
 
