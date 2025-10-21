@@ -1,6 +1,6 @@
-# 🍽️ Lauttasaari Lunch Menus — 20.10.2025
+# 🍽️ Lauttasaari Lunch Menus — 21.10.2025
 
-### Maanantai
+### Tiistai
 
 ## Makiata
 **Opening hours:** 11:00–13:00
@@ -9,11 +9,14 @@
 - Buffet: 13,70€
 - Soup: 12,70€
 
-**Maanantai menu:**
+**Tiistai menu:**
 
-• Sitruunakanaa ja pastaa l  
-• Kasvispastaa l  
-• Tomaattikeittoa ja krutonkeja l  
+• Stroganoff ja riisiä l  
+• g  
+• Kikherne-pähkinäcurry ja riisiä l  
+• g  
+• Kasvissosekeitto l  
+• g  
 
 
 ---
@@ -24,11 +27,9 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Maanantai menu:**
+**Tiistai menu:**
 
-• Linströmminpihvejä ja timjamiperunoita L,G  
-• Tofu-kasvis nuudeli wokki L  
-
+Error fetching menu: HTTPSConnectionPool(host='www.bistrotelakka.fi', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f393a149130>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
 
 ---
 
@@ -38,36 +39,25 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Maanantai menu:**
+**Tiistai menu:**
 
 • klo 10.30-15.00  
 • BUFFET  13,70  
-• SENIORIT 12,50​  
+• SENIORIT  12,50  
 • ​  
-• ​  
-• KANAKEITTO L,G  
+• LINSSIKEITTO L,G  
 • talon uunituore leipä  
-• PULLED PORK  G L M  
-• Pitkään haudettu porsaaniska,omassa liemessä.  
-• VÄLIMEREN KANA PATA L.G  
-• broilernrintafilee,kasvis-omatti kastike.  
-• KASVIS MUNAKAS L.G  
-• Kanamuna-kasvikset.juusto huorrutus,  
-• PINAATTIVUOKA  
-• kasvisruoka  
-• ​  
-• ​  
-• ​  
-• ​  
-• ​  
-• TALON OMA  
-• ​  
-• KEBABLIHA  
+• UUNILOHI L,G  
+• Tuore merilohi, kermainen tillikastike, smetana  
+• CIMICHURRI KANA G.L.M  
+• Grillatu broilerinrintafilee, Chimichurri kastike  
+• MUNAKOISO PATA  L.G.M  
+• Vegani Ruoka  
+• TALON OMA KEBABLIHA (L G.M)  
+• PIZZA PÖYTÄ  
 • LISUKKEET  
 • riisi, perunaa, kasvikset,  
 • meze tyylinen salaatti-buffet  
-• ​  
-• ​  
 • JÄLKIRUOKA  
 • talon täytekakku, kahvi, tee  
 
@@ -82,12 +72,12 @@
 - House lunch: 12,00€
 - Soup: 11,50€
 
-**Maanantai menu:**
+**Tiistai menu:**
 
-• Porkkana-tuorejuustokeittoa L,G  
-• Riistakäristystä L,G (EU) & perunamuusia L,G & puolukkaa  
-• Paahdettua cajunkanaa (FI) M,G & aiolia M,G  
-• Kesäkurpitsa-kikhernepaistos Ve,G & riisiä Ve,G  
+• Makkarakeittoa L,G  
+• Mureaa possua timjamikastikkeessa L,G (FI) & rosmariiniperunaa Ve,G  
+• Paneroitua kanan sisäfilettä L & savuchilimajoneesia M,G  
+• Kasvismoussaka Ve,G  
 • Runsas salaattipöytä  
 
 
@@ -99,7 +89,7 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Maanantai menu:**
+**Tiistai menu:**
 
 • {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/Divi\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}  
 • Helan går! C asa Maren rapumenu >> Riistaviikot Casa Maressa tutustu ruokalistaamme >> Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  
