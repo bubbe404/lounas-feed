@@ -1,6 +1,6 @@
-# 🍽️ Lauttasaari Lunch Menus — 24.10.2025
+# 🍽️ Lauttasaari Lunch Menus — 27.10.2025
 
-### Perjantai
+### Maanantai
 
 ## Makiata
 **Opening hours:** 11:00–13:00
@@ -9,16 +9,15 @@
 - Buffet: 13,70€
 - Soup: 12,70€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
-• Kanafajitas  
-• guacamole  
-• salsaa  
-• ranskankermaa  
-• Kasvisfajitas  
-• Parsakeittoa l  
+• Chili con carne  
+• riisiä l  
 • g  
-• Mangokiisseliä ja kermavaahtoa l  
+• Chili sin carne  
+• riisiä l  
+• g  
+• Maa-artisokkakeittoa l  
 • g  
 
 
@@ -30,12 +29,10 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
-• Bao ban buffet:  
-• Chilimarinoitua ylikypsää härkää(EU) L  
-• Jack fruit-kasvispata Korean bbq VEG  
-• Pikkelöityjä kasviksia ja sesamdippiä  
+• Friteerattua kanaa(Suomi), paprika-choritsodippiä ja Cajun-paahdettua perunaa L, G  
+• Misopaahdettua munakoisoa ja hirssiä VEG  
 
 
 ---
@@ -46,94 +43,36 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
 • klo 10.30-15.00  
 • BUFFET  13,70  
-• SENIORIT  12,50  
-• ​  
-• TOMAATTIKEITTO L G  
-• talon uunituore leipä  
-• PULLED BEEF BURGERIT  L  
-• pikään haudetu,revitty naudanuliha,tomaatti,salaatti, talon burger kastike-bbq kastike sipuli rengas.  
-• SALSA KANA PATA G,L  
-• broilerin rintafile kuutiot, Meksikano,salasa kastike  
-• TEYTÄTTY  PARIKAT  L G  
-• kasvisruoka  
-• ​  
-• TALON OMA KEBABLIHA  
-• L,G  
+• SENIORIT 12,50​  
 • ​  
 • ​  
-• PIZZA PÖYTÄ.  
+• Makaroni-kanakeitto (L, G)  
+• Perinteinen pyttipannu (L, G, M)  
+• grillimakkaraa, perunaa, porkkanaa, sipulia,  
+• valkosipulia, paistettu kananmuna  
+• Kana Tikka Masala (L, G)  
+• broilerinrintafileet, tikka masala -kastike  
+• Pinaattipasta (L, G, M)  
+• vegaaninen ruoka.  
 • ​  
+• ​  
+• ​  
+• ​  
+• ​  
+• TALON OMA  
+• ​  
+• KEBABLIHA  
 • LISUKKEET  
 • riisi, perunaa, kasvikset,  
-• meze tyylinen salaatti-buffet,  
-• pasta  
+• meze tyylinen salaatti-buffet  
+• ​  
+• ​  
 • JÄLKIRUOKA  
 • talon täytekakku, kahvi, tee  
-• MUUT LOUNAS ANNOKSET  
-• SALAATTI- / KEITTOLOUNAS  11,50  
-• ​  
-• LEHTIPIHVI  
-• L, G  
-• 17,90  
-• PASTA  CARBONARA  
-• (  
-• L)  
-• 13,90  
-• pekoni, kerma, kananmuna keltuainen, mustapippuri  
-• KATKARAPU PASTA  
-• (  
-• L)  
-• 13,90  
-• Kirsikkatomaatti,aurajuusto, chili, kermakastke  
-• PÄIVÄN KALA  
-• L, G  
-• 16,90  
-• päivän kala, riisi tai peruunat, kasvikset, vinegrettakastike  
-• FALAFEL RIISILLÄ  
-• L, G  
-• 11,90  
-• PÄIVÄN  
-• SALAATTI  
-• L, G  
-• 12,90  
-• 3 täytettä valintasi mukaan  
-• PÄIVÄN  
-• PIZZA  
-• L  
-• 12,90  
-• 3 täytettä valintasi mukaan  
-• ​  
-• KÄYTÄ  
-• MME  
-• KOTIMAAN JA EU ALUEN  
-• LIHAA.  
-• Kysy ruoka-aineallergioista henkilökunnalta  
-• ​  
-• OSOITE  
-• Tallbergin puistotie 1  
-• 00200 Helsinki  
-• OTA YHTEYTTÄ  
-• Puh.  
-• 050 342 7704  
-• Email:  
-• ismo.tosun@gmail.com  
-• Palautteet:  
-• 0400 169 078  
-• AVOINNA  
-• Ma - To : 10.30 - 21:00  
-• Pe : 10.30 - 22.00  
-• ​​La : 12.00 - 22.00  
-• Su : 12.00 - 21.00  
-• keittiö suljetaan 30 min ennen sulkemisaika  
-• ​  
-• ​  
-• Tilaa ruoat kotiin tai työpaikalle  
-• Copyright © 2024  Ravintola Persilja  
-• bottom of page  
 
 
 ---
@@ -146,20 +85,13 @@
 - House lunch: 12,00€
 - Soup: 11,50€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
-• Paahdettu valkosipulikeitto L,G  
-• Pisaran pyttipannua L & suolakurkkua  
-• Chipotle-limekanaa L,G (FI) & jalapenomajoneesia L,G & höyrytettyä riisiä Ve,G  
-• Kasvis-neulapapuwokkia Ve,G  
+• Paahdettu tomaatti-tuorejuustokeitto L,G  
+• Jauhelihamakaronilaatikkoa L (FI)  
+• Kotimaista valkosipulikanaa L,G (FI) & riisiä Ve,G  
+• Munakoiso-kikhernevuoka Ve,G  
 • Runsas salaattipöytä  
-• Käpylä Mäkelänkatu 87 00610 Helsinki Puh: 050 501 7486 kapyla@ravintolapisara.fi  
-• Lauttasaari Itälahdenkatu 22 A 00210 Helsinki Puh: 050 551 4333 lauttasaari@ravintolapisara.fi  
-• Masala Eteläinen Salmitie 1 02430 Masala Puh: 050 531 0030 masala@ravintolapisara.fi  
-• Stansvik Stansvikintie 1 00590 Helsinki Puh: 050 563 4828 stansvik@ravintolapisara.fi  
-• Käpylä klo: 11.00 – 14.00 Lauttasaari klo: 10.30 – 14.00 Masala klo: 10.30 – 13.30 Stansvik klo: 10.30 – 14.00  
-• Sopimusruokailu, rekrytointi ja laskutus: Sami Vähäsoini 040 775 8475 sami@ravintolapisara.fi  
-• Oiva-raportit:  
 
 
 ---
@@ -170,7 +102,7 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
 • {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/Divi\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}  
 • Isänpäivä Casa Maressa Lue lisää >> Riistaviikot Casa Maressa Tutustu ruokalistaamme >> Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  
