@@ -1,6 +1,6 @@
-# 🍽️ Lauttasaari Lunch Menus — 28.10.2025
+# 🍽️ Lauttasaari Lunch Menus — 29.10.2025
 
-### Tiistai
+### Keskiviikko
 
 ## Makiata
 **Opening hours:** 11:00–13:00
@@ -9,13 +9,13 @@
 - Buffet: 13,70€
 - Soup: 12,70€
 
-**Tiistai menu:**
+**Keskiviikko menu:**
 
-• Silakkapihvit  
-• muusia  
-• tillikermaviilikastiketta l  
-• Punajuuri-vuohenjuustopihvejä l  
-• Tomaattine jauhelihakeitto l  
+• Broilerkiusaus l  
+• g  
+• Härkis-fetakiusaus l  
+• g  
+• Savulohikeitto l  
 • g  
 
 
@@ -27,9 +27,11 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Tiistai menu:**
+**Keskiviikko menu:**
 
-Error fetching menu: HTTPSConnectionPool(host='www.bistrotelakka.fi', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa36538d4f0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+• Pitkään haudutettua häränrintaa, punaviinikastiketta ja timjamiperunaa L, G  
+• Punajuuri-hernepihvejä VEG  
+
 
 ---
 
@@ -39,26 +41,29 @@ Error fetching menu: HTTPSConnectionPool(host='www.bistrotelakka.fi', port=443):
 **Prices:**
 - Buffet: 13,70€
 
-**Tiistai menu:**
+**Keskiviikko menu:**
 
 • klo 10.30-15.00  
 • BUFFET  13,70  
-• SENIORIT  12,50  
-• ​  
-• Linssikeitto (L, G, M)  
-• Grillattu merilohi (L, G, M)  
-• grillattua tuoretta merilohta, smetana-tillidippi  
-• Havaijin curry-kana (L, G)  
-• broilerinrintafileesuikaleet, kermainen currykastike  
-• Munakoisopata (L, G, M)  
+• SENIORIT 12,50  
+• Lohikeitto (L, G)  
+• Välimeren lihapullat (L, G, M)  
+• naudanlihapullat tomaatti-kasviskastikkeessa  
+• Kanafajita (L, G, M)  
+• grillattuja broilerinrintafileesuikaleita, paistettuja kasviksia, tortillaleipiä  
+• Smetana ja tacokastikkeet erikseen  
+• Täytetty kesäkurpitsa (L, G, M)  
 • vegaaninen ruoka  
-• TALON OMA KEBABLIHA (L G.M)  
+• TALON OMA KEBAB  
+• ​  
 • PIZZA PÖYTÄ  
+• ​  
 • LISUKKEET  
-• riisi, perunaa, kasvikset,  
+• Riisi, perunaa,kasvikset  
 • meze tyylinen salaatti-buffet  
 • JÄLKIRUOKA  
 • talon täytekakku, kahvi, tee  
+• LOUNAS  
 
 
 ---
@@ -71,12 +76,12 @@ Error fetching menu: HTTPSConnectionPool(host='www.bistrotelakka.fi', port=443):
 - House lunch: 12,00€
 - Soup: 11,50€
 
-**Tiistai menu:**
+**Keskiviikko menu:**
 
-• Bataattikeittoa L,G  
-• Paistettua kalaa voi-valkoviinikastikkeessa L,G  
-• Kievin kanaa VL & riisiä Ve,G ja sweet chilikastiketta M,G  
-• Kookoskermassa haudutettua kasviscurrya Ve,G  
+• Kesäkurpitsa-koskenlaskijakeittoa L,G  
+• Jauhelihalasagnette L (FI)  
+• Paneroitua kampelaa L & kurkkumajoneesia L,G ja yrttiperunoita Ve,G  
+• Yrttiöljyllä marinoitu gnocchi-kikhernepaistos Ve  
 • Runsas salaattipöytä  
 
 
@@ -88,7 +93,7 @@ Error fetching menu: HTTPSConnectionPool(host='www.bistrotelakka.fi', port=443):
 **Prices:**
 - Buffet: 13,70€
 
-**Tiistai menu:**
+**Keskiviikko menu:**
 
 • {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/Divi\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}  
 • Isänpäivä Casa Maressa Lue lisää >> Riistaviikot Casa Maressa Tutustu ruokalistaamme >> Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  

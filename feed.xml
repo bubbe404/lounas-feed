@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>28.10.2025</date>
-  <day>Tiistai</day>
+  <date>29.10.2025</date>
+  <day>Keskiviikko</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Silakkapihvit  
-• muusia  
-• tillikermaviilikastiketta l  
-• Punajuuri-vuohenjuustopihvejä l  
-• Tomaattine jauhelihakeitto l  
+    <menu><![CDATA[• Broilerkiusaus l  
+• g  
+• Härkis-fetakiusaus l  
+• g  
+• Savulohikeitto l  
 • g  
 ]]></menu>
   </restaurant>
@@ -19,7 +19,9 @@
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[Error fetching menu: HTTPSConnectionPool(host='www.bistrotelakka.fi', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa36538d4f0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))]]></menu>
+    <menu><![CDATA[• Pitkään haudutettua häränrintaa, punaviinikastiketta ja timjamiperunaa L, G  
+• Punajuuri-hernepihvejä VEG  
+]]></menu>
   </restaurant>
   <restaurant>
     <name>Persilja</name>
@@ -27,22 +29,25 @@
     <price name='Buffet'>13,70€</price>
     <menu><![CDATA[• klo 10.30-15.00  
 • BUFFET  13,70  
-• SENIORIT  12,50  
-• ​  
-• Linssikeitto (L, G, M)  
-• Grillattu merilohi (L, G, M)  
-• grillattua tuoretta merilohta, smetana-tillidippi  
-• Havaijin curry-kana (L, G)  
-• broilerinrintafileesuikaleet, kermainen currykastike  
-• Munakoisopata (L, G, M)  
+• SENIORIT 12,50  
+• Lohikeitto (L, G)  
+• Välimeren lihapullat (L, G, M)  
+• naudanlihapullat tomaatti-kasviskastikkeessa  
+• Kanafajita (L, G, M)  
+• grillattuja broilerinrintafileesuikaleita, paistettuja kasviksia, tortillaleipiä  
+• Smetana ja tacokastikkeet erikseen  
+• Täytetty kesäkurpitsa (L, G, M)  
 • vegaaninen ruoka  
-• TALON OMA KEBABLIHA (L G.M)  
+• TALON OMA KEBAB  
+• ​  
 • PIZZA PÖYTÄ  
+• ​  
 • LISUKKEET  
-• riisi, perunaa, kasvikset,  
+• Riisi, perunaa,kasvikset  
 • meze tyylinen salaatti-buffet  
 • JÄLKIRUOKA  
 • talon täytekakku, kahvi, tee  
+• LOUNAS  
 ]]></menu>
   </restaurant>
   <restaurant>
@@ -51,10 +56,10 @@
     <price name='Buffet'>13,00€</price>
     <price name='House lunch'>12,00€</price>
     <price name='Soup'>11,50€</price>
-    <menu><![CDATA[• Bataattikeittoa L,G  
-• Paistettua kalaa voi-valkoviinikastikkeessa L,G  
-• Kievin kanaa VL & riisiä Ve,G ja sweet chilikastiketta M,G  
-• Kookoskermassa haudutettua kasviscurrya Ve,G  
+    <menu><![CDATA[• Kesäkurpitsa-koskenlaskijakeittoa L,G  
+• Jauhelihalasagnette L (FI)  
+• Paneroitua kampelaa L & kurkkumajoneesia L,G ja yrttiperunoita Ve,G  
+• Yrttiöljyllä marinoitu gnocchi-kikhernepaistos Ve  
 • Runsas salaattipöytä  
 ]]></menu>
   </restaurant>
