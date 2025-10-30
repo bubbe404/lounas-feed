@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>29.10.2025</date>
-  <day>Keskiviikko</day>
+  <date>30.10.2025</date>
+  <day>Torstai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Broilerkiusaus l  
+    <menu><![CDATA[• Nakkikastike  
+• muusia l  
 • g  
-• Härkis-fetakiusaus l  
+• Kermainen kanttarellirisotto l  
 • g  
-• Savulohikeitto l  
+• Purjo-perunakeittoa l  
 • g  
+• Lettuja&hilloa&kermavaahtoa  
 ]]></menu>
   </restaurant>
   <restaurant>
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Pitkään haudutettua häränrintaa, punaviinikastiketta ja timjamiperunaa L, G  
-• Punajuuri-hernepihvejä VEG  
+    <menu><![CDATA[• Paistettua kuhaa, voi-valkoviinikastiketta ja piparjuuriperunaa L  
+• “The stew” kikhernemuhennos VEG  
 ]]></menu>
   </restaurant>
   <restaurant>
@@ -30,22 +32,22 @@
     <menu><![CDATA[• klo 10.30-15.00  
 • BUFFET  13,70  
 • SENIORIT 12,50  
-• Lohikeitto (L, G)  
-• Välimeren lihapullat (L, G, M)  
-• naudanlihapullat tomaatti-kasviskastikkeessa  
-• Kanafajita (L, G, M)  
-• grillattuja broilerinrintafileesuikaleita, paistettuja kasviksia, tortillaleipiä  
-• Smetana ja tacokastikkeet erikseen  
-• Täytetty kesäkurpitsa (L, G, M)  
-• vegaaninen ruoka  
-• TALON OMA KEBAB  
+• Kermainen kasviskeitto (L, G)  
+• Naudan-lampaan käristys (L, G, M)  
+• pitkään haudutettua naudan- ja lampaanlihaa sipulin kanssa omassa liemessä  
+• Broilerin luutomat reidet (L, G)  
+• grillatut broilerin luutomat reidet, kasvikset ja dippi  
+• Kukkakaaligratiini (L, G)  
+• kasvisruoka  
 • ​  
+• TALON OMA KEBAB  
 • PIZZA PÖYTÄ  
 • ​  
 • LISUKKEET  
-• Riisi, perunaa,kasvikset  
+• riisi, perunaa, kasvikset  
 • meze tyylinen salaatti-buffet  
 • JÄLKIRUOKA  
+• talon letut, mansikkahillo ja kermavaahto  
 • talon täytekakku, kahvi, tee  
 • LOUNAS  
 ]]></menu>
@@ -56,11 +58,12 @@
     <price name='Buffet'>13,00€</price>
     <price name='House lunch'>12,00€</price>
     <price name='Soup'>11,50€</price>
-    <menu><![CDATA[• Kesäkurpitsa-koskenlaskijakeittoa L,G  
-• Jauhelihalasagnette L (FI)  
-• Paneroitua kampelaa L & kurkkumajoneesia L,G ja yrttiperunoita Ve,G  
-• Yrttiöljyllä marinoitu gnocchi-kikhernepaistos Ve  
+    <menu><![CDATA[• Perinteinen hernekeitto M,G  
+• Limellä ja chilillä marinoitua kotimaista kananpoikaa M,G (FI) & basilika-aiolia M,G  
+• Lindströminpihvejä timjamikastikkeessa L & paahdettuja perunoita Ve,G  
+• Teriyakilla maustettu linssi-parsakaalipaistos Ve, & suolapähkinämurua  
 • Runsas salaattipöytä  
+• Pannukakkua L, kermavaahtoa L ja hilloa  
 ]]></menu>
   </restaurant>
   <restaurant>
