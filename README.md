@@ -1,6 +1,6 @@
-# 🍽️ Lauttasaari Lunch Menus — 03.11.2025
+# 🍽️ Lauttasaari Lunch Menus — 04.11.2025
 
-### Maanantai
+### Tiistai
 
 ## Makiata
 **Opening hours:** 11:00–13:00
@@ -9,13 +9,11 @@
 - Buffet: 13,70€
 - Soup: 12,70€
 
-**Maanantai menu:**
+**Tiistai menu:**
 
-• Kanawok ja riisinuudelia l  
-• g  
-• Kasviswok l  
-• g  
-• Kasvissosekeittoa ja raejuustoa l  
+• Makaronilaatikko l  
+• Kasvismakaronilaatikko l  
+• Kala-katkarapukeittoa l  
 • g  
 
 
@@ -27,10 +25,10 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Maanantai menu:**
+**Tiistai menu:**
 
-• Wieninleikkeitä porsaasta, sitruunaa, anjovista, kaprista ja lohkoperunoita L  
-• Kasviskofta ja wasabikastike VEG  
+• Pannupihvejä naudasta (Suomi), pippurikastiketta ja juustoperunoita L,G  
+• Härkäpapupihvejä VEG  
 
 
 ---
@@ -41,33 +39,23 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Maanantai menu:**
+**Tiistai menu:**
 
 • klo 10.30-15.00  
 • BUFFET  13,70  
-• SENIORIT 12,50​  
+• SENIORIT  12,50  
 • ​  
-• ​  
-• KANAKEITTO  
-• TALON LASAGNE L  
-• béchamel, naudanjauheliha, tomaattikastike, mozzarellakuorrutus  
-• VUOHENJUUSTOKANA L, G  
-• broilerin rintafile, vuohenjuusto, avokadokastike  
-• PINAATTIVUOKA  
-• juustolla  
-• ​  
-• ​  
-• ​  
-• ​  
-• ​  
-• TALON OMA  
-• ​  
-• KEBABLIHA  
+• UUNILOHTA L, G  
+• merilohi, kermainen smetana-tillikastike  
+• KANALEIKE L, G, M  
+• paneroitu broilerin rintafile, aurajuusto-ranchkastike  
+• JUURES-KASVISPATA G, L, M  
+• vegaaniruoka  
+• TALON OMA KEBABLIHA (L G.M)  
+• PIZZA PÖYTÄ  
 • LISUKKEET  
 • riisi, perunaa, kasvikset,  
 • meze tyylinen salaatti-buffet  
-• ​  
-• ​  
 • JÄLKIRUOKA  
 • talon täytekakku, kahvi, tee  
 
@@ -82,12 +70,12 @@
 - House lunch: 12,00€
 - Soup: 11,50€
 
-**Maanantai menu:**
+**Tiistai menu:**
 
-• Koskenlaskija-hernesosekeitto L,G  
-• Kanan sisäfilettä basilika-valkosipulikastikkeessa L,G (EU) & yrttiriisiä Ve  
-• Riistakiusausta L,G & suolakurkkua  
-• Hapanimelä soijasuikale-kasvispaistos Ve,G  
+• Palsternakkakeittoa L,G  
+• Kotimaista kananpoikaa L,G (FI) & savuchilimajoneesia M,G ja riisiä  
+• Puna-ahventa thaimaalaisessa kookoskastikkeessa L,G  
+• Hernis-kasvispata Ve,G  
 • Runsas salaattipöytä  
 
 
@@ -99,7 +87,7 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Maanantai menu:**
+**Tiistai menu:**
 
 • {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/Divi\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}  
 • Isänpäivä Casa Maressa Lue lisää >> Riistaviikot Casa Maressa Tutustu ruokalistaamme >> Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  
