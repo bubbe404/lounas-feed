@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>04.11.2025</date>
-  <day>Tiistai</day>
+  <date>05.11.2025</date>
+  <day>Keskiviikko</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Makaronilaatikko l  
-• Kasvismakaronilaatikko l  
-• Kala-katkarapukeittoa l  
+    <menu><![CDATA[• Cajunkarjua  
+• villiriisiä l  
+• g  
+• Buttertofua  
+• villiriisiä l  
+• g  
+• Punajuuri-piparjuurikeittoa l  
+• g  
+• Hedelmäsalaatti l  
 • g  
 ]]></menu>
   </restaurant>
@@ -17,8 +23,8 @@
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Pannupihvejä naudasta (Suomi), pippurikastiketta ja juustoperunoita L,G  
-• Härkäpapupihvejä VEG  
+    <menu><![CDATA[• Telakalla savustettua lohta, tillikermaviilikastiketta ja keitettyä perunaa L, G  
+• Kurpitsa-tofu lehtikaalipaistos VEG  
 ]]></menu>
   </restaurant>
   <restaurant>
@@ -27,21 +33,24 @@
     <price name='Buffet'>13,70€</price>
     <menu><![CDATA[• klo 10.30-15.00  
 • BUFFET  13,70  
-• SENIORIT  12,50  
+• SENIORIT 12,50  
+• LOHIKEITTO  
+• TALON LIHAPULLAT  
+• naudanjauhelihapullat, ruskea kastike  
+• METSÄSTÄJÄNKANA L, G  
+• broilerin rintafilekuutiot, kermainen aurajuusto-sienikastike  
+• PARSAKAALIPAISTOS L, G  
+• kasvisruoka  
+• TALON OMA KEBAB  
 • ​  
-• UUNILOHTA L, G  
-• merilohi, kermainen smetana-tillikastike  
-• KANALEIKE L, G, M  
-• paneroitu broilerin rintafile, aurajuusto-ranchkastike  
-• JUURES-KASVISPATA G, L, M  
-• vegaaniruoka  
-• TALON OMA KEBABLIHA (L G.M)  
 • PIZZA PÖYTÄ  
+• ​  
 • LISUKKEET  
-• riisi, perunaa, kasvikset,  
+• Riisi, perunaa,kasvikset  
 • meze tyylinen salaatti-buffet  
 • JÄLKIRUOKA  
 • talon täytekakku, kahvi, tee  
+• LOUNAS  
 ]]></menu>
   </restaurant>
   <restaurant>
@@ -50,10 +59,10 @@
     <price name='Buffet'>13,00€</price>
     <price name='House lunch'>12,00€</price>
     <price name='Soup'>11,50€</price>
-    <menu><![CDATA[• Palsternakkakeittoa L,G  
-• Kotimaista kananpoikaa L,G (FI) & savuchilimajoneesia M,G ja riisiä  
-• Puna-ahventa thaimaalaisessa kookoskastikkeessa L,G  
-• Hernis-kasvispata Ve,G  
+    <menu><![CDATA[• Kookos-kanakeitto L,G  
+• Naudan jauhelihapihvit pippurikastikkeessa L,G (FI) & paahdettua perunaa Ve,G  
+• Kinkkupastaa L & parmesania  
+• Falafelpyörykkä Ve,G & salsa verde Ve,G  
 • Runsas salaattipöytä  
 ]]></menu>
   </restaurant>
