@@ -1,6 +1,6 @@
-# 🍽️ Lauttasaari Lunch Menus — 05.11.2025
+# 🍽️ Lauttasaari Lunch Menus — 06.11.2025
 
-### Keskiviikko
+### Torstai
 
 ## Makiata
 **Opening hours:** 11:00–13:00
@@ -9,17 +9,11 @@
 - Buffet: 13,70€
 - Soup: 12,70€
 
-**Keskiviikko menu:**
+**Torstai menu:**
 
-• Cajunkarjua  
-• villiriisiä l  
+• Uuniperunaa kinkku ja kasvistäytteellä l  
 • g  
-• Buttertofua  
-• villiriisiä l  
-• g  
-• Punajuuri-piparjuurikeittoa l  
-• g  
-• Hedelmäsalaatti l  
+• Lihakeittoa l  
 • g  
 
 
@@ -31,10 +25,10 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Keskiviikko menu:**
+**Torstai menu:**
 
-• Telakalla savustettua lohta, tillikermaviilikastiketta ja keitettyä perunaa L, G  
-• Kurpitsa-tofu lehtikaalipaistos VEG  
+• Teriyakikanaa(Suomi)  ja nuudeli-kasvis wokki L  
+• Mustapapufalafel ja boomboomkastike VEG  
 
 
 ---
@@ -45,26 +39,26 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Keskiviikko menu:**
+**Torstai menu:**
 
 • klo 10.30-15.00  
 • BUFFET  13,70  
 • SENIORIT 12,50  
-• LOHIKEITTO  
-• TALON LIHAPULLAT  
-• naudanjauhelihapullat, ruskea kastike  
-• METSÄSTÄJÄNKANA L, G  
-• broilerin rintafilekuutiot, kermainen aurajuusto-sienikastike  
-• PARSAKAALIPAISTOS L, G  
-• kasvisruoka  
-• TALON OMA KEBAB  
+• FETA-PINAATTIKEITTO  
+• SVEITSINLEIKE L, G  
+• juustolla ja kinkulla täytetty porsaanleike, remouladekastike  
+• KANA MOZZARELLA L, G  
+• broilerin rintafile, tuoretomaatti, mozzarella  
+• MUNAKOISOPATA  
 • ​  
+• TALON OMA KEBAB  
 • PIZZA PÖYTÄ  
 • ​  
 • LISUKKEET  
-• Riisi, perunaa,kasvikset  
+• riisi, perunaa, kasvikset  
 • meze tyylinen salaatti-buffet  
 • JÄLKIRUOKA  
+• talon letut, mansikkahillo ja kermavaahto  
 • talon täytekakku, kahvi, tee  
 • LOUNAS  
 
@@ -79,13 +73,14 @@
 - House lunch: 12,00€
 - Soup: 11,50€
 
-**Keskiviikko menu:**
+**Torstai menu:**
 
-• Kookos-kanakeitto L,G  
-• Naudan jauhelihapihvit pippurikastikkeessa L,G (FI) & paahdettua perunaa Ve,G  
-• Kinkkupastaa L & parmesania  
-• Falafelpyörykkä Ve,G & salsa verde Ve,G  
+• Perinteinen hernekeitto M,G  
+• Kebabia L,G & riisiä Ve,G & jugurttikastiketta L,G  
+• Lyonin kanaa L,G (FI)  
+• Kikherne-kesäkurpitsapaistos Ve,G  
 • Runsas salaattipöytä  
+• Pannukakkua L hilloa & kermavaahtoa  
 
 
 ---
@@ -96,7 +91,7 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Keskiviikko menu:**
+**Torstai menu:**
 
 • {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/Divi\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}  
 • Isänpäivä Casa Maressa Lue lisää >> Riistaviikot Casa Maressa Tutustu ruokalistaamme >> Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  
