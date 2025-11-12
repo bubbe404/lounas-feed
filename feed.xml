@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>11.11.2025</date>
-  <day>Tiistai</day>
+  <date>12.11.2025</date>
+  <day>Keskiviikko</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Lihapullia tomaattikermakastikkeessa  
-• muusia l  
-• Kasvispyöryköitä tomaattikermakastiketta  
-• muusia l  
+    <menu><![CDATA[• Kaalikääryleet  
+• puolukkaa  
+• perunaa  
+• ruskeakastike  
+• l  
 • g  
-• Pinaattikeittoa ja kananmunaa l  
+• Kasviskaalikääryleet l  
+• g  
+• Thaimaalainen kanakeitto v  
+• g  
+• Persikka-mangorahka l  
 • g  
 ]]></menu>
   </restaurant>
@@ -20,8 +25,8 @@
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Riistakäristystä, perunamuussia, puolukkaa ja suolakurkkuja L, G  
-• Yrttipaahdettu seitan ratatouille ja riisiä L,G  
+    <menu><![CDATA[• Fish&Chips turskasta ja tartarkastiketta L  
+• Kasvismelanzane VEG  
 ]]></menu>
   </restaurant>
   <restaurant>
@@ -30,22 +35,25 @@
     <price name='Buffet'>13,70€</price>
     <menu><![CDATA[• klo 10.30-15.00  
 • BUFFET  13,70  
-• SENIORIT  12,50  
-• TALON LINSIKEITTO  
-• talon uunituore leipä  
-• UUNILOHTA L, G  
-• merilohi, kermainen tillikastike  
-• KANA TIKKA AMALASA  
-• broilerin rintafile, tikka masala -kastike  
-• KASVISPATA  
-• vegaaniruoka  
-• TALON OMA KEBABLIHA (L G.M)  
+• SENIORIT 12,50  
+• LOHIKEITTO  
+• LINTSTRÖMIN PIHVIT L G  
+• naudanjauhelihapullat-punajuuri pihvit.kasvikseet,peruunamuusi  
+• KANA TERIYAKI  
+• broilerin rintafilee, teriyakikastike  
+• PAAHDETUT VIHANNEKSET  
+• kasvisruoka  
+• ​  
+• TALON OMA KEBAB  
+• ​  
 • PIZZA PÖYTÄ  
+• ​  
 • LISUKKEET  
-• riisi, perunaa, kasvikset,  
+• Riisi, perunaa,kasvikset  
 • meze tyylinen salaatti-buffet  
 • JÄLKIRUOKA  
 • talon täytekakku, kahvi, tee  
+• LOUNAS  
 ]]></menu>
   </restaurant>
   <restaurant>
