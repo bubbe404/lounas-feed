@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>12.11.2025</date>
-  <day>Keskiviikko</day>
+  <date>13.11.2025</date>
+  <day>Torstai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Kaalikääryleet  
-• puolukkaa  
-• perunaa  
-• ruskeakastike  
-• l  
+    <menu><![CDATA[• Currykanakastike  
+• riisiä l  
 • g  
-• Kasviskaalikääryleet l  
+• Tofucurrykastike  
+• riisiä l  
 • g  
-• Thaimaalainen kanakeitto v  
-• g  
-• Persikka-mangorahka l  
+• Tomaattinen makkarakeitto l  
 • g  
 ]]></menu>
   </restaurant>
@@ -25,8 +21,8 @@
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Fish&Chips turskasta ja tartarkastiketta L  
-• Kasvismelanzane VEG  
+    <menu><![CDATA[• Porsaanleike metsäsienikastiketta ja lohkoperunoita L  
+• Tortelliineja tomaatti-lehtikaalikastikkeessa VEG  
 ]]></menu>
   </restaurant>
   <restaurant>
@@ -36,22 +32,24 @@
     <menu><![CDATA[• klo 10.30-15.00  
 • BUFFET  13,70  
 • SENIORIT 12,50  
-• LOHIKEITTO  
-• LINTSTRÖMIN PIHVIT L G  
-• naudanjauhelihapullat-punajuuri pihvit.kasvikseet,peruunamuusi  
-• KANA TERIYAKI  
-• broilerin rintafilee, teriyakikastike  
-• PAAHDETUT VIHANNEKSET  
-• kasvisruoka  
+• KASVISKEITTO  
+• talon uunituore leipä l  
+• PIPPURIHÄRKÄÄ  
+• L G  
+• Häränpaistia,kermakastikeessa,maustettuna pippurilla,,paistetut perunta,  
+• KANA SUFLAKI G L M  
+• perinteiseen kreikkalaiseen tapaan yrtti-ja sitruunanarinoituna kanaavartaassa,tzatzikin kanssa-  
+• UUNI KASVISGRATIINI  L  
+• Kasvis ruokaa  
 • ​  
 • TALON OMA KEBAB  
-• ​  
 • PIZZA PÖYTÄ  
 • ​  
 • LISUKKEET  
-• Riisi, perunaa,kasvikset  
+• riisi, perunaa, kasvikset  
 • meze tyylinen salaatti-buffet  
 • JÄLKIRUOKA  
+• talon letut, mansikkahillo ja kermavaahto  
 • talon täytekakku, kahvi, tee  
 • LOUNAS  
 ]]></menu>
