@@ -1,28 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>13.11.2025</date>
-  <day>Torstai</day>
+  <date>14.11.2025</date>
+  <day>Perjantai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Currykanakastike  
-• riisiä l  
+    <menu><![CDATA[• Porsaansisäfileetä  
+• pippurikermakastiketta  
+• kermaperuna l  
 • g  
-• Tofucurrykastike  
-• riisiä l  
+• Pinaattivuohenjuustolasagne l  
+• Bataattisosekeitto v  
 • g  
-• Tomaattinen makkarakeitto l  
-• g  
+• Pientä makeaa ja kahvika  
 ]]></menu>
   </restaurant>
   <restaurant>
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Porsaanleike metsäsienikastiketta ja lohkoperunoita L  
-• Tortelliineja tomaatti-lehtikaalikastikkeessa VEG  
+    <menu><![CDATA[• Bao ban buffet:  
+• Chilimarinoitua kanaa (Suomi) L,G  
+• Tom Yam maustettuja ravunpyrstöjä L,G  
+• Tofu-kasvispata Korean bbq VEG  
+• Pikkelöityjä kasviksia ja sesamdippiä  
 ]]></menu>
   </restaurant>
   <restaurant>
@@ -31,27 +34,90 @@
     <price name='Buffet'>13,70€</price>
     <menu><![CDATA[• klo 10.30-15.00  
 • BUFFET  13,70  
-• SENIORIT 12,50  
-• KASVISKEITTO  
-• talon uunituore leipä l  
-• PIPPURIHÄRKÄÄ  
-• L G  
-• Häränpaistia,kermakastikeessa,maustettuna pippurilla,,paistetut perunta,  
-• KANA SUFLAKI G L M  
-• perinteiseen kreikkalaiseen tapaan yrtti-ja sitruunanarinoituna kanaavartaassa,tzatzikin kanssa-  
-• UUNI KASVISGRATIINI  L  
-• Kasvis ruokaa  
+• SENIORIT  12,50  
+• ​FETA-TOMAATTI  
+• KEITTO L.G  
+• talon uunituore leipä.  
+• L,G  
+• TALON CHICKENBURGER L  
+• Revitty broilerinrintafilee,tomaatti,salaati,rapea sipuli cheddarjuusto, BBQ-remulade kastike,  
+• NACCOPELTI  L G  
+• Naudanjauheliha,tacomausteseota,paprika,jalopeno,juustoraastetta,  
+• PINAATTIVUOKA L G M  
+• vegaaniruoka  
 • ​  
-• TALON OMA KEBAB  
-• PIZZA PÖYTÄ  
+• TALON OMA KEBABLIHA L,G  
+• ​  
+• ​  
+• PIZZA PÖYTÄ.  
 • ​  
 • LISUKKEET  
-• riisi, perunaa, kasvikset  
-• meze tyylinen salaatti-buffet  
+• riisi, perunaa, kasvikset,  
+• meze tyylinen salaatti-buffet,  
+• pasta  
 • JÄLKIRUOKA  
-• talon letut, mansikkahillo ja kermavaahto  
 • talon täytekakku, kahvi, tee  
-• LOUNAS  
+• MUUT LOUNAS ANNOKSET  
+• SALAATTI- / KEITTOLOUNAS  11,50  
+• ​  
+• LEHTIPIHVI  
+• L, G  
+• 17,90  
+• PASTA  CARBONARA  
+• (  
+• L)  
+• 13,90  
+• pekoni, kerma, kananmuna keltuainen, mustapippuri  
+• KATKARAPU PASTA  
+• (  
+• L)  
+• 13,90  
+• Kirsikkatomaatti,aurajuusto, chili, kermakastke  
+• PÄIVÄN KALA  
+• L, G  
+• 16,90  
+• päivän kala, riisi tai peruunat, kasvikset, vinegrettakastike  
+• FALAFEL RIISILLÄ  
+• L, G  
+• 11,90  
+• PÄIVÄN  
+• SALAATTI  
+• L, G  
+• 12,90  
+• 3 täytettä valintasi mukaan  
+• PÄIVÄN  
+• PIZZA  
+• L  
+• 12,90  
+• 3 täytettä valintasi mukaan  
+• ​  
+• KÄYTÄ  
+• MME  
+• KOTIMAAN JA EU ALUEN  
+• LIHAA.  
+• Kysy ruoka-aineallergioista henkilökunnalta  
+• ​  
+• OSOITE  
+• Tallbergin puistotie 1  
+• 00200 Helsinki  
+• OTA YHTEYTTÄ  
+• Puh.  
+• 050 342 7704  
+• Email:  
+• ismo.tosun@gmail.com  
+• Palautteet:  
+• 0400 169 078  
+• AVOINNA  
+• Ma - To : 10.30 - 21:00  
+• Pe : 10.30 - 22.00  
+• ​​La : 12.00 - 22.00  
+• Su : 12.00 - 20.00  
+• keittiö suljetaan 30 min ennen sulkemisaika  
+• ​  
+• ​  
+• Tilaa ruoat kotiin tai työpaikalle  
+• Copyright © 2024  Ravintola Persilja  
+• bottom of page  
 ]]></menu>
   </restaurant>
   <restaurant>
