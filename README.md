@@ -1,6 +1,6 @@
-# 🍽️ Lauttasaari Lunch Menus — 14.11.2025
+# 🍽️ Lauttasaari Lunch Menus — 17.11.2025
 
-### Perjantai
+### Maanantai
 
 ## Makiata
 **Opening hours:** 11:00–13:00
@@ -9,16 +9,16 @@
 - Buffet: 13,70€
 - Soup: 12,70€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
-• Porsaansisäfileetä  
-• pippurikermakastiketta  
-• kermaperuna l  
+• Jauhelihakastike  
+• muusia  
+• l  
 • g  
-• Pinaattivuohenjuustolasagne l  
-• Bataattisosekeitto v  
+• Soijarouhekastike l  
 • g  
-• Pientä makeaa ja kahvika  
+• Kikhernekeitto l  
+• g  
 
 
 ---
@@ -29,13 +29,10 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
-• Bao ban buffet:  
-• Chilimarinoitua kanaa (Suomi) L,G  
-• Tom Yam maustettuja ravunpyrstöjä L,G  
-• Tofu-kasvispata Korean bbq VEG  
-• Pikkelöityjä kasviksia ja sesamdippiä  
+• Friteerattua kanaa(Suomi), paprika-choritsodippiä ja Cajun-paahdettua perunaa L, G  
+• Misopaahdettua munakoisoa ja hirssiä VEG  
 
 
 ---
@@ -46,94 +43,34 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
 • klo 10.30-15.00  
 • BUFFET  13,70  
-• SENIORIT  12,50  
-• ​FETA-TOMAATTI  
-• KEITTO L.G  
-• talon uunituore leipä.  
-• L,G  
-• TALON CHICKENBURGER L  
-• Revitty broilerinrintafilee,tomaatti,salaati,rapea sipuli cheddarjuusto, BBQ-remulade kastike,  
-• NACCOPELTI  L G  
-• Naudanjauheliha,tacomausteseota,paprika,jalopeno,juustoraastetta,  
-• PINAATTIVUOKA L G M  
-• vegaaniruoka  
-• ​  
-• TALON OMA KEBABLIHA L,G  
+• SENIORIT 12,50​  
+• KANA-JUURESKEITTO  L G  
+• talon uunituore leipä  
+• SIPULILEIKE G,L,M  
+• porsaanulkofilee, sipuli,pippuri- punaviinikastike, Keitetty perunat  
+• VÄLIMEREN KANA ( L.G)  
+• broilerin rintafilekuutiot, feta,-oliivit, kermainen kastike  
+• PINAATTI PAISTOS  
+• vegan  
 • ​  
 • ​  
-• PIZZA PÖYTÄ.  
 • ​  
+• ​  
+• ​  
+• TALON OMA  
+• ​  
+• KEBABLIHA  
 • LISUKKEET  
 • riisi, perunaa, kasvikset,  
-• meze tyylinen salaatti-buffet,  
-• pasta  
+• meze tyylinen salaatti-buffet  
+• ​  
+• ​  
 • JÄLKIRUOKA  
 • talon täytekakku, kahvi, tee  
-• MUUT LOUNAS ANNOKSET  
-• SALAATTI- / KEITTOLOUNAS  11,50  
-• ​  
-• LEHTIPIHVI  
-• L, G  
-• 17,90  
-• PASTA  CARBONARA  
-• (  
-• L)  
-• 13,90  
-• pekoni, kerma, kananmuna keltuainen, mustapippuri  
-• KATKARAPU PASTA  
-• (  
-• L)  
-• 13,90  
-• Kirsikkatomaatti,aurajuusto, chili, kermakastke  
-• PÄIVÄN KALA  
-• L, G  
-• 16,90  
-• päivän kala, riisi tai peruunat, kasvikset, vinegrettakastike  
-• FALAFEL RIISILLÄ  
-• L, G  
-• 11,90  
-• PÄIVÄN  
-• SALAATTI  
-• L, G  
-• 12,90  
-• 3 täytettä valintasi mukaan  
-• PÄIVÄN  
-• PIZZA  
-• L  
-• 12,90  
-• 3 täytettä valintasi mukaan  
-• ​  
-• KÄYTÄ  
-• MME  
-• KOTIMAAN JA EU ALUEN  
-• LIHAA.  
-• Kysy ruoka-aineallergioista henkilökunnalta  
-• ​  
-• OSOITE  
-• Tallbergin puistotie 1  
-• 00200 Helsinki  
-• OTA YHTEYTTÄ  
-• Puh.  
-• 050 342 7704  
-• Email:  
-• ismo.tosun@gmail.com  
-• Palautteet:  
-• 0400 169 078  
-• AVOINNA  
-• Ma - To : 10.30 - 21:00  
-• Pe : 10.30 - 22.00  
-• ​​La : 12.00 - 22.00  
-• Su : 12.00 - 20.00  
-• keittiö suljetaan 30 min ennen sulkemisaika  
-• ​  
-• ​  
-• Tilaa ruoat kotiin tai työpaikalle  
-• Copyright © 2024  Ravintola Persilja  
-• bottom of page  
 
 
 ---
@@ -146,7 +83,7 @@
 - House lunch: 12,00€
 - Soup: 11,50€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
 Menu not found
 
@@ -158,7 +95,7 @@ Menu not found
 **Prices:**
 - Buffet: 13,70€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
 • {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/Divi\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}  
 • Isänpäivä Casa Maressa Lue lisää >> Riistaviikot Casa Maressa Tutustu ruokalistaamme >> Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  
