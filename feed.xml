@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>17.11.2025</date>
-  <day>Maanantai</day>
+  <date>18.11.2025</date>
+  <day>Tiistai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Jauhelihakastike  
-• muusia  
-• l  
+    <menu><![CDATA[• Juustoinen riistalihakiusaus  
+• puolukka l  
 • g  
-• Soijarouhekastike l  
+• Härkiskiusaus l  
 • g  
-• Kikhernekeitto l  
+• Tomaatti-kookoslinssikeitto l  
 • g  
 ]]></menu>
   </restaurant>
@@ -21,8 +20,9 @@
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Friteerattua kanaa(Suomi), paprika-choritsodippiä ja Cajun-paahdettua perunaa L, G  
-• Misopaahdettua munakoisoa ja hirssiä VEG  
+    <menu><![CDATA[• Lihapullia(Suomi) ja konjakki-kermakastiketta,  
+• perunamuussia ja puolukkaa L, G  
+• Porkkanapyöryköitä, kaura-kermakastiketta L  
 ]]></menu>
   </restaurant>
   <restaurant>
@@ -31,28 +31,23 @@
     <price name='Buffet'>13,70€</price>
     <menu><![CDATA[• klo 10.30-15.00  
 • BUFFET  13,70  
-• SENIORIT 12,50​  
-• KANA-JUURESKEITTO  L G  
+• SENIORIT  12,50  
+• TALON LINSIKEITTO  (G.M.L)  
 • talon uunituore leipä  
-• SIPULILEIKE G,L,M  
-• porsaanulkofilee, sipuli,pippuri- punaviinikastike, Keitetty perunat  
-• VÄLIMEREN KANA ( L.G)  
-• broilerin rintafilekuutiot, feta,-oliivit, kermainen kastike  
-• PINAATTI PAISTOS  
-• vegan  
+• PUNAHVEN  L, G  
+• grillattu punaahvenfilee, katkarapu-tartarkastike, perunamuusi  
+• METSÄSTÄJÄN KANA  (L, G)  
+• broilerin rintafilesuikaleet, kermainen metsäsiemi-aurajuustokastike  
+• MUNAKOISO PATA  ( L,G,M)  
+• vegaaniruoka  
 • ​  
 • ​  
 • ​  
-• ​  
-• ​  
-• TALON OMA  
-• ​  
-• KEBABLIHA  
+• TALON OMA KEBABLIHA  (L G.M)  
+• PIZZA PÖYTÄ  
 • LISUKKEET  
 • riisi, perunaa, kasvikset,  
 • meze tyylinen salaatti-buffet  
-• ​  
-• ​  
 • JÄLKIRUOKA  
 • talon täytekakku, kahvi, tee  
 ]]></menu>

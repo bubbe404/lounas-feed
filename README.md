@@ -1,6 +1,6 @@
-# 🍽️ Lauttasaari Lunch Menus — 17.11.2025
+# 🍽️ Lauttasaari Lunch Menus — 18.11.2025
 
-### Maanantai
+### Tiistai
 
 ## Makiata
 **Opening hours:** 11:00–13:00
@@ -9,15 +9,14 @@
 - Buffet: 13,70€
 - Soup: 12,70€
 
-**Maanantai menu:**
+**Tiistai menu:**
 
-• Jauhelihakastike  
-• muusia  
-• l  
+• Juustoinen riistalihakiusaus  
+• puolukka l  
 • g  
-• Soijarouhekastike l  
+• Härkiskiusaus l  
 • g  
-• Kikhernekeitto l  
+• Tomaatti-kookoslinssikeitto l  
 • g  
 
 
@@ -29,10 +28,11 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Maanantai menu:**
+**Tiistai menu:**
 
-• Friteerattua kanaa(Suomi), paprika-choritsodippiä ja Cajun-paahdettua perunaa L, G  
-• Misopaahdettua munakoisoa ja hirssiä VEG  
+• Lihapullia(Suomi) ja konjakki-kermakastiketta,  
+• perunamuussia ja puolukkaa L, G  
+• Porkkanapyöryköitä, kaura-kermakastiketta L  
 
 
 ---
@@ -43,32 +43,27 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Maanantai menu:**
+**Tiistai menu:**
 
 • klo 10.30-15.00  
 • BUFFET  13,70  
-• SENIORIT 12,50​  
-• KANA-JUURESKEITTO  L G  
+• SENIORIT  12,50  
+• TALON LINSIKEITTO  (G.M.L)  
 • talon uunituore leipä  
-• SIPULILEIKE G,L,M  
-• porsaanulkofilee, sipuli,pippuri- punaviinikastike, Keitetty perunat  
-• VÄLIMEREN KANA ( L.G)  
-• broilerin rintafilekuutiot, feta,-oliivit, kermainen kastike  
-• PINAATTI PAISTOS  
-• vegan  
+• PUNAHVEN  L, G  
+• grillattu punaahvenfilee, katkarapu-tartarkastike, perunamuusi  
+• METSÄSTÄJÄN KANA  (L, G)  
+• broilerin rintafilesuikaleet, kermainen metsäsiemi-aurajuustokastike  
+• MUNAKOISO PATA  ( L,G,M)  
+• vegaaniruoka  
 • ​  
 • ​  
 • ​  
-• ​  
-• ​  
-• TALON OMA  
-• ​  
-• KEBABLIHA  
+• TALON OMA KEBABLIHA  (L G.M)  
+• PIZZA PÖYTÄ  
 • LISUKKEET  
 • riisi, perunaa, kasvikset,  
 • meze tyylinen salaatti-buffet  
-• ​  
-• ​  
 • JÄLKIRUOKA  
 • talon täytekakku, kahvi, tee  
 
@@ -83,7 +78,7 @@
 - House lunch: 12,00€
 - Soup: 11,50€
 
-**Maanantai menu:**
+**Tiistai menu:**
 
 Menu not found
 
@@ -95,7 +90,7 @@ Menu not found
 **Prices:**
 - Buffet: 13,70€
 
-**Maanantai menu:**
+**Tiistai menu:**
 
 • {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/Divi\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}  
 • Isänpäivä Casa Maressa Lue lisää >> Riistaviikot Casa Maressa Tutustu ruokalistaamme >> Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  
