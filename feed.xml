@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>19.11.2025</date>
-  <day>Keskiviikko</day>
+  <date>20.11.2025</date>
+  <day>Torstai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Aasialainen lihapata  
-• basmatiriisiä l  
+    <menu><![CDATA[• Punajuurifalafellpyöryköitä  
+• kermaperunaa  
+• tsatsiki l  
 • g  
-• Aasialainen tofupata l  
+• Lohikeitto l  
 • g  
-• Kukkakaalisosekeitto l  
+• Mustikkapaistos ja vaniljakastike l  
 • g  
 ]]></menu>
   </restaurant>
@@ -20,8 +21,8 @@
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Savustettua lohta, tilli-kermaviilikastiketta ja piparjuuriperunaa L  
-• “The stew” kikhernemuhennos VEG  
+    <menu><![CDATA[• Pitkään haudutettua härkää, punaviinikastiketta ja timjamiperunaa L, G  
+• Punajuuri-hernepihvejä VEG  
 ]]></menu>
   </restaurant>
   <restaurant>
@@ -31,23 +32,24 @@
     <menu><![CDATA[• klo 10.30-15.00  
 • BUFFET  13,70  
 • SENIORIT 12,50  
-• LOHIKEITTO ( L G)  
+• SIENI-KOSKENLASKIJAKEITTO L,GKEITTO  
 • talon uunituore leipä  
-• LIHAPULLAT  (L .G)  
-• naudanjauhelihapullat ruskeassa kastikkeessa, perunamuusi  
-• GRILLATU BROILERIN REIDET  (L.G.)  
-• marinoidut broilerin luuton reidet Curry majo dippi  
-• BROKOOLI GRATIINI  
-• kasvisruoka  
+• RIISTAKÄÄRISTYS  
+• L,G ,M  
+• Riistaliha,perunamuusi, puolukkahillo  
+• BROILERIN SISÄFILEE( L.G,M)  
+• broilerin rintafilee, Tulinen-tacokastike paprikamajoneesi dippi  
+• KARAMELLISOIDUT JUURIKSET (L.G)  
+• Lanatut, punajuuri, peruna, inkiväri  
 • ​  
-• TALON OMA KEBAB ( L.G)  
-• ​  
-• PIZZA PÖYTÄ  ( L)  
+• TALON OMA KEBAB  
+• PIZZA PÖYTÄ  
 • ​  
 • LISUKKEET  
-• Riisi, perunaa,kasvikset  
+• riisi, perunaa, kasvikset  
 • meze tyylinen salaatti-buffet  
 • JÄLKIRUOKA  
+• talon letut, mansikkahillo ja kermavaahto  
 • talon täytekakku, kahvi, tee  
 • LOUNAS  
 ]]></menu>
