@@ -1,6 +1,6 @@
-# 🍽️ Lauttasaari Lunch Menus — 20.11.2025
+# 🍽️ Lauttasaari Lunch Menus — 21.11.2025
 
-### Torstai
+### Perjantai
 
 ## Makiata
 **Opening hours:** 11:00–13:00
@@ -9,15 +9,19 @@
 - Buffet: 13,70€
 - Soup: 12,70€
 
-**Torstai menu:**
+**Perjantai menu:**
 
-• Punajuurifalafellpyöryköitä  
-• kermaperunaa  
-• tsatsiki l  
+• Lihamureke  
+• juustokastike  
+• timjamiperuna l  
 • g  
-• Lohikeitto l  
+• Kasvismureke  
+• juustokastike  
+• timjamiperuna l  
 • g  
-• Mustikkapaistos ja vaniljakastike l  
+• Kasvisborssikeitto l  
+• g  
+• Hedelmäsalaatti m  
 • g  
 
 
@@ -29,10 +33,10 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Torstai menu:**
+**Perjantai menu:**
 
-• Pitkään haudutettua härkää, punaviinikastiketta ja timjamiperunaa L, G  
-• Punajuuri-hernepihvejä VEG  
+• Burger Buffet – kokoa oma hampurilaisesi L  
+• Naudan täyslihapihvejä (Suomi) ja pekonia, kasvis pihvejä VEG, sämpylöitä & lisukkeet  
 
 
 ---
@@ -43,31 +47,95 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Torstai menu:**
+**Perjantai menu:**
 
 • klo 10.30-15.00  
 • BUFFET  13,70  
-• SENIORIT 12,50  
-• SIENI-KOSKENLASKIJAKEITTO L,GKEITTO  
+• SENIORIT  12,50  
+• CHEDDAR-KANA  
+• KEITTO L.G  
 • talon uunituore leipä  
-• RIISTAKÄÄRISTYS  
-• L,G ,M  
-• Riistaliha,perunamuusi, puolukkahillo  
-• BROILERIN SISÄFILEE( L.G,M)  
-• broilerin rintafilee, Tulinen-tacokastike paprikamajoneesi dippi  
-• KARAMELLISOIDUT JUURIKSET (L.G)  
-• Lanatut, punajuuri, peruna, inkiväri  
+• TALON PERJANTAIBURGER ( L)  
+• Naudanjauheliha pihvit, cheddarjuusto, salaatti,  
+• tomaatti, paprikamajoneesi, ketsuppi  
+• MAROKKOLAINEN SITRUUNAKANA (TAGIINI)  
+• L G  
+• broilerin rintafilee, sitruuna-juusto-kumina kanaliemikastike  
+• MUNAKOISO SHIKSHUKA L.G.M  
+• munakoiso, papu, paistettu kananmuna  
 • ​  
-• TALON OMA KEBAB  
-• PIZZA PÖYTÄ  
+• TALON OMA KEBABLIHA L,G  
+• ​  
+• ​  
+• PIZZA PÖYTÄ.  
 • ​  
 • LISUKKEET  
-• riisi, perunaa, kasvikset  
-• meze tyylinen salaatti-buffet  
+• riisi, perunaa, kasvikset,  
+• meze tyylinen salaatti-buffet,  
+• pasta  
 • JÄLKIRUOKA  
-• talon letut, mansikkahillo ja kermavaahto  
 • talon täytekakku, kahvi, tee  
-• LOUNAS  
+• MUUT LOUNAS ANNOKSET  
+• SALAATTI- / KEITTOLOUNAS  11,50  
+• ​  
+• LEHTIPIHVI  
+• L, G  
+• 17,90  
+• PASTA  CARBONARA  
+• (  
+• L)  
+• 13,90  
+• pekoni, kerma, kananmuna keltuainen, mustapippuri  
+• KATKARAPU PASTA  
+• (  
+• L)  
+• 13,90  
+• Kirsikkatomaatti,aurajuusto, chili, kermakastke  
+• PÄIVÄN KALA  
+• L, G  
+• 16,90  
+• päivän kala, riisi tai peruunat, kasvikset, vinegrettakastike  
+• FALAFEL RIISILLÄ  
+• L, G  
+• 11,90  
+• PÄIVÄN  
+• SALAATTI  
+• L, G  
+• 12,90  
+• 3 täytettä valintasi mukaan  
+• PÄIVÄN  
+• PIZZA  
+• L  
+• 12,90  
+• 3 täytettä valintasi mukaan  
+• ​  
+• KÄYTÄ  
+• MME  
+• KOTIMAAN JA EU ALUEN  
+• LIHAA.  
+• Kysy ruoka-aineallergioista henkilökunnalta  
+• ​  
+• OSOITE  
+• Tallbergin puistotie 1  
+• 00200 Helsinki  
+• OTA YHTEYTTÄ  
+• Puh.  
+• 050 342 7704  
+• Email:  
+• ismo.tosun@gmail.com  
+• Palautteet:  
+• 0400 169 078  
+• AVOINNA  
+• Ma - To : 10.30 - 21:00  
+• Pe : 10.30 - 22.00  
+• ​​La : 12.00 - 22.00  
+• Su : 12.00 - 20.00  
+• keittiö suljetaan 30 min ennen sulkemisaika  
+• ​  
+• ​  
+• Tilaa ruoat kotiin tai työpaikalle  
+• Copyright © 2024  Ravintola Persilja  
+• bottom of page  
 
 
 ---
@@ -80,7 +148,7 @@
 - House lunch: 12,00€
 - Soup: 11,50€
 
-**Torstai menu:**
+**Perjantai menu:**
 
 Menu not found
 
@@ -92,7 +160,7 @@ Menu not found
 **Prices:**
 - Buffet: 13,70€
 
-**Torstai menu:**
+**Perjantai menu:**
 
 • {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/Divi\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}  
 • Kolmen ruokalajin joululounas ennakkotilauksesta Lue lisää >> Riistaviikot Casa Maressa Tutustu ruokalistaamme >> Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  
