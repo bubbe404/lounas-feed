@@ -1,6 +1,6 @@
-# 🍽️ Lauttasaari Lunch Menus — 25.11.2025
+# 🍽️ Lauttasaari Lunch Menus — 26.11.2025
 
-### Tiistai
+### Keskiviikko
 
 ## Makiata
 **Opening hours:** 11:00–13:00
@@ -9,13 +9,13 @@
 - Buffet: 13,70€
 - Soup: 12,70€
 
-**Tiistai menu:**
+**Keskiviikko menu:**
 
-• Jauhelihaperunasoselaatikko l  
+• Pasta carbonara l  
+• Tomaatti-vuohenjuustopasta vl  
+• Yrttinen porkkanasosekeitto l  
 • g  
-• Soijarouheperunasoselaatikko l  
-• g  
-• Savuporojuustokeitto l  
+• Kuningatarkiisseli ja kermavaahto l  
 • g  
 
 
@@ -27,10 +27,11 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Tiistai menu:**
+**Keskiviikko menu:**
 
-• Pannupihvejä naudasta (Suomi), pippurikastiketta ja juustoperunoita L,G  
-• Härkäpapupihvejä VEG  
+• Tomaattinen paella, jättirapu-paprikapaistosta, chorizo-kanapaistosta,  
+• Herkkusieni-tofu paisosta L, G  
+• Limeaiolia ja chimichurrikastiketta  
 
 
 ---
@@ -41,57 +42,15 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Tiistai menu:**
+**Keskiviikko menu:**
 
-• klo 10.30-15.00  
-• BUFFET  13,70  
-• SENIORIT  12,50  
-• LINSSIKEITTO  L G M  
-• TUORE MERILOHI( L G)  
-• grillattua merilohta, kermainen tilli-sitruunakastike  
-• KANAFAJITAS ( L G)  
-• grillattu broilerin rintafilee, paistetut kasvikset, tortillaleipä,  
-• smetana ja tacokastike  
-• MUNAKOISOPATA  (V L G  
-• vegaaniruoka  
-• ​  
-• ​  
-• ​  
-• TALON OMA KEBABLIHA (L, G, M)  
-• PIZZA-PÖYTÄ  
-• LISUKKEET  
-• riisi, perunat, kasvikset, meze-tyylinen salaattibuffet  
-• JÄLKIRUOKA  
-• talon täytekakku, kahvi, tee  
-• ​  
-• MUUT LOUNASANNOKSET  
-• SALAATTI- / KEITTOLOUNAS – 11,50  
-• LEHTIPIHVI (L, G) – 17,90  
-• ranskalaiset, maustevoi  
-• KANALEIKE (L, G) – 14,90  
-• paneroitu broilerin rintafilee, maustevoi  
-• PASTA ALL’ARRABBIATA (L, G) – 13,90  
-• broilerin rintafilee, tomaatti-chili-basilikakastike  
-• FALAFEL RIISILLÄ (L, G) – 11,90  
-• PÄIVÄN SALAATTI (L, G) – 12,90  
-• 3 täytettä valintasi mukaan  
-• PÄIVÄN PIZZA (L) – 12,90  
-• 3 täytettä valintasi mukaan  
-• ​  
-• ​  
-• KÄYTÄ  
-• MME  
-• KOTIMAISTA JA EU ALUEEN  
-• LIHAA.  
-• Kysy ruoka-aineallergioista henkilökunnalta  
-• Keskiviikko  
 • klo 10.30-15.00  
 • BUFFET  13,70  
 • SENIORIT 12,50  
 • LOHIKEITTO  
-• MUREKKE PIHVI L G  
-• Murenaudan jauhelihapihvit pippurikastikeassa  
-• TACOKANA( L G M)  
+• MUREKKE PIHVI (L, G)  
+• murenaudan jauhelihapihvit pippurikastikeassa  
+• TACOKANA (L, G, M)  
 • broilerin rintafilee, tomaatti, tacokastike  
 • PINAATTIVUOKA  
 • kasvisruoka  
@@ -128,10 +87,10 @@
 • BUFFET  13,70  
 • SENIORIT 12,50  
 • KASVISKEITTO  
-• PÄIVÄN KALA L.G.M  
+• PÄIVÄN KALA (L,,G, M)  
 • puna-ahven ja tartarkastike  
-• SAFFARANIKANA  G L  
-• murebroilerinrintafilee, Kermainen-sahraamikatikeen ja  raikkaan sitruna.  
+• SAFFARANIKANA (G, L)  
+• murebroilerinrintafilee, kermainen-sahraamikatikeen ja  raikkaan sitruna.  
 • PARSAKAALIPATA  
 • veganiruoka​  
 • ​  
@@ -166,14 +125,15 @@
 • klo 10.30-15.00  
 • BUFFET  13,70  
 • SENIORIT  12,50  
-• KERMAINEN SIENIKEITTO L G  
-• BBQ-BURGER L  
+• KERMAINEN SIENIKEITTO (L, G)  
+• BBQ-BURGER (L)  
 • naudan jauhelihapihvi, pekoni, sipuli, salaatti, talon kastike  
-• APPELSIINIKANA L G  
+• APPELSIINIKANA (L, G)  
 • broilerin rintafilee, aurinkokuivatuista tomaateista ja appelsiinista  
 • tehty kermainen kastike  
 • VIHREITÄ PAPUJA PAISTO  
 • vegaaniruoka  
+• ​  
 • ​  
 • TALON OMA KEBABLIHA (L, G)  
 • PIZZA-PÖYTÄ  
@@ -233,7 +193,7 @@
 - House lunch: 12,00€
 - Soup: 11,50€
 
-**Tiistai menu:**
+**Keskiviikko menu:**
 
 Menu not found
 
@@ -245,7 +205,7 @@ Menu not found
 **Prices:**
 - Buffet: 13,70€
 
-**Tiistai menu:**
+**Keskiviikko menu:**
 
 • {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/Divi\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}  
 • Kolmen ruokalajin joululounas ennakkotilauksesta Lue lisää >> Riistaviikot Casa Maressa Tutustu ruokalistaamme >> Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  
