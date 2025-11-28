@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>27.11.2025</date>
-  <day>Torstai</day>
+  <date>28.11.2025</date>
+  <day>Perjantai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Lohilaatikko l  
-• g  
-• Paahdettu punajuuri l  
-• g  
-• Feta-härkislaatikko l  
-• g  
-• Paahdettu paprika-tomaattikeitto l  
-• g  
-]]></menu>
+    <menu><![CDATA[Error fetching menu: 415 Client Error: Unsupported Media Type for url: https://www.makiata.fi/lounas/]]></menu>
   </restaurant>
   <restaurant>
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Teriyakikanaa(Suomi)  ja nuudeli-kasvis wokki L  
-• Mustapapufalafel ja boomboomkastike VEG  
+    <menu><![CDATA[• Ylikypsää vasikkaa (EU), tummaa tattikastiketta ja sahramirisottoa L,G  
+• Tortelliineja sienikastikkeessa VEG  
 ]]></menu>
   </restaurant>
   <restaurant>
@@ -30,45 +22,6 @@
     <hours>10:30–15:00</hours>
     <price name='Buffet'>13,70€</price>
     <menu><![CDATA[• klo 10.30-15.00  
-• BUFFET  13,70  
-• SENIORIT 12,50  
-• KASVISKEITTO  
-• TÄYTETTY KAMPELA (L,,G, M)  
-• kasviksellä täytetty kampela, sitruuna-tillikastike  
-• SAFFARANIKANA (G, L)  
-• murebroilerinrintafilee, kermainen-sahraamikatikeen ja  raikkaan sitruna.  
-• PARSAKAALIPATA  
-• veganiruoka​  
-• ​  
-• TALON OMA KEBAB  
-• PIZZA-PÖYTÄ  
-• LISUKKEET  
-• riisi, perunat, kasvikset, meze-tyylinen salaattibuffet  
-• JÄLKIRUOKA  
-• talon letut, mansikkahillo ja kermavaahto  
-• talon täytekakku, kahvi, tee  
-• ​  
-• MUUT LOUNASANNOKSET  
-• SALAATTI- / KEITTOLOUNAS – 11,50  
-• LEHTIPIHVI (L, G) – 17,90  
-• KANA SHASHLIK (L, G) – 14,90  
-• broilerin rintafilevarras, punaviinikastike, kasvikset  
-• SPAGHETTI AL RAGÙ (L, G) – 13,90  
-• jauhelihakastike, aura, chili, tomaatti, kerma  
-• FALAFEL RIISILLÄ (L, G) – 11,90  
-• PÄIVÄN SALAATTI (L, G) – 12,90  
-• 3 täytettä valintasi mukaan  
-• PÄIVÄN PIZZA (L) – 12,90  
-• 3 täytettä valintasi mukaan  
-• ​  
-• KÄYTÄ  
-• MME  
-• KOTIMAAN  
-• JA EU ALUEEN  
-• LIHAA.  
-• Kysy  aineallergiost henkilökunnalta!  
-• Perjantai  
-• klo 10.30-15.00  
 • BUFFET  13,70  
 • SENIORIT  12,50  
 • KERMAINEN SIENIKEITTO (L, G)  
