@@ -1,6 +1,6 @@
-# 🍽️ Lauttasaari Lunch Menus — 08.12.2025
+# 🍽️ Lauttasaari Lunch Menus — 09.12.2025
 
-### Maanantai
+### Tiistai
 
 ## Makiata
 **Opening hours:** 11:00–13:00
@@ -9,14 +9,11 @@
 - Buffet: 13,70€
 - Soup: 12,70€
 
-**Maanantai menu:**
+**Tiistai menu:**
 
-• Chili con carne  
-• riisi l  
-• g  
-• Chili sin carne riisi l  
-• g  
-• Juustoinen kasvissosekeitto l  
+• Tonnikalapasta l  
+• Feta-pinaattipasta l  
+• Jauhelihakeitto l  
 • g  
 
 
@@ -28,9 +25,11 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Maanantai menu:**
+**Tiistai menu:**
 
-Error fetching menu: HTTPSConnectionPool(host='www.bistrotelakka.fi', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='www.bistrotelakka.fi', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
+• ”Fish& Chips” turskaa, ranskalaisia ja tilliremoulade L  
+• Paahdettua bataattia ja fetaa L, G  
+
 
 ---
 
@@ -40,52 +39,8 @@ Error fetching menu: HTTPSConnectionPool(host='www.bistrotelakka.fi', port=443):
 **Prices:**
 - Buffet: 13,70€
 
-**Maanantai menu:**
+**Tiistai menu:**
 
-• klo 10.30-15.00  
-• BUFFET  13,70  
-• SENIORIT 12,50​  
-• KASVIS-NUUDELI KEITTO  (L, G.M)  
-• Talon uunituore leipä  
-• KARJALAN PAISTI  ( M L G)  
-• Nautaa-porsaanulkofile kuutiot,peruna,porkana,lihaliemi  
-• NEPALILANAINE BROILERI  L G  
-• Broilerinrintafile,nepaöiilainen kastikeassa  
-• .  
-• PINAATTIPATA L G M  
-• vegaani  
-• ​  
-• ​  
-• ​  
-• ​  
-• ​  
-• ​  
-• TALON OMA KEBABLIHA  
-• LISUKKEET  
-• riisi, perunat, kasvikset, meze-tyylinen salaattibuffet  
-• JÄLKIRUOKA  
-• talon täytekakku, kahvi, tee  
-• ​  
-• MUUT LOUNASANNOKSET  
-• SALAATTI- / KEITTOLOUNAS – 11,50  
-• LEHTIPIHVI (L, G) – 17,90  
-• ranskalaiset, maustevoi  
-• METSÄSTÄJÄN PIHVI (L, G) – 17,90  
-• naudan ulkofile, sieni-aurajuustokastike, perunat ja kasvikset  
-• PASTA PERSILJA SPECIALE (L, G) – 13,90  
-• broileri, parsa, kerma-tomaattikastike  
-• FALAFEL RIISILLÄ (L, G) – 11,90  
-• PÄIVÄN SALAATTI (L, G) – 12,90  
-• 3 täytettä valintasi mukaan  
-• PÄIVÄN PIZZA (L) – 12,90  
-• 3 täytettä valintasi mukaan  
-• ​  
-• KÄYTÄ  
-• MME  
-• KOTIMAISTA JA EU ALUEEN  
-• LIHAT  
-• Kysy ruoka-aineallergioista henkilökunnalta  
-• Tiistai  
 • klo 10.30-15.00  
 • BUFFET  13,70  
 • SENIORIT  12,50  
@@ -281,7 +236,7 @@ Error fetching menu: HTTPSConnectionPool(host='www.bistrotelakka.fi', port=443):
 - House lunch: 12,00€
 - Soup: 11,50€
 
-**Maanantai menu:**
+**Tiistai menu:**
 
 Menu not found
 
@@ -293,7 +248,7 @@ Menu not found
 **Prices:**
 - Buffet: 13,70€
 
-**Maanantai menu:**
+**Tiistai menu:**
 
 • {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/Divi/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}  
 • Kolmen ruokalajin joululounas ennakkotilauksesta Lue lisää >> Riistaviikot Casa Maressa Tutustu ruokalistaamme >> Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  

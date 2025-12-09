@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>08.12.2025</date>
-  <day>Maanantai</day>
+  <date>09.12.2025</date>
+  <day>Tiistai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Chili con carne  
-• riisi l  
-• g  
-• Chili sin carne riisi l  
-• g  
-• Juustoinen kasvissosekeitto l  
+    <menu><![CDATA[• Tonnikalapasta l  
+• Feta-pinaattipasta l  
+• Jauhelihakeitto l  
 • g  
 ]]></menu>
   </restaurant>
@@ -20,57 +17,15 @@
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[Error fetching menu: HTTPSConnectionPool(host='www.bistrotelakka.fi', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='www.bistrotelakka.fi', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))]]></menu>
+    <menu><![CDATA[• ”Fish& Chips” turskaa, ranskalaisia ja tilliremoulade L  
+• Paahdettua bataattia ja fetaa L, G  
+]]></menu>
   </restaurant>
   <restaurant>
     <name>Persilja</name>
     <hours>10:30–15:00</hours>
     <price name='Buffet'>13,70€</price>
     <menu><![CDATA[• klo 10.30-15.00  
-• BUFFET  13,70  
-• SENIORIT 12,50​  
-• KASVIS-NUUDELI KEITTO  (L, G.M)  
-• Talon uunituore leipä  
-• KARJALAN PAISTI  ( M L G)  
-• Nautaa-porsaanulkofile kuutiot,peruna,porkana,lihaliemi  
-• NEPALILANAINE BROILERI  L G  
-• Broilerinrintafile,nepaöiilainen kastikeassa  
-• .  
-• PINAATTIPATA L G M  
-• vegaani  
-• ​  
-• ​  
-• ​  
-• ​  
-• ​  
-• ​  
-• TALON OMA KEBABLIHA  
-• LISUKKEET  
-• riisi, perunat, kasvikset, meze-tyylinen salaattibuffet  
-• JÄLKIRUOKA  
-• talon täytekakku, kahvi, tee  
-• ​  
-• MUUT LOUNASANNOKSET  
-• SALAATTI- / KEITTOLOUNAS – 11,50  
-• LEHTIPIHVI (L, G) – 17,90  
-• ranskalaiset, maustevoi  
-• METSÄSTÄJÄN PIHVI (L, G) – 17,90  
-• naudan ulkofile, sieni-aurajuustokastike, perunat ja kasvikset  
-• PASTA PERSILJA SPECIALE (L, G) – 13,90  
-• broileri, parsa, kerma-tomaattikastike  
-• FALAFEL RIISILLÄ (L, G) – 11,90  
-• PÄIVÄN SALAATTI (L, G) – 12,90  
-• 3 täytettä valintasi mukaan  
-• PÄIVÄN PIZZA (L) – 12,90  
-• 3 täytettä valintasi mukaan  
-• ​  
-• KÄYTÄ  
-• MME  
-• KOTIMAISTA JA EU ALUEEN  
-• LIHAT  
-• Kysy ruoka-aineallergioista henkilökunnalta  
-• Tiistai  
-• klo 10.30-15.00  
 • BUFFET  13,70  
 • SENIORIT  12,50  
 • LINSSIKEITTO  L, G, M  
