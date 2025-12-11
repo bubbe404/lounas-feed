@@ -1,6 +1,6 @@
-# 🍽️ Lauttasaari Lunch Menus — 10.12.2025
+# 🍽️ Lauttasaari Lunch Menus — 11.12.2025
 
-### Keskiviikko
+### Torstai
 
 ## Makiata
 **Opening hours:** 11:00–13:00
@@ -9,15 +9,14 @@
 - Buffet: 13,70€
 - Soup: 12,70€
 
-**Keskiviikko menu:**
+**Torstai menu:**
 
-• Kanapyörykät currykastike  
-• muusi l  
+• Katkarapuwok riisinuudelia l  
 • g  
-• Kasvispyörykät l  
+• Tofuwok l  
 • g  
-• Lohikeitto l  
-• g  
+• Hernekeitto l  
+• g pannari l  
 
 
 ---
@@ -28,11 +27,10 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Keskiviikko menu:**
+**Torstai menu:**
 
-• Lihapullia(Suomi) ja konjakki-kermakastiketta,  
-• perunamuussia ja puolukkaa L, G  
-• Porkkanapyöryköitä, kaura-kermakastiketta L  
+• Pitkään haudutettua härkää, punaviinikastiketta ja timjamiperunaa L, G  
+• “The stew” kikhernemuhennos VEG  
 
 
 ---
@@ -43,48 +41,8 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Keskiviikko menu:**
+**Torstai menu:**
 
-• klo 10.30-15.00  
-• BUFFET  13,70  
-• SENIORIT 12,50  
-• LOHIKEITTO L G  
-• talon uunituore leipä  
-• TALON LIHAPULLAT  (L, G)  
-• Naudanlihapullat,ruskeakastikeassa  
-• MOZZERELLA KANA  (L, G, )  
-• grillattu broilerinTomaatti-basilika kastike,mozzerella  
-• CURRY-KIKHERNE  ( L,G)  
-• kasvisruoka  
-• ​  
-• TALON OMA KEBAB (L, G)  
-• PIZZA-PÖYTÄ (L)  
-• LISUKKEET  
-• riisi, perunat, kasvikset, meze-tyylinen salaattibuffet  
-• JÄLKIRUOKA  
-• talon täytekakku, kahvi, tee  
-• ​  
-• ​  
-• MUUT LOUNASANNOKSET  
-• SALAATTI- / KEITTOLOUNAS – 11,50  
-• LEHTIPIHVI (L, G) – 17,90  
-• KANA SHASHLIK (L, G) – 14,90  
-• broilerin rintafilevarras, punaviinikastike, kasvikset  
-• SPAGHETTI AL RAGÙ (L, G) – 13,90  
-• jauhelihakastike, sahrami, chili, tomaatti, kerma  
-• FALAFEL RIISILLÄ (L, G) – 11,90  
-• PÄIVÄN SALAATTI (L, G) – 12,90  
-• 3 täytettä valintasi mukaan  
-• PÄIVÄN PIZZA (L, G) – 12,90  
-• 3 täytettä valintasi mukaan  
-• ​  
-• KÄYTÄ  
-• MME  
-• KOTIMAAN  
-• JA EU ALUEEN  
-• LIHAA.  
-• Kysy  aineallergiost henkilökunnalta!  
-• Torstai  
 • klo 10.30-15.00  
 • BUFFET  13,70  
 • SENIORIT 12,50  
@@ -198,7 +156,7 @@
 - House lunch: 12,00€
 - Soup: 11,50€
 
-**Keskiviikko menu:**
+**Torstai menu:**
 
 Menu not found
 
@@ -210,7 +168,7 @@ Menu not found
 **Prices:**
 - Buffet: 13,70€
 
-**Keskiviikko menu:**
+**Torstai menu:**
 
 • {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/Divi/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}  
 • Kolmen ruokalajin joululounas ennakkotilauksesta Lue lisää >> Riistaviikot Casa Maressa Tutustu ruokalistaamme >> Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  
