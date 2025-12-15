@@ -1,6 +1,6 @@
-# 🍽️ Lauttasaari Lunch Menus — 12.12.2025
+# 🍽️ Lauttasaari Lunch Menus — 15.12.2025
 
-### Perjantai
+### Maanantai
 
 ## Makiata
 **Opening hours:** 11:00–13:00
@@ -9,17 +9,14 @@
 - Buffet: 13,70€
 - Soup: 12,70€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
-• Kermainen possupata  
-• muusi  
-• uunijuurekset l  
+• Chili con carne  
+• riisi l  
 • g  
-• Kermainen härkäpapupata l  
+• Chili sin carne riisi l  
 • g  
-• Maapähkinäkeitto l  
-• g  
-• Piparirahka l  
+• Juustoinen kasvissosekeitto l  
 • g  
 
 
@@ -31,10 +28,10 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
-• Burger Buffet – kokoa oma hampurilaisesi L  
-• Naudan täyslihapihvejä (Suomi) ja pekonia, kasvis pihvejä VEG, sämpylöitä & lisukkeet  
+• Wallenberginpihvejä, perunamuussia ja kermakastiketta L,G  
+• Kasviskoftaa ja wasabikastiketta VEG  
 
 
 ---
@@ -45,69 +42,9 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
-• klo 10.30-15.00  
-• BUFFET  13,70  
-• SENIORIT  12,50  
-• talon uunituore leipä  
-• TOMAATTI-PARMESANJUUSTO  KEITTO L G M  
-• TALON BBQ BURGERIT  (L)  
-• Naudan  
-• jauhelihapihvit, cheddarjuusto, salaatti, tomaatti, kuivattu sipuli, bbq-burgerkastike,  
-• PIPPURI BROILERI  L G  
-• broilerinrintafilee, kermainenpippuri kastike.  
-• PINAATTI PAISTO.(G.L.M)  
-• vegaaniruoka  
-• ​  
-• ​  
-• TALON OMA KEBABLIHA (L, G)  
-• PIZZA-PÖYTÄ  
-• LISUKKEET  
-• riisi, perunat, kasvikset, meze-tyylinen salaattibuffet, pasta  
-• JÄLKIRUOKA  
-• talon täytekakku, kahvi, tee  
-• MUUT LOUNASANNOKSET  
-• SALAATTI- / KEITTOLOUNAS – 11,50  
-• LEHTIPIHVI (L, G) – 17,90  
-• PASTA CARBONARA (L) – 13,90  
-• pekoni, kerma, kananmunankeltuainen, mustapippuri  
-• KATKARAPUPASTA (L) – 13,90  
-• kirsikkatomaatti, aurajuusto, chili, kermakastike  
-• PÄIVÄN KALA (L, G) – 16,90  
-• päivän kala, riisi tai perunat, kasvikset, vinegrettikastike  
-• FALAFEL RIISILLÄ (L, G) – 11,90  
-• PÄIVÄN SALAATTI (L, G) – 12,90  
-• 3 täytettä valintasi mukaan  
-• PÄIVÄN PIZZA (L) – 12,90  
-• 3 täytettä valintasi mukaan  
-• ​  
-• ​  
-• KÄYTÄMME KOTIMAISTA JA EU-ALUEEN LIHAA.  
-• Kysy ruoka-aineallergioista henkilökunnalta.  
-• ​  
-• OSOITE  
-• Tallbergin puistotie 1  
-• 00200 Helsinki  
-• OTA YHTEYTTÄ  
-• Puh.  
-• 050 342 7704  
-• Email:  
-• ismo.tosun@gmail.com  
-• Palautteet:  
-• 0400 169 078  
-• AVOINNA  
-• Ma - To : 10.30 - 21:00  
-• Pe : 10.30 - 22.00  
-• ​​La : 12.00 - 22.00  
-• Su : 12.00 - 20.00  
-• keittiö suljetaan 30 min ennen sulkemisaika  
-• ​  
-• ​  
-• Tilaa ruoat kotiin tai työpaikalle  
-• Copyright © 2024  Ravintola Persilja  
-• bottom of page  
-
+Error fetching menu: 403 Client Error: Forbidden for url: https://www.ravintolapersilja.fi/lounas
 
 ---
 
@@ -119,7 +56,7 @@
 - House lunch: 12,00€
 - Soup: 11,50€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
 Menu not found
 
@@ -131,7 +68,7 @@ Menu not found
 **Prices:**
 - Buffet: 13,70€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
 • {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/Divi/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}  
 • Kolmen ruokalajin joululounas ennakkotilauksesta Lue lisää >> Riistaviikot Casa Maressa Tutustu ruokalistaamme >> Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  
