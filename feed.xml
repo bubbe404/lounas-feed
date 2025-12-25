@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>24.12.2025</date>
-  <day>Keskiviikko</day>
+  <date>25.12.2025</date>
+  <day>Torstai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Joululounas 11-13.30  
+    <menu><![CDATA[• Paahtopaistikiusaus l  
+• g  
+• Härkiskiusaus l  
+• g  
+• Linssikeitto l  
+• g LOUNASAIKA PÄÄTTYY POIKKEUKSELLISESTI 12.30!!  
 ]]></menu>
   </restaurant>
   <restaurant>
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Telakalla savustettua kirjolohta, tilliperunaa ja tartarkastiketta L, G  
-• Kasvispyöryköitä koreanbbqkastikkeessa VEG  
+    <menu><![CDATA[• Fajitas:  
+• Kanaa(Eu), jättirapuja L ja blackened tofua VEG  
+• riisiä, guacamolea, salsaa ja crème fraichea L  
 ]]></menu>
   </restaurant>
   <restaurant>
