@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>05.01.2026</date>
-  <day>Maanantai</day>
+  <date>06.01.2026</date>
+  <day>Tiistai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Lihamureke  
-• lg  
-• kasivsmureke l  
+    <menu><![CDATA[• Perikkabroileria  
+• riisiä l  
 • g  
-• Savuporojuustokeitto l  
+• Persikkatofu  
+• riisi l  
+• g  
+• Metsäsienikeitto l  
 • g  
 ]]></menu>
   </restaurant>
@@ -19,9 +21,7 @@
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Friteerattua kanaa(Suomi), paprika-choritsodippiä ja Cajun-paahdettua perunaa L, G  
-• Misopaahdettua munakoisoa ja hirssiä VEG  
-]]></menu>
+    <menu><![CDATA[Error fetching menu: HTTPSConnectionPool(host='www.bistrotelakka.fi', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='www.bistrotelakka.fi', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))]]></menu>
   </restaurant>
   <restaurant>
     <name>Persilja</name>
