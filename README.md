@@ -1,6 +1,6 @@
-# 🍽️ Lauttasaari Lunch Menus — 15.01.2026
+# 🍽️ Lauttasaari Lunch Menus — 16.01.2026
 
-### Torstai
+### Perjantai
 
 ## Makiata
 **Opening hours:** 11:00–13:00
@@ -9,18 +9,15 @@
 - Buffet: 13,70€
 - Soup: 12,70€
 
-**Torstai menu:**
+**Perjantai menu:**
 
-• Kaalikääryleitä  
-• perunaa  
-• puolukkasurvos l  
+• Metsästäjänleike  
+• lohkoperunaa l  
+• Kasvipihvejä  
+• metsäsienikastike  
+• lohkoperunaa  
+• Kukkakaalisosekeitto l  
 • g  
-• Kasviskaalikääryleitä l  
-• g  
-• Puolukkasurvos l  
-• g  
-• Hernekeittoa l  
-• g Pannaria l  
 
 
 ---
@@ -31,10 +28,11 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Torstai menu:**
+**Perjantai menu:**
 
-• Worsmackhia, uuniperunaa, suolakurkkua ja smetanaa L,G  
-• Blinejä metsäsienilalaattia, savulohitartaria ja kaviartmoussea  
+• Fajitas:  
+• Kanaa(Eu), jättirapuja L ja blackened tofua VEG  
+• riisiä, guacamolea, salsaa ja crème fraichea L  
 
 
 ---
@@ -45,7 +43,7 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Torstai menu:**
+**Perjantai menu:**
 
 Error fetching menu: 403 Client Error: Forbidden for url: https://www.ravintolapersilja.fi/lounas
 
@@ -59,7 +57,7 @@ Error fetching menu: 403 Client Error: Forbidden for url: https://www.ravintolap
 - House lunch: 12,00€
 - Soup: 11,50€
 
-**Torstai menu:**
+**Perjantai menu:**
 
 Menu not found
 
@@ -71,7 +69,7 @@ Menu not found
 **Prices:**
 - Buffet: 13,70€
 
-**Torstai menu:**
+**Perjantai menu:**
 
 • {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/Divi/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}  
 • Casa Mare 40v.! Tutustu juhlavuoden ohjelmaan >> Bliniviikot Casa Maressa Tutustu ruokalistaamme >> Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  
