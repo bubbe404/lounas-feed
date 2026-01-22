@@ -1,35 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>21.01.2026</date>
-  <day>Keskiviikko</day>
+  <date>22.01.2026</date>
+  <day>Torstai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Silakkapihvit  
-• tilliperunaa  
-• remouladekastike l  
+    <menu><![CDATA[• Jauhemaksalätyt  
+• muusia l  
 • g  
-• Kasvispasta l  
-• Kanakeitto l  
+• Kasvis-feta-pihvejä l  
 • g  
+• Hernekeittoa l  
+• g Pannaria l  
 ]]></menu>
   </restaurant>
   <restaurant>
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Tacot fish baja ja friteerattua halloumia L,  
-• Punakaalia, pico de galloa, guacamolea, ranskankermaa  
-• ja cheddaria L  
-]]></menu>
+    <menu><![CDATA[Error fetching menu: HTTPSConnectionPool(host='www.bistrotelakka.fi', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='www.bistrotelakka.fi', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))]]></menu>
   </restaurant>
   <restaurant>
     <name>Persilja</name>
     <hours>10:30–15:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[Error fetching menu: HTTPSConnectionPool(host='www.ravintolapersilja.fi', port=443): Read timed out. (read timeout=10)]]></menu>
+    <menu><![CDATA[Error fetching menu: 403 Client Error: Forbidden for url: https://www.ravintolapersilja.fi/lounas]]></menu>
   </restaurant>
   <restaurant>
     <name>Pisara</name>
