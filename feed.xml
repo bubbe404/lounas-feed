@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>27.01.2026</date>
-  <day>Tiistai</day>
+  <date>28.01.2026</date>
+  <day>Keskiviikko</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Tikkamasalakanaa ja riisiä l  
-• g 	Linssitikkamasalaa ja riisiä  
-• Kasvisborssikeittoa l  
+    <menu><![CDATA[• Savulohipihvejä  
+• muusia  
+• tillikermaviilikastiketta l  
+• g  
+• Paistettua tofua  
+• muusia l  
+• g  
+• Lihakeitto herkkusienillä l  
 • g  
 ]]></menu>
   </restaurant>
@@ -17,8 +22,8 @@
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Friteerattua kanaa(Suomi), paprika-choritsodippiä ja Cajun-paahdettua perunaa L, G  
-• Misopaahdettua munakoisoa ja hirssiä VEG  
+    <menu><![CDATA[• Porsaanleikeitä, bearnaisekastiketta ja lohkoperunoita L  
+• Tortelliineja tomaatti-lehtikaalikastikkeessa L  
 ]]></menu>
   </restaurant>
   <restaurant>
