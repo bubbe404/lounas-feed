@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>13.02.2026</date>
-  <day>Perjantai</day>
+  <date>16.02.2026</date>
+  <day>Maanantai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Currylohta ja muusia l  
+    <menu><![CDATA[• Broilerpyöryköitä currykastikkeessa  
+• muusia l  
 • g  
-• Kasvistortilla l  
-• Juustoinen kasvissosekeitto l  
+• Punajuuri-vuohenjuustopyöryköitä  
+• yrttikermaviilikastike l  
+• g  
+• Tomaattikeittoa l  
 • g  
 ]]></menu>
   </restaurant>
@@ -18,8 +21,7 @@
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Burger Buffet – kokoa oma hampurilaisesi L  
-• Naudan täyslihapihvejä (Suomi) ja pekonia, kasvis pihvejä VEG, sämpylöitä & lisukkeet  
+    <menu><![CDATA[• SAIRASTAPAUKSEN TAKIA MAANANTAI SULJETTU  
 ]]></menu>
   </restaurant>
   <restaurant>
