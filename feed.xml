@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>16.02.2026</date>
-  <day>Maanantai</day>
+  <date>17.02.2026</date>
+  <day>Tiistai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Broilerpyöryköitä currykastikkeessa  
-• muusia l  
-• g  
-• Punajuuri-vuohenjuustopyöryköitä  
-• yrttikermaviilikastike l  
-• g  
-• Tomaattikeittoa l  
-• g  
+    <menu><![CDATA[• Makaronilaatikko l  
+• Kasvismakaronilaatikko l  
+• Hernekeitto ja pannaria  
 ]]></menu>
   </restaurant>
   <restaurant>
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• SAIRASTAPAUKSEN TAKIA MAANANTAI SULJETTU  
+    <menu><![CDATA[• Friteerattua kanaa(Suomi), paprika-choritsodippiä ja Cajun-paahdettua perunaa L, G  
+• Misopaahdettua munakoisoa ja hirssiä VEG  
 ]]></menu>
   </restaurant>
   <restaurant>
@@ -43,7 +39,7 @@
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
     <menu><![CDATA[• {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/Divi/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}  
-• Casa Mare 40v.! Tutustu juhlavuoden ohjelmaan >> Bliniviikot Casa Maressa Tutustu ruokalistaamme >> Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  
+• Legendaariset pizzaviikot käynnissä 16.2.-28.2.! Casa Mare 40v.! Tutustu juhlavuoden ohjelmaan >> Bliniviikot Casa Maressa Tutustu ruokalistaamme >> Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  
 • window.dataLayer = window.dataLayer || [];
   var gnxUser = 0;
   var gnxLanguage = "fi";
