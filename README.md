@@ -1,6 +1,6 @@
-# 🍽️ Lauttasaari Lunch Menus — 04.03.2026
+# 🍽️ Lauttasaari Lunch Menus — 05.03.2026
 
-### Keskiviikko
+### Torstai
 
 ## Makiata
 **Opening hours:** 11:00–13:00
@@ -9,15 +9,12 @@
 - Buffet: 13,70€
 - Soup: 12,70€
 
-**Keskiviikko menu:**
+**Torstai menu:**
 
-• Stroganoff  
-• riisiä l  
+• Kasvislasagne l  
+• Lohikeitto l  
 • g  
-• Vegaaninen panang curry  
-• riisiä v  
-• g  
-• Pehmeä maa-artisokkakeitto & paahdettuja siemeniä l  
+• Mustikkapiiras & vaniljavaahtoa l  
 • g  
 
 
@@ -29,10 +26,10 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Keskiviikko menu:**
+**Torstai menu:**
 
-• Ylikypsää härkää(Eu), punaviinikastiketta ja rakuunaperunoita L, G  
-• Punajuuri-kikhernemureketta ja kaali-tsatsikia L  
+• Butter chicken (Suomi), naan leipää, jugurttia ja riisiä L  
+• Butter no chicken VEG  
 
 
 ---
@@ -43,7 +40,7 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Keskiviikko menu:**
+**Torstai menu:**
 
 Menu not found
 
@@ -57,7 +54,7 @@ Menu not found
 - House lunch: 12,00€
 - Soup: 11,50€
 
-**Keskiviikko menu:**
+**Torstai menu:**
 
 Menu not found
 
@@ -69,7 +66,7 @@ Menu not found
 **Prices:**
 - Buffet: 13,70€
 
-**Keskiviikko menu:**
+**Torstai menu:**
 
 • {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/Divi/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}  
 • Casa Mare 40v.! Tutustu juhlavuoden ohjelmaan >> Schnitzelviikot Wiener Hildenin tapaan Casa Maressa Tutustu ruokalistaamme >> Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  
