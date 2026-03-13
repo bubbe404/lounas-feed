@@ -1,29 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>12.03.2026</date>
-  <day>Torstai</day>
+  <date>13.03.2026</date>
+  <day>Perjantai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Jauhelihakebakot  
-• juuresmuusia  
-• bearnaisekastiketta l  
-• Kasviskevätkääryleet  
-• riisiä  
-• sweet & sour kastiketta l  
-• Hernekeittoa l  
+    <menu><![CDATA[• Bbq possua  
+• paahdettua perunaa  
+• savupaprika aiolia l  
 • g  
-• Pannaria & hilloa  
+• Täytetty munakoiso kikherne-fetatäytteellä  
+• paahdettua perunaa  
+• savupaprika aiolia l  
+• g  
+• Metsäsienikeittoa l  
+• g  
+• Kaura-omenapaistosta ja vaniljakastiketta l  
+• g  
 ]]></menu>
   </restaurant>
   <restaurant>
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Haudutettua kuhaa”Bouillapaise”kastiketta ja sahramirisottoa L,G  
-• Kasvis-kevätkääryleitä ja cweetchilikastiketta VEG  
+    <menu><![CDATA[• Hot Dog:  
+• Lajitelma makkaroita L  
+• Kana larb(L,G), tofu larb(VEG)  
+• Haudutettua kaalia, riisiä ja tomyam-majoneesia  
 ]]></menu>
   </restaurant>
   <restaurant>
