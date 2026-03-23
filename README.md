@@ -1,6 +1,6 @@
-# 🍽️ Lauttasaari Lunch Menus — 20.03.2026
+# 🍽️ Lauttasaari Lunch Menus — 23.03.2026
 
-### Perjantai
+### Maanantai
 
 ## Makiata
 **Opening hours:** 11:00–13:00
@@ -9,19 +9,16 @@
 - Buffet: 13,70€
 - Soup: 12,70€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
-• Sveitsinleike  
-• lohkoperunaa  
-• tomaatti-smetanakastike L  
-• G  
-• Täytetty kasvispaprika  
-• lohkoperuna  
-• tomaatti-smetanakastike l  
+• Rapeaksi paneroitua kanaa  
+• riisiä  
+• currykastike l  
 • g  
-• Juuressosekeittoa l  
+• Buttertofua  
+• riisiä l  
 • g  
-• Omena-kanelirahkaa l  
+• Pinaattikeittoa ja kananmunaa l  
 • g  
 
 
@@ -33,10 +30,10 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
-• Ylikypsäähärkää punaviinikastikkeessa ja sahrami-sitrusrisottoa L,G  
-• Lehtikaali-mustapapufalafel VEG  
+• Yrttipaahdettua kanaa(Suomi), tsatsikia, punakaalisalaattia ja pitaleipää L  
+• Yrttipaahdettua seitania, babaganoush ja riisiä L,G  
 
 
 ---
@@ -47,7 +44,7 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
 Error fetching menu: 403 Client Error: Forbidden for url: https://www.ravintolapersilja.fi/lounas
 
@@ -61,7 +58,7 @@ Error fetching menu: 403 Client Error: Forbidden for url: https://www.ravintolap
 - House lunch: 12,00€
 - Soup: 11,50€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
 Menu not found
 
@@ -73,7 +70,7 @@ Menu not found
 **Prices:**
 - Buffet: 13,70€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
 • {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/Divi/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}  
 • Casa Mare 40v.! Tutustu juhlavuoden ohjelmaan >> Schnitzelviikot Wiener Hildenin tapaan Casa Maressa Tutustu ruokalistaamme >> Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  
