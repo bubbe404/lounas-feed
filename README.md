@@ -1,6 +1,6 @@
-# 🍽️ Lauttasaari Lunch Menus — 25.03.2026
+# 🍽️ Lauttasaari Lunch Menus — 26.03.2026
 
-### Keskiviikko
+### Torstai
 
 ## Makiata
 **Opening hours:** 11:00–13:00
@@ -9,17 +9,16 @@
 - Buffet: 13,70€
 - Soup: 12,70€
 
-**Keskiviikko menu:**
+**Torstai menu:**
 
-• Kalakorma  
-• riisiä l  
+• Karjalanpaistia  
+• perunaa  
+• paahdettua punajuurta l  
 • g  
-• Feta-kasviskorma  
-• riisiä l  
+• Nyhtökaura-tomaattipaistos  
+• perunaa l  
 • g  
-• Tomaattinen makkarakeitto & creme fraichea l  
-• g  
-• Mangosmoothie l  
+• Kermainen mustajuurissosekeitto l  
 • g  
 
 
@@ -31,10 +30,10 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Keskiviikko menu:**
+**Torstai menu:**
 
-• Telakan lihamureketta(Suomi), paahdettua sipulia, koskenlaskijakastiketta ja annanperunaa L, G  
-• Paahdettua bataattia ja fetaa L  
+• Yön yli haudutettua porsasta(EU), romescoa ja dijonperunaa L, G  
+• Herne-punajuuripihvejä VEG  
 
 
 ---
@@ -45,7 +44,7 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Keskiviikko menu:**
+**Torstai menu:**
 
 Error fetching menu: 403 Client Error: Forbidden for url: https://www.ravintolapersilja.fi/lounas
 
@@ -59,7 +58,7 @@ Error fetching menu: 403 Client Error: Forbidden for url: https://www.ravintolap
 - House lunch: 12,00€
 - Soup: 11,50€
 
-**Keskiviikko menu:**
+**Torstai menu:**
 
 Menu not found
 
@@ -71,7 +70,7 @@ Menu not found
 **Prices:**
 - Buffet: 13,70€
 
-**Keskiviikko menu:**
+**Torstai menu:**
 
 • {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/Divi/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}  
 • Casa Mare 40v.! Tutustu juhlavuoden ohjelmaan >> Schnitzelviikot Wiener Hildenin tapaan Casa Maressa Tutustu ruokalistaamme >> Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  

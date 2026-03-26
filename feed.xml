@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>25.03.2026</date>
-  <day>Keskiviikko</day>
+  <date>26.03.2026</date>
+  <day>Torstai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Kalakorma  
-• riisiä l  
+    <menu><![CDATA[• Karjalanpaistia  
+• perunaa  
+• paahdettua punajuurta l  
 • g  
-• Feta-kasviskorma  
-• riisiä l  
+• Nyhtökaura-tomaattipaistos  
+• perunaa l  
 • g  
-• Tomaattinen makkarakeitto & creme fraichea l  
-• g  
-• Mangosmoothie l  
+• Kermainen mustajuurissosekeitto l  
 • g  
 ]]></menu>
   </restaurant>
@@ -23,8 +22,8 @@
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Telakan lihamureketta(Suomi), paahdettua sipulia, koskenlaskijakastiketta ja annanperunaa L, G  
-• Paahdettua bataattia ja fetaa L  
+    <menu><![CDATA[• Yön yli haudutettua porsasta(EU), romescoa ja dijonperunaa L, G  
+• Herne-punajuuripihvejä VEG  
 ]]></menu>
   </restaurant>
   <restaurant>
