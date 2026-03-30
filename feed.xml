@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>27.03.2026</date>
-  <day>Perjantai</day>
+  <date>30.03.2026</date>
+  <day>Maanantai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Jauhelihapihvejä  
-• koskenlaskijakastiketta  
-• muusia  
-• paahdettuja juureksia l  
+    <menu><![CDATA[• Kaalikääryleitä  
+• paistettua perunaa  
+• kastike l  
 • g  
-• Kvinoapihvejä  
-• koskenlaskijakastike  
-• muusi  
-• juurekset l  
+• Kasviskaalikääryleitä l  
 • g  
-• Punajuuri-vuohenjuustokeittoa vl  
-• g  
-• Hedelmäsalaatti & kanelikermaa l  
+• Juustoinen kasvissosekeitto & paahdettuja siemeniä l  
 • g  
 ]]></menu>
   </restaurant>
@@ -27,8 +21,8 @@
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Burger Buffet – kokoa oma hampurilaisesi L  
-• Naudan täyslihapihvejä (Suomi) ja pekonia, kasvis pihvejä VEG, sämpylöitä & lisukkeet  
+    <menu><![CDATA[• Friteerattua kanaa(Suomi), paprika-choritsodippiä ja Cajun-paahdettua perunaa L, G  
+• Misopaahdettua munakoisoa ja hirssiä VEG  
 ]]></menu>
   </restaurant>
   <restaurant>
