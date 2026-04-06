@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>03.04.2026</date>
-  <day>Perjantai</day>
+  <date>06.04.2026</date>
+  <day>Maanantai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• MAKIATA SULJETTU PÄÄSIÄISEN 3.4.-6.4.2026. ILOISTA PÄÄSIÄISTÄ!  
+    <menu><![CDATA[• Suljettu!  
 ]]></menu>
   </restaurant>
   <restaurant>
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Bistro suljettu pääsiäisenä 3-6.4  
-• Hauskaa pääsiäistä.  
+    <menu><![CDATA[• Friteerattua kanaa(Suomi), paprika-choritsodippiä ja Cajun-paahdettua perunaa L, G  
+• Misopaahdettua munakoisoa ja hirssiä VEG  
 ]]></menu>
   </restaurant>
   <restaurant>
