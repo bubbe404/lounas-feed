@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>08.04.2026</date>
-  <day>Keskiviikko</day>
+  <date>09.04.2026</date>
+  <day>Torstai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Makaronilaatikkoa l  
-• Härkismakaronilaatikkoa  
-• Kalaseljanka & smetanaa l  
+    <menu><![CDATA[• Jauhelihakastiketta  
+• muusia l  
 • g  
-• Puolukkarahkaa l  
+• Soijarouhekastiketta muusia l  
+• g Maa-artisokkakeittoa l  
 • g  
 ]]></menu>
   </restaurant>
@@ -19,8 +19,8 @@
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Wallenberginpihvejä, perunapyrettä, kermakastiketta ja mustaherukkaa L  
-• Kikherne-kasviscurryä ja riisiä VEG  
+    <menu><![CDATA[• Paahdettua kuhaa, valkoviinikastiketta ja piparjuuriperunaa L, G  
+• Tortelliineja tomaattikastikkeessa VEG  
 ]]></menu>
   </restaurant>
   <restaurant>
