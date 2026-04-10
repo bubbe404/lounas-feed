@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>09.04.2026</date>
-  <day>Torstai</day>
+  <date>10.04.2026</date>
+  <day>Perjantai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Jauhelihakastiketta  
-• muusia l  
-• g  
-• Soijarouhekastiketta muusia l  
-• g Maa-artisokkakeittoa l  
-• g  
-]]></menu>
+    <menu><![CDATA[Error fetching menu: 415 Client Error: Unsupported Media Type for url: https://www.makiata.fi/lounas/]]></menu>
   </restaurant>
   <restaurant>
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Paahdettua kuhaa, valkoviinikastiketta ja piparjuuriperunaa L, G  
-• Tortelliineja tomaattikastikkeessa VEG  
+    <menu><![CDATA[• Taco Friday:  
+• Chipotlemarinoitua ylikypsää härkää(EU) ja paahdettua kanaa L,G  
+• Chili Sin Carne VEG  
+• Riisiä, Pico de gallo salsaa, cheddarjuustoa  
 ]]></menu>
   </restaurant>
   <restaurant>
