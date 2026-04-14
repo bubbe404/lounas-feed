@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>13.04.2026</date>
-  <day>Maanantai</day>
+  <date>14.04.2026</date>
+  <day>Tiistai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Feta-pinaattitäytteinen Alaskan seiti  
-• muusia  
-• tillikermaviiliä l  
-• Feta-pinaattipasta l  
-• Juustoinen savuporokeitto l  
+    <menu><![CDATA[• Tomaattinen pekoni-broileripata  
+• riisiä l  
+• g  
+• Tomaattinen tofupata  
+• riisiä l  
+• g  
+• Borssikeitto l  
 • g  
 ]]></menu>
   </restaurant>
@@ -19,8 +21,9 @@
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Wieninleikkeitä porsaasta, anjovista, kaprista ja krossattua dijonperunaa L  
-• Kikherne-porkkanapihvejä VEG  
+    <menu><![CDATA[• Pannupihvejä naudasta (Suomi), paahdettua sipulia, koskenlaskijakastiketta ja annanperunaa L, G Paahdettua bataattia ja fetaa L  
+• Pannupihvejä naudasta (Suomi), paahdettua sipulia, koskenlaskijakastiketta ja annanperunaa L, G  
+• Paahdettua bataattia ja fetaa L  
 ]]></menu>
   </restaurant>
   <restaurant>
