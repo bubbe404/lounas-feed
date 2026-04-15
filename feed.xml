@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>14.04.2026</date>
-  <day>Tiistai</day>
+  <date>15.04.2026</date>
+  <day>Keskiviikko</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Tomaattinen pekoni-broileripata  
+    <menu><![CDATA[• Stroganoff  
+• riisiä l  
+• g Kukkakaalicurry  
 • riisiä l  
 • g  
-• Tomaattinen tofupata  
-• riisiä l  
+• Kasvisgulassikeitto l  
 • g  
-• Borssikeitto l  
+• Suklaakiisseli ja kermavaahtoa l  
 • g  
 ]]></menu>
   </restaurant>
@@ -21,9 +22,8 @@
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Pannupihvejä naudasta (Suomi), paahdettua sipulia, koskenlaskijakastiketta ja annanperunaa L, G Paahdettua bataattia ja fetaa L  
-• Pannupihvejä naudasta (Suomi), paahdettua sipulia, koskenlaskijakastiketta ja annanperunaa L, G  
-• Paahdettua bataattia ja fetaa L  
+    <menu><![CDATA[• Telakalla savustettua lohta, valkoviinikastiketta ja tilliperunaa L  
+• Kasvis melanzane VEG  
 ]]></menu>
   </restaurant>
   <restaurant>

@@ -1,6 +1,6 @@
-# 🍽️ Lauttasaari Lunch Menus — 14.04.2026
+# 🍽️ Lauttasaari Lunch Menus — 15.04.2026
 
-### Tiistai
+### Keskiviikko
 
 ## Makiata
 **Opening hours:** 11:00–13:00
@@ -9,15 +9,16 @@
 - Buffet: 13,70€
 - Soup: 12,70€
 
-**Tiistai menu:**
+**Keskiviikko menu:**
 
-• Tomaattinen pekoni-broileripata  
+• Stroganoff  
+• riisiä l  
+• g Kukkakaalicurry  
 • riisiä l  
 • g  
-• Tomaattinen tofupata  
-• riisiä l  
+• Kasvisgulassikeitto l  
 • g  
-• Borssikeitto l  
+• Suklaakiisseli ja kermavaahtoa l  
 • g  
 
 
@@ -29,11 +30,10 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Tiistai menu:**
+**Keskiviikko menu:**
 
-• Pannupihvejä naudasta (Suomi), paahdettua sipulia, koskenlaskijakastiketta ja annanperunaa L, G Paahdettua bataattia ja fetaa L  
-• Pannupihvejä naudasta (Suomi), paahdettua sipulia, koskenlaskijakastiketta ja annanperunaa L, G  
-• Paahdettua bataattia ja fetaa L  
+• Telakalla savustettua lohta, valkoviinikastiketta ja tilliperunaa L  
+• Kasvis melanzane VEG  
 
 
 ---
@@ -44,7 +44,7 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Tiistai menu:**
+**Keskiviikko menu:**
 
 Error fetching menu: 403 Client Error: Forbidden for url: https://www.ravintolapersilja.fi/lounas
 
@@ -58,7 +58,7 @@ Error fetching menu: 403 Client Error: Forbidden for url: https://www.ravintolap
 - House lunch: 12,00€
 - Soup: 11,50€
 
-**Tiistai menu:**
+**Keskiviikko menu:**
 
 Menu not found
 
@@ -70,7 +70,7 @@ Menu not found
 **Prices:**
 - Buffet: 13,70€
 
-**Tiistai menu:**
+**Keskiviikko menu:**
 
 • {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/Divi/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}  
 • Casa Mare 40v.! Tutustu juhlavuoden ohjelmaan >> Schnitzelviikot Wiener Hildenin tapaan Casa Maressa Tutustu ruokalistaamme >> Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  
