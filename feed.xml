@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>23.04.2026</date>
-  <day>Torstai</day>
+  <date>24.04.2026</date>
+  <day>Perjantai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Lohipasta L  
-• Nyhtökaura pestopastaa L  
-• Possugulassia & smetanaa L  
+    <menu><![CDATA[• Metsästäjänleike  
+• lohkoperunaa L  
+• Kasvispihvit  
+• sienikastike  
+• lohkoperuna L  
+• G  
+• Juustoinen kasvissosekeitto L  
+• G  
+• Mangokiisseli & kermavaahtoa L  
 • G  
 ]]></menu>
   </restaurant>
@@ -17,8 +23,11 @@
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Ylikypsää härkää, pippurikastiketta ja lohkoperunoita L  
-• Tortelliineja tomaatti-lehtikaalikastikkeessa L  
+    <menu><![CDATA[• Bao ban buffet:  
+• Chilimarinoitua kanaa (Suomi) L,G  
+• Tom Yam maustettuja ravunpyrstöjä L,G  
+• Tofu-kasvispata Korean bbq VEG  
+• Pikkelöityjä kasviksia ja sesamdippiä  
 ]]></menu>
   </restaurant>
   <restaurant>
