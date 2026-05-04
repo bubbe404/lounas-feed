@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>01.05.2026</date>
-  <day>Perjantai</day>
+  <date>04.05.2026</date>
+  <day>Maanantai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• SULJETTU ! HAUSKAA VAPPUA !  
+    <menu><![CDATA[• Broilerpyöryköitä currykastikkseessa & muusia l  
+• g  
+• Kasviskevätkääryleitä  
+• riisiä l  
+• g  
+• Fenkoli-kesäkurpitsakeitto l  
+• g  
 ]]></menu>
   </restaurant>
   <restaurant>
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Vappubrunssi 52 €  
+    <menu><![CDATA[• Wieninleikkeitä porsaasta, anjovista, kaprista ja lohkoperunoita L  
+• Kikherne-porkkanapihvejä VEG  
 ]]></menu>
   </restaurant>
   <restaurant>
