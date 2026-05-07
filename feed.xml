@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>06.05.2026</date>
-  <day>Keskiviikko</day>
+  <date>07.05.2026</date>
+  <day>Torstai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Makaronilaatikko l  
-• Kasvismakaronilaatikko l  
-• Katkarapukeitto l  
+    <menu><![CDATA[• Uuniperuna tonnikala ja kasvistäytteellä l  
 • g  
-• Hedelmärahka l  
+• Hernekeittoa l  
 • g  
+• ja pannaria l  
 ]]></menu>
   </restaurant>
   <restaurant>
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Paahdettua kuhaa, valkoviinikastiketta ja tilliperunaa L  
-• Kasvis melanzane VEG  
+    <menu><![CDATA[• Yrttipaahdettua kanaa, tsatsikia, punakaalisalaattia ja pitaleipää L  
+• Yrttipaahdettua seitania, babaganoush ja riisiä L,G  
 ]]></menu>
   </restaurant>
   <restaurant>
