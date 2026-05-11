@@ -1,6 +1,6 @@
-# 🍽️ Lauttasaari Lunch Menus — 08.05.2026
+# 🍽️ Lauttasaari Lunch Menus — 11.05.2026
 
-### Perjantai
+### Maanantai
 
 ## Makiata
 **Opening hours:** 11:00–13:00
@@ -9,16 +9,16 @@
 - Buffet: 13,70€
 - Soup: 12,70€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
-• Riistapyöryköitä  
-• kermakastike  
-• timjamiperunaa l  
+• Hapanimeläpossua  
+• riisiä l  
 • g  
-• Talon omia pinaattilättyjä & puolukkasurvosta l  
-• Juuressosekeittoa l  
+• Hapanimelätofua  
+• riiisä l  
 • g  
-• Pappilanhätävara l  
+• Kermainen kanttarellikeitto l  
+• g  
 
 
 ---
@@ -29,10 +29,10 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
-• Burger Buffet – kokoa oma hampurilaisesi L  
-• Naudan täyslihapihvejä (Suomi) ja pekonia, kasvis pihvejä VEG, sämpylöitä & lisukkeet  
+• Friteerattua kanaa(Suomi), paprika-choritsodippiä ja Cajun-paahdettua perunaa L, G  
+• Misopaahdettua munakoisoa ja linssiä VEG  
 
 
 ---
@@ -43,7 +43,7 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
 Error fetching menu: 403 Client Error: Forbidden for url: https://www.ravintolapersilja.fi/lounas
 
@@ -57,7 +57,7 @@ Error fetching menu: 403 Client Error: Forbidden for url: https://www.ravintolap
 - House lunch: 12,00€
 - Soup: 11,50€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
 Menu not found
 
@@ -69,7 +69,7 @@ Menu not found
 **Prices:**
 - Buffet: 13,70€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
 • {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/Divi/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}  
 • Casa Mare 40v.! Tutustu juhlavuoden ohjelmaan >> Parsaviikot Casa Maressa Tutustu ruokalistaamme >> Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  
