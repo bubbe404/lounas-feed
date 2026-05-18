@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>15.05.2026</date>
-  <day>Perjantai</day>
+  <date>18.05.2026</date>
+  <day>Maanantai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Paneroitua broileria  
-• riisiä  
-• currykastiketta  
-• uunijuures l  
+    <menu><![CDATA[• Jauhelihakastike  
+• perunaa  
+• l  
 • g  
-• Halloumkesäkurpitsapihvejä l  
+• Soijarouhekastike  
+• perunaa l  
 • g  
-• Porkkanasosekeittoa l  
+• Purjo-perunasosekeitto l  
 • g  
 ]]></menu>
   </restaurant>
@@ -22,11 +22,8 @@
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Bao ban buffet:  
-• Chilimarinoitua kanaa (Suomi) L,G  
-• Tom Yam maustettuja ravunpyrstöjä L,G  
-• Tofu-kasvispata Korean bbq VEG  
-• Pikkelöityjä kasviksia ja sesamdippiä  
+    <menu><![CDATA[• Ylikypsäähärkää punaviinikastikkeessa ja sahrami-sitrusrisottoa L,G  
+• Papu-kikhernefalafel VEG  
 ]]></menu>
   </restaurant>
   <restaurant>
