@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>19.05.2026</date>
-  <day>Tiistai</day>
+  <date>20.05.2026</date>
+  <day>Keskiviikko</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Kebab  
-• riisiä l  
+    <menu><![CDATA[• Lohimurekepihvi  
+• muusia  
+• punajuurta l  
 • g  
-• Vebab  
-• riisiä  
-• l  
+• Kasvispapupihvi  
+• muusia  
+• punajuurta l  
 • g  
-• Kermainen kanakeitto l  
+• Kukkakaalisosekeitto l  
 • g  
+• Puolukkahyvettä l  
 ]]></menu>
   </restaurant>
   <restaurant>
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Wieninleikkeitä porsaasta, sitruunaa, anjovista, kaprista ja lohkoperunoita L  
-• Kikherne-kasviscurry ja riisiä VEG  
+    <menu><![CDATA[• BBQ Grillataan Telakan terassilla:  
+• Hiiligrillissä grillattua porsasta(suomi), härkää (Eu) ja kanamakkaraa L, G  
+• Paahdettua perunaa, coleslaw, romescosalsaa ja wasabikastiketta L, G  
+• Mustapapu-linssipataa ja rakuunaaioli VEG  
 ]]></menu>
   </restaurant>
   <restaurant>
