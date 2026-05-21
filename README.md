@@ -1,6 +1,6 @@
-# 🍽️ Lauttasaari Lunch Menus — 20.05.2026
+# 🍽️ Lauttasaari Lunch Menus — 21.05.2026
 
-### Keskiviikko
+### Torstai
 
 ## Makiata
 **Opening hours:** 11:00–13:00
@@ -9,19 +9,9 @@
 - Buffet: 13,70€
 - Soup: 12,70€
 
-**Keskiviikko menu:**
+**Torstai menu:**
 
-• Lohimurekepihvi  
-• muusia  
-• punajuurta l  
-• g  
-• Kasvispapupihvi  
-• muusia  
-• punajuurta l  
-• g  
-• Kukkakaalisosekeitto l  
-• g  
-• Puolukkahyvettä l  
+• Lounas arkisin klo 11.00 - 13.00  
 
 
 ---
@@ -32,12 +22,10 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Keskiviikko menu:**
+**Torstai menu:**
 
-• BBQ Grillataan Telakan terassilla:  
-• Hiiligrillissä grillattua porsasta(suomi), härkää (Eu) ja kanamakkaraa L, G  
-• Paahdettua perunaa, coleslaw, romescosalsaa ja wasabikastiketta L, G  
-• Mustapapu-linssipataa ja rakuunaaioli VEG  
+• ”Fish& Chips” turskaa, ranskalaisia ja tilliremoulade L  
+• Tortelliineja tomaattikastikkeessa VEG  
 
 
 ---
@@ -48,7 +36,7 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Keskiviikko menu:**
+**Torstai menu:**
 
 Error fetching menu: 403 Client Error: Forbidden for url: https://www.ravintolapersilja.fi/lounas
 
@@ -62,7 +50,7 @@ Error fetching menu: 403 Client Error: Forbidden for url: https://www.ravintolap
 - House lunch: 12,00€
 - Soup: 11,50€
 
-**Keskiviikko menu:**
+**Torstai menu:**
 
 Menu not found
 
@@ -74,7 +62,7 @@ Menu not found
 **Prices:**
 - Buffet: 13,70€
 
-**Keskiviikko menu:**
+**Torstai menu:**
 
 • {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/Divi/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}  
 • Casa Mare 40v.! Tutustu juhlavuoden ohjelmaan >> Parsaviikot Casa Maressa Tutustu ruokalistaamme >> Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  
@@ -92,10 +80,8 @@ Menu not found
     gtag("consent", "default", {"anonymous_user": "denied"});
   }  
 • var et_link_options_data = [{"class":"et_pb_text_2","url":"\/kokouspaketit\/","target":"_self"},{"class":"et_pb_text_3","url":"https:\/\/book.dinnerbooking.com\/fi\/fi-FI\/book\/index\/2195\/2","target":"_blank"},{"class":"et_pb_text_4","url":"https:\/\/www.ravintolacasamare.com\/kabinettimme\/","target":"_blank"}];  
-• /* <![CDATA[ */
-jqueryParams.length&&$.each(jqueryParams,function(e,r){if("function"==typeof r){var n=String(r);n.replace("$","jQuery");var a=new Function("return "+n)();$(document).ready(a)}});
-//# sourceURL=jquery-js-after
-/* ]]> */  
+• jqueryParams.length&&$.each(jqueryParams,function(e,r){if("function"==typeof r){var n=String(r);n.replace("$","jQuery");var a=new Function("return "+n)();$(document).ready(a)}});
+//# sourceURL=jquery-js-after  
 
 
 ---

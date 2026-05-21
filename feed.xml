@@ -1,33 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>20.05.2026</date>
-  <day>Keskiviikko</day>
+  <date>21.05.2026</date>
+  <day>Torstai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Lohimurekepihvi  
-• muusia  
-• punajuurta l  
-• g  
-• Kasvispapupihvi  
-• muusia  
-• punajuurta l  
-• g  
-• Kukkakaalisosekeitto l  
-• g  
-• Puolukkahyvettä l  
+    <menu><![CDATA[• Lounas arkisin klo 11.00 - 13.00  
 ]]></menu>
   </restaurant>
   <restaurant>
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• BBQ Grillataan Telakan terassilla:  
-• Hiiligrillissä grillattua porsasta(suomi), härkää (Eu) ja kanamakkaraa L, G  
-• Paahdettua perunaa, coleslaw, romescosalsaa ja wasabikastiketta L, G  
-• Mustapapu-linssipataa ja rakuunaaioli VEG  
+    <menu><![CDATA[• ”Fish& Chips” turskaa, ranskalaisia ja tilliremoulade L  
+• Tortelliineja tomaattikastikkeessa VEG  
 ]]></menu>
   </restaurant>
   <restaurant>
@@ -64,10 +52,8 @@
     gtag("consent", "default", {"anonymous_user": "denied"});
   }  
 • var et_link_options_data = [{"class":"et_pb_text_2","url":"\/kokouspaketit\/","target":"_self"},{"class":"et_pb_text_3","url":"https:\/\/book.dinnerbooking.com\/fi\/fi-FI\/book\/index\/2195\/2","target":"_blank"},{"class":"et_pb_text_4","url":"https:\/\/www.ravintolacasamare.com\/kabinettimme\/","target":"_blank"}];  
-• /* <![CDATA[ */
-jqueryParams.length&&$.each(jqueryParams,function(e,r){if("function"==typeof r){var n=String(r);n.replace("$","jQuery");var a=new Function("return "+n)();$(document).ready(a)}});
-//# sourceURL=jquery-js-after
-/* ]]> */  
+• jqueryParams.length&&$.each(jqueryParams,function(e,r){if("function"==typeof r){var n=String(r);n.replace("$","jQuery");var a=new Function("return "+n)();$(document).ready(a)}});
+//# sourceURL=jquery-js-after  
 ]]></menu>
   </restaurant>
 </lunchFeed>
