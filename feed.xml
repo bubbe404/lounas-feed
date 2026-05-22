@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>21.05.2026</date>
-  <day>Torstai</day>
+  <date>22.05.2026</date>
+  <day>Perjantai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Lounas arkisin klo 11.00 - 13.00  
+    <menu><![CDATA[• Broilerinleikettä tomaattikastikkeessa  
+• paahdettua chilibataattia  
+• riisiä l  
+• g  
+• Paistettua tofua tomaattikastikkeessa l  
+• g  
+• Palsternakkasosekeittoa l  
+• g Omenapaistos ja vaniljakastiketta l  
+• g  
 ]]></menu>
   </restaurant>
   <restaurant>
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• ”Fish& Chips” turskaa, ranskalaisia ja tilliremoulade L  
-• Tortelliineja tomaattikastikkeessa VEG  
+    <menu><![CDATA[• Wallenberginpihvejä, perunapyrettä, kermakastiketta ja mustaherukkaa L  
+• Kasviskoftaa ja piparjuurikastikettakastiketta VEG  
 ]]></menu>
   </restaurant>
   <restaurant>
