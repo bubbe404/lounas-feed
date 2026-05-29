@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>28.05.2026</date>
-  <day>Torstai</day>
+  <date>29.05.2026</date>
+  <day>Perjantai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Lounas arkisin klo 11.00 - 13.00  
+    <menu><![CDATA[• Lohilaatikko  
+• punajuurta l  
+• g  
+• Härkis-fetapaistos l  
+• g  
+• Maa-artisokkakeitto l  
+• g  
 ]]></menu>
   </restaurant>
   <restaurant>
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Torstai  
-• Ylikypsää porsaanniskaa, romescosalsaa ja dijonmuhennettua perunaa L, G  
-• Kevätkääryleitä, inkivääri-chilikastiketta ja riisiä VEG  
+    <menu><![CDATA[• Burger Buffet – kokoa oma hampurilaisesi L  
+• Naudan täyslihapihvejä (Suomi) ja pekonia, kasvis pihvejä VEG, sämpylöitä & lisukkeet  
 ]]></menu>
   </restaurant>
   <restaurant>
@@ -38,7 +43,7 @@
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
     <menu><![CDATA[• {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/Divi/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}  
-• Casa Mare 40v.! Tutustu juhlavuoden ohjelmaan >> Parsaviikot Casa Maressa Tutustu ruokalistaamme >> Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  
+• Casa Maren baari on avoinna sunnuntaina 31.5. Suomen jääkiekon MM-kisaottelun ajan. Päivitämme tarkemmat aukioloajat lauantain pelin jälkeen! Casa Mare 40v.! Tutustu juhlavuoden ohjelmaan >> Parsaviikot Casa Maressa Tutustu ruokalistaamme >> Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  
 • window.dataLayer = window.dataLayer || [];
   var gnxUser = 0;
   var gnxLanguage = "fi";
