@@ -1,6 +1,6 @@
-# 🍽️ Lauttasaari Lunch Menus — 01.06.2026
+# 🍽️ Lauttasaari Lunch Menus — 02.06.2026
 
-### Maanantai
+### Tiistai
 
 ## Makiata
 **Opening hours:** 11:00–13:00
@@ -9,12 +9,14 @@
 - Buffet: 13,70€
 - Soup: 12,70€
 
-**Maanantai menu:**
+**Tiistai menu:**
 
-• Jauhelihaperunasoselaatikko l  
-• g Soijarouheperunasoselaatikko l  
+• Lempeän tulinen possupata l  
 • g  
-• Chorizokeitto l  
+• riisiä lg  
+• Lempeän tulinen tofupata l  
+• g  
+• Kermainen katkarapukeitto l  
 • g  
 
 
@@ -26,10 +28,11 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Maanantai menu:**
+**Tiistai menu:**
 
-• Wieninleikkeitä, lohkoperunoita, anjovista, kaprista ja sitruunaa L  
-• Kikherne-porkkanapihvejä ja rakuunakastiketta VEG  
+• Lihapullia(Suomi) ja konjakki-kermakastiketta,  
+• perunamuussia ja puolukkaa L, G  
+• Porkkanapyöryköitä, kaura-kermakastiketta L  
 
 
 ---
@@ -40,7 +43,7 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Maanantai menu:**
+**Tiistai menu:**
 
 Error fetching menu: 403 Client Error: Forbidden for url: https://www.ravintolapersilja.fi/lounas
 
@@ -54,7 +57,7 @@ Error fetching menu: 403 Client Error: Forbidden for url: https://www.ravintolap
 - House lunch: 12,00€
 - Soup: 11,50€
 
-**Maanantai menu:**
+**Tiistai menu:**
 
 Menu not found
 
@@ -66,7 +69,7 @@ Menu not found
 **Prices:**
 - Buffet: 13,70€
 
-**Maanantai menu:**
+**Tiistai menu:**
 
 • {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/Divi/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}  
 • Casa Maren baari on avoinna sunnuntaina 31.5. jääkiekon MM-kisojen finaalin ajan klo 20 alkaen. Tervetuloa! Casa Mare 40v.! Tutustu juhlavuoden ohjelmaan >> Parsaviikot Casa Maressa Tutustu ruokalistaamme >> Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  
