@@ -1,6 +1,6 @@
-# 🍽️ Lauttasaari Lunch Menus — 03.06.2026
+# 🍽️ Lauttasaari Lunch Menus — 04.06.2026
 
-### Keskiviikko
+### Torstai
 
 ## Makiata
 **Opening hours:** 11:00–13:00
@@ -9,13 +9,14 @@
 - Buffet: 13,70€
 - Soup: 12,70€
 
-**Keskiviikko menu:**
+**Torstai menu:**
 
-• Kinkku-pekonipasta l  
-• Pinaatti-vuohenjuustolasagne vl  
-• Kasvis-kaalikeitto l  
+• Mantelikala l  
+• muusia l  
+• Sitruuna-tillikermaviili l  
+• Kasvismoussaka l  
 • g  
-• Suklaakiisseli ja kermavaahtoa l  
+• Punajuuri-vuohenjuustokeitto vl  
 • g  
 
 
@@ -27,10 +28,12 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Keskiviikko menu:**
+**Torstai menu:**
 
-• Friteerattua kanaa(Suomi), paprika-choritsodippiä ja Cajun-paahdettua perunaa L, G  
-• Misopaahdettua munakoisoa ja hirssiä VEG  
+• BBQ Grillataan Telakan terassilla:  
+• Hiiligrillissä grillattua porsasta(suomi), härkää (Eu) ja kanamakkaraa L, G  
+• Paahdettua perunaa, slaw salaattia, romescosalsaa ja wasabikastiketta L, G  
+• Tortelliineja tomaatti-basilikakastikkeessa VEG  
 
 
 ---
@@ -41,7 +44,7 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Keskiviikko menu:**
+**Torstai menu:**
 
 Error fetching menu: 403 Client Error: Forbidden for url: https://www.ravintolapersilja.fi/lounas
 
@@ -55,7 +58,7 @@ Error fetching menu: 403 Client Error: Forbidden for url: https://www.ravintolap
 - House lunch: 12,00€
 - Soup: 11,50€
 
-**Keskiviikko menu:**
+**Torstai menu:**
 
 Menu not found
 
@@ -67,7 +70,7 @@ Menu not found
 **Prices:**
 - Buffet: 13,70€
 
-**Keskiviikko menu:**
+**Torstai menu:**
 
 • {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/Divi/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}  
 • Casa Maren baari on avoinna sunnuntaina 31.5. jääkiekon MM-kisojen finaalin ajan klo 20 alkaen. Tervetuloa! Casa Mare 40v.! Tutustu juhlavuoden ohjelmaan >> Parsaviikot Casa Maressa Tutustu ruokalistaamme >> Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  

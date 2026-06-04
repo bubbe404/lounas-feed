@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>03.06.2026</date>
-  <day>Keskiviikko</day>
+  <date>04.06.2026</date>
+  <day>Torstai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[• Kinkku-pekonipasta l  
-• Pinaatti-vuohenjuustolasagne vl  
-• Kasvis-kaalikeitto l  
+    <menu><![CDATA[• Mantelikala l  
+• muusia l  
+• Sitruuna-tillikermaviili l  
+• Kasvismoussaka l  
 • g  
-• Suklaakiisseli ja kermavaahtoa l  
+• Punajuuri-vuohenjuustokeitto vl  
 • g  
 ]]></menu>
   </restaurant>
@@ -19,8 +20,10 @@
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Friteerattua kanaa(Suomi), paprika-choritsodippiä ja Cajun-paahdettua perunaa L, G  
-• Misopaahdettua munakoisoa ja hirssiä VEG  
+    <menu><![CDATA[• BBQ Grillataan Telakan terassilla:  
+• Hiiligrillissä grillattua porsasta(suomi), härkää (Eu) ja kanamakkaraa L, G  
+• Paahdettua perunaa, slaw salaattia, romescosalsaa ja wasabikastiketta L, G  
+• Tortelliineja tomaatti-basilikakastikkeessa VEG  
 ]]></menu>
   </restaurant>
   <restaurant>
