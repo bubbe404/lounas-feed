@@ -1,6 +1,6 @@
-# 🍽️ Lauttasaari Lunch Menus — 08.06.2026
+# 🍽️ Lauttasaari Lunch Menus — 09.06.2026
 
-### Maanantai
+### Tiistai
 
 ## Makiata
 **Opening hours:** 11:00–13:00
@@ -9,9 +9,15 @@
 - Buffet: 13,70€
 - Soup: 12,70€
 
-**Maanantai menu:**
+**Tiistai menu:**
 
-Error fetching menu: 415 Client Error: Unsupported Media Type for url: https://www.makiata.fi/lounas/
+• Butter chicken l  
+• g riisi l  
+• g Butter tofu l  
+• g riisi l  
+• g Kukkakaalikeitto l  
+• g  
+
 
 ---
 
@@ -21,10 +27,10 @@ Error fetching menu: 415 Client Error: Unsupported Media Type for url: https://w
 **Prices:**
 - Buffet: 13,70€
 
-**Maanantai menu:**
+**Tiistai menu:**
 
-• Porsaanleikkeitä, bearnaisekastiketta ja lohkoperunoita L  
-• Kasviskoftaa ja chilimajoneesia VEG  
+• Telakalla savustettua lohta, tartar-kastiketta ja tilliperunaa L,G  
+• Kasviscurryä ja riisiä VEG  
 
 
 ---
@@ -35,7 +41,7 @@ Error fetching menu: 415 Client Error: Unsupported Media Type for url: https://w
 **Prices:**
 - Buffet: 13,70€
 
-**Maanantai menu:**
+**Tiistai menu:**
 
 Error fetching menu: 403 Client Error: Forbidden for url: https://www.ravintolapersilja.fi/lounas
 
@@ -49,7 +55,7 @@ Error fetching menu: 403 Client Error: Forbidden for url: https://www.ravintolap
 - House lunch: 12,00€
 - Soup: 11,50€
 
-**Maanantai menu:**
+**Tiistai menu:**
 
 Menu not found
 
@@ -61,7 +67,7 @@ Menu not found
 **Prices:**
 - Buffet: 13,70€
 
-**Maanantai menu:**
+**Tiistai menu:**
 
 • {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/Divi/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}  
 • Casa Mare 40v.! Tutustu juhlavuoden ohjelmaan >> Parsaviikot Casa Maressa Tutustu ruokalistaamme >> Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  
