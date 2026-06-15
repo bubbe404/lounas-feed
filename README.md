@@ -1,6 +1,6 @@
-# 🍽️ Lauttasaari Lunch Menus — 12.06.2026
+# 🍽️ Lauttasaari Lunch Menus — 15.06.2026
 
-### Perjantai
+### Maanantai
 
 ## Makiata
 **Opening hours:** 11:00–13:00
@@ -9,18 +9,10 @@
 - Buffet: 13,70€
 - Soup: 12,70€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
-• Kievinkana l  
-• hollandaisekastike l  
+• Chorizopasta l Härkispasta l Kasvisosekeitto l  
 • g  
-• riisi l  
-• g  
-• halloumijuusto yrttikastikkeessa l  
-• g riisi l  
-• g Kasvissosekeitto l  
-• g  
-• Vaniljajäätelö  
 
 
 ---
@@ -31,12 +23,10 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
-• Taco Friday:  
-• Chipotlemarinoitua ylikypsää härkää(EU) ja paahdettua kanaa L,G  
-• Chili Sin Carne VEG  
-• Riisiä, Pico de gallo salsaa, cheddarjuustoa  
+• ”Fish& Chips” turskaa, ranskalaisia ja tilliremoulade L  
+• Kevätkääryleitä, inkivääri-chilikastiketta ja riisiä VEG  
 
 
 ---
@@ -47,7 +37,7 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
 Error fetching menu: 403 Client Error: Forbidden for url: https://www.ravintolapersilja.fi/lounas
 
@@ -61,7 +51,7 @@ Error fetching menu: 403 Client Error: Forbidden for url: https://www.ravintolap
 - House lunch: 12,00€
 - Soup: 11,50€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
 Menu not found
 
@@ -73,10 +63,10 @@ Menu not found
 **Prices:**
 - Buffet: 13,70€
 
-**Perjantai menu:**
+**Maanantai menu:**
 
 • {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/Divi/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}  
-• Casa Mare 40v.! Tutustu juhlavuoden ohjelmaan >> Parsaviikot Casa Maressa Tutustu ruokalistaamme >> Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  
+• Casa Mare 40v.! Tutustu juhlavuoden ohjelmaan >> Casa Mare auki myös sunnuntaisin 28.6. alkaen! Pizzaviikot Casa Maressa 22.6.-26.7. Tutustu ruokalistaamme >> Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  
 • window.dataLayer = window.dataLayer || [];
   var gnxUser = 0;
   var gnxLanguage = "fi";
