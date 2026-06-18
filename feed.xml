@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>17.06.2026</date>
-  <day>Keskiviikko</day>
+  <date>18.06.2026</date>
+  <day>Torstai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
     <price name='Buffet'>13,70€</price>
     <price name='Soup'>12,70€</price>
-    <menu><![CDATA[Error fetching menu: 415 Client Error: Unsupported Media Type for url: https://www.makiata.fi/lounas/]]></menu>
+    <menu><![CDATA[• Naudanpyörykät kermakastikkeessa  
+• uusia perunoita  l  
+• g Tofu-kasvispaistos  
+• uusia perunoita l  
+• g Lohikeitto l  
+• g Mansikkakakku l  
+• g  
+]]></menu>
   </restaurant>
   <restaurant>
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Ylikypsää häränrintaa, punaviinikastiketta ja timjamiperunaa L,G  
-• Paahdettua bataattia ja fetaa G  
+    <menu><![CDATA[• Burger Buffet – kokoa oma hampurilaisesi L  
+• Naudan täyslihapihvejä (Suomi) ja pekonia, kasvis pihvejä VEG, sämpylöitä & lisukkeet  
 ]]></menu>
   </restaurant>
   <restaurant>
