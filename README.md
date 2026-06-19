@@ -1,6 +1,6 @@
-# 🍽️ Lauttasaari Lunch Menus — 18.06.2026
+# 🍽️ Lauttasaari Lunch Menus — 19.06.2026
 
-### Torstai
+### Perjantai
 
 ## Makiata
 **Opening hours:** 11:00–13:00
@@ -9,15 +9,9 @@
 - Buffet: 13,70€
 - Soup: 12,70€
 
-**Torstai menu:**
+**Perjantai menu:**
 
-• Naudanpyörykät kermakastikkeessa  
-• uusia perunoita  l  
-• g Tofu-kasvispaistos  
-• uusia perunoita l  
-• g Lohikeitto l  
-• g Mansikkakakku l  
-• g  
+• Hyvää juhannusta ja kiitos kuluneista vuosista!  
 
 
 ---
@@ -28,10 +22,11 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Torstai menu:**
+**Perjantai menu:**
 
-• Burger Buffet – kokoa oma hampurilaisesi L  
-• Naudan täyslihapihvejä (Suomi) ja pekonia, kasvis pihvejä VEG, sämpylöitä & lisukkeet  
+• Juhannuksen ajan bistro suljettu  
+• (pe-su19-21.6)  
+• Hyvää Juhannusta!  
 
 
 ---
@@ -42,7 +37,7 @@
 **Prices:**
 - Buffet: 13,70€
 
-**Torstai menu:**
+**Perjantai menu:**
 
 Error fetching menu: 403 Client Error: Forbidden for url: https://www.ravintolapersilja.fi/lounas
 
@@ -56,7 +51,7 @@ Error fetching menu: 403 Client Error: Forbidden for url: https://www.ravintolap
 - House lunch: 12,00€
 - Soup: 11,50€
 
-**Torstai menu:**
+**Perjantai menu:**
 
 Menu not found
 
@@ -68,7 +63,7 @@ Menu not found
 **Prices:**
 - Buffet: 13,70€
 
-**Torstai menu:**
+**Perjantai menu:**
 
 • {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/Divi/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}  
 • Casa Mare 40v.! Tutustu juhlavuoden ohjelmaan >> Casa Mare auki myös sunnuntaisin 28.6. alkaen! Pizzaviikot Casa Maressa 22.6.-26.7. Tutustu ruokalistaamme >> Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  
