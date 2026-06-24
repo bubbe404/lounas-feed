@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>23.06.2026</date>
-  <day>Tiistai</day>
+  <date>24.06.2026</date>
+  <day>Keskiviikko</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
@@ -13,9 +13,8 @@
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Lihapullia(Suomi) ja konjakki-kermakastiketta,  
-• perunamuussia ja puolukkaa L, G  
-• Porkkanapyöryköitä, kaura-kermakastiketta L  
+    <menu><![CDATA[• Wieninleikkeitä, lohkoperunoita, anjovista, kaprista ja sitruunaa L  
+• Kikherne-porkkanapihvejä ja rakuunakastiketta VEG  
 ]]></menu>
   </restaurant>
   <restaurant>
