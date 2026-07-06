@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>03.07.2026</date>
-  <day>Perjantai</day>
+  <date>06.07.2026</date>
+  <day>Maanantai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
@@ -13,10 +13,8 @@
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Taco Friday:  
-• Chipotlemarinoitua ylikypsää härkää(EU) ja paahdettua kanaa L,G  
-• Chili Sin Carne VEG  
-• Riisiä, Pico de gallo salsaa, cheddarjuustoa  
+    <menu><![CDATA[• Ylikypsää porsaan niskaa, pekoni-bbq kastiketta ja romesco perunoita L  
+• Kevätkääryleitä, inkivääri-chilikastiketta ja riisiä VEG  
 ]]></menu>
   </restaurant>
   <restaurant>
