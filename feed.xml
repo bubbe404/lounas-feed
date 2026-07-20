@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>17.07.2026</date>
-  <day>Perjantai</day>
+  <date>20.07.2026</date>
+  <day>Maanantai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
@@ -13,11 +13,8 @@
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Bao ban buffet:  
-• Chilimarinoitua kanaa (Suomi) L,G  
-• Tom Yam maustettuja ravunpyrstöjä L,G  
-• Tofu-kasvispata Korean bbq VEG  
-• Pikkelöityjä kasviksia ja sesamdippiä  
+    <menu><![CDATA[• Seesamilla maustettua teriyakikanaa ja kimchinuudeleita L  
+• Kasviskofta ja chilimajoa VEG  
 ]]></menu>
   </restaurant>
   <restaurant>
