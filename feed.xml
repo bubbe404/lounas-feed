@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>24.07.2026</date>
-  <day>Perjantai</day>
+  <date>27.07.2026</date>
+  <day>Maanantai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
@@ -13,10 +13,8 @@
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Taco Friday:  
-• Chipotlemarinoitua ylikypsää härkää(EU) ja paahdettua kanaa L,G  
-• Chili Sin Carne VEG  
-• Riisiä, Pico de gallo salsaa, cheddarjuustoa  
+    <menu><![CDATA[• Kofta(marokkolaisia lihapullia) L,G, chili-tomaattikastiketta  
+• Bataattifalafel-pyöryköitä VEG, minttujogurttia ja lämmin couscous-salaatti L  
 ]]></menu>
   </restaurant>
   <restaurant>
@@ -38,7 +36,7 @@
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
     <menu><![CDATA[• {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/Divi/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}  
-• Casa Mare 40v.! Tutustu juhlavuoden ohjelmaan >> Casa Mare auki myös sunnuntaisin 28.6. alkaen! Pizzaviikot Casa Maressa 22.6.-26.7. Tutustu ruokalistaamme >> Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  
+• Casa Mare 40v.! Tutustu juhlavuoden ohjelmaan >> Casa Mare auki myös sunnuntaisin! Lounas arkisin klo 11.00-14.00 Tutustu lounaslistaan >> Lahjakortti on aina hyvä lahjaidea! Lahjakorttiostoksille pääset tästä >> CLOSE  
 • window.dataLayer = window.dataLayer || [];
   var gnxUser = 0;
   var gnxLanguage = "fi";
