@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>27.07.2026</date>
-  <day>Maanantai</day>
+  <date>28.07.2026</date>
+  <day>Tiistai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
@@ -13,8 +13,8 @@
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Kofta(marokkolaisia lihapullia) L,G, chili-tomaattikastiketta  
-• Bataattifalafel-pyöryköitä VEG, minttujogurttia ja lämmin couscous-salaatti L  
+    <menu><![CDATA[• Yrttipaahdettua kanaa, tsatsikia, punakaalisalaattia ja pitaleipää L  
+• Yrttipaahdettua seitania, babaganoush ja riisiä L,G  
 ]]></menu>
   </restaurant>
   <restaurant>
