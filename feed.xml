@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>20.08.2026</date>
-  <day>Torstai</day>
+  <date>21.08.2026</date>
+  <day>Perjantai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
@@ -13,8 +13,8 @@
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Härän niskaa, kanttarellikastiketta ja dijonperunaa L, G  
-• Härkäpapupihvejä L,G  
+    <menu><![CDATA[• Burger Buffet – kokoa oma hampurilaisesi L  
+• Naudan täyslihapihvejä (Suomi) ja pekonia, kasvis pihvejä VEG, sämpylöitä & lisukkeet  
 ]]></menu>
   </restaurant>
   <restaurant>
