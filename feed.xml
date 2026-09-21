@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>18.09.2026</date>
-  <day>Perjantai</day>
+  <date>21.09.2026</date>
+  <day>Maanantai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
@@ -13,11 +13,8 @@
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Hotdog:  
-• Makkaraa, revittyä bbq-possua L  
-• Nyhtöhernettä Korean bbq VEG  
-• Kastikkeita ja paahdettua sipulia  
-• Ranskalaisia  
+    <menu><![CDATA[• Vasikanleikkeitä,tattikastiketta ja timjamiperunaa L  
+• Kaalipihvejä ja puolukkakastiketta L,G  
 ]]></menu>
   </restaurant>
   <restaurant>
