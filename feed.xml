@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>15.10.2026</date>
-  <day>Torstai</day>
+  <date>16.10.2026</date>
+  <day>Perjantai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
@@ -13,8 +13,8 @@
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Seesamilla maustettua teriyakikanaa ja kimchinuudeleita L  
-• Teriyaki ”no chicken” ja riisiä VEG  
+    <menu><![CDATA[• Ylikypsää häränniskaa, stroganfkastiketta, rosmariiniperunaa L,G  
+• Kikherne-porkkanapihvejä currykastikketta VEG  
 ]]></menu>
   </restaurant>
   <restaurant>
