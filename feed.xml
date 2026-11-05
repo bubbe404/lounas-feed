@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>04.11.2026</date>
-  <day>Keskiviikko</day>
+  <date>05.11.2026</date>
+  <day>Torstai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
@@ -13,8 +13,8 @@
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Wallenberginpihvejä, perunapyrettä, kermakastiketta ja mustaherukkaa L  
-• Punajuuri-papupihvejä VEG  
+    <menu><![CDATA[• Vasikanleikkeitä,metsäsienikastiketta ja muhennettua sinappiperunaa L  
+• Kaalipihvejä ja puolukkakastiketta L,G  
 ]]></menu>
   </restaurant>
   <restaurant>
