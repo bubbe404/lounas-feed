@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lunchFeed>
-  <date>19.11.2026</date>
-  <day>Torstai</day>
+  <date>20.11.2026</date>
+  <day>Perjantai</day>
   <restaurant>
     <name>Makiata</name>
     <hours>11:00–13:00</hours>
@@ -13,8 +13,11 @@
     <name>Bistro Telakka</name>
     <hours>11:00–14:00</hours>
     <price name='Buffet'>13,70€</price>
-    <menu><![CDATA[• Friteerattua kanaa(Suomi), paprika-choritsodippiä ja Cajun-paahdettua perunaa L  
-• Misopaahdettua munakoisoa ja linssiä VEG  
+    <menu><![CDATA[• Bao ban buffet:  
+• Chilimarinoitua kanaa  L,G  
+• Tom Yam maustettuja ravunpyrstöjä L,G  
+• Tofu-kasvispata Korean bbq VEG  
+• Pikkelöityjä kasviksia, sesamdippiä ja ranskalaisia  
 ]]></menu>
   </restaurant>
   <restaurant>
